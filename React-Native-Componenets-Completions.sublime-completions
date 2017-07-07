@@ -1,0 +1,8 @@
+{
+	"scope": "source.js - variable.other.js",
+	"comment": "React Native Componenets",
+	"completions":
+	[
+	{"trigger": "Text", "contents": "<Text style={styles.text}>Hello world!</Text>" },
+	]
+}
