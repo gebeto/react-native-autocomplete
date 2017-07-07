@@ -58,5 +58,5 @@ res = list(set(res))
 imports_json["completions"] = sorted(res)
 
 json.dump(imports_json, open("RNImport.sublime-completions", "w"), indent=4)
-# print len(res)
+print len(res)
 # print len(list(set(res)))

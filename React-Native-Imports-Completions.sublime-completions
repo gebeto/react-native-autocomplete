@@ -3,9 +3,9 @@
 	"comment": "React Native Imports",
 	"completions":
 	[
-		"TouchableHighlight",
-		"StyleSheet",
-		"Text",
-		"View",
+		// "TouchableHighlight",
+		// "StyleSheet",
+		// "Text",
+		// "View",
 	]
 }
