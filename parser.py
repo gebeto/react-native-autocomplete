@@ -1,6 +1,7 @@
-import glob
-import re
+from bs4 import BeautifulSoup
+import requests
 import json
+
 
 imports_json = {
 	"scope": "source.js - variable.other.js",
@@ -8,55 +9,17 @@ imports_json = {
 	"completions": []
 }
 
-componenets = []
-# componenets = glob.glob("react-native/Libraries/Components/*.js")
 
-imports = [
-	glob.glob("react-native/Libraries/*/*.js"),
-	glob.glob("react-native/Libraries/*/*/*.js"),
-]
+url = "https://facebook.github.io/react-native/docs/getting-started.html"
+soup = BeautifulSoup(requests.get(url).content, "html.parser")
+sections = soup.find_all("div", {"class": "nav-docs-section"})[-2:]
+sections = sections[0].find_all("a") + sections[1].find_all("a")
+sections = [{
+	"title": s.text,
+	"url": s["href"]
+} for s in sections]
 
-for each in imports:
-	componenets += each
-componenets = list(set(componenets))
-	
-
-classfinder = re.compile(r"^class \w+ = createReact", re.MULTILINE)
-constfinder = re.compile(r"const \w+ = createReact", re.MULTILINE)
-varfinder = re.compile(r"var \w+ = createReact", re.MULTILINE)
-providemodulefind = re.compile(r"providesModule (\w+)", re.MULTILINE)
-
-
-res = []
-
-
-for c in componenets:
-	fndd = False
-	cont = open(c).read()
-	# for each in classfinder.findall(cont):
-	# 	fndd = True
-	# 	res.append( each.split(' ')[0] )
-
-	# for each in constfinder.findall(cont):
-	# 	fndd = True
-	# 	res.append( each.split(" = ")[0].split(' ')[1] )
-
-	# for each in varfinder.findall(cont):
-	# 	fndd = True
-	# 	res.append( each.split(" = ")[0].split(' ')[1] )
-
-	try:
-		res += providemodulefind.findall(cont)
-	except:
-		pass
-
-	# if not fndd:
-		# print c
-
-print res
-res = list(set(res))
-imports_json["completions"] = sorted(res)
+imports_json["completions"] = sorted([s["title"] for s in sections])
 
 json.dump(imports_json, open("RNImport.sublime-completions", "w"), indent=4)
-print len(res)
 # print len(list(set(res)))
