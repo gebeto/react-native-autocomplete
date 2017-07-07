@@ -2,7 +2,7 @@
 react-native-autocomplete is licensed under the MIT License
 ========================================
 
-Copyright (C) 2011-2012 Contributors (https://github.com/gebeto/react-native-autocomplete/graphs/contributors)
+Copyright (C) 2017-2017 Contributors (https://github.com/gebeto/react-native-autocomplete/graphs/contributors)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
