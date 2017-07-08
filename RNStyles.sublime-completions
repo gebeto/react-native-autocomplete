@@ -4,7 +4,7 @@
     "completions": [
         {
             "trigger": "backfaceVisibility\tenum('visible', 'hidden')", 
-            "contents": "backfaceVisibility: ${1: 'visible'}${2: 'hidden'}"
+            "contents": "backfaceVisibility: ${1:'visible' }${2:'hidden' }"
         }, 
         {
             "trigger": "backgroundColor\tcolor", 
@@ -52,7 +52,7 @@
         }, 
         {
             "trigger": "borderStyle\tenum('solid', 'dotted', 'dashed')", 
-            "contents": "borderStyle: ${1: 'solid'}${2: 'dotted'}${3: 'dashed'}"
+            "contents": "borderStyle: ${1:'solid' }${2:'dotted' }${3:'dashed' }"
         }, 
         {
             "trigger": "borderTopColor\tcolor", 
@@ -79,8 +79,8 @@
             "contents": "opacity: ${1:0}"
         }, 
         {
-            "trigger": "androidelevation\tandroid", 
-            "contents": "androidelevation: None"
+            "trigger": "elevation\tnumber", 
+            "contents": "elevation: ${1:0}"
         }, 
         {
             "trigger": "color\tcolor", 
@@ -96,11 +96,11 @@
         }, 
         {
             "trigger": "fontStyle\tenum('normal', 'italic')", 
-            "contents": "fontStyle: ${1: 'normal'}${2: 'italic'}"
+            "contents": "fontStyle: ${1:'normal' }${2:'italic' }"
         }, 
         {
             "trigger": "fontWeight\tenum('normal', 'bold', '100', '200', '300', '400', '500', '600', '700', '800', '900')", 
-            "contents": "fontWeight: ${1: 'normal'}${2: 'bold'}${3: '100'}${4: '200'}${5: '300'}${6: '400'}${7: '500'}${8: '600'}${9: '700'}${10: '800'}${11: '900'}"
+            "contents": "fontWeight: ${1:'normal' }${2:'bold' }${3:'100' }${4:'200' }${5:'300' }${6:'400' }${7:'500' }${8:'600' }${9:'700' }${10:'800' }${11:'900' }"
         }, 
         {
             "trigger": "lineHeight\tnumber", 
@@ -108,11 +108,11 @@
         }, 
         {
             "trigger": "textAlign\tenum('auto', 'left', 'right', 'center', 'justify')", 
-            "contents": "textAlign: ${1: 'auto'}${2: 'left'}${3: 'right'}${4: 'center'}${5: 'justify'}"
+            "contents": "textAlign: ${1:'auto' }${2:'left' }${3:'right' }${4:'center' }${5:'justify' }"
         }, 
         {
             "trigger": "textDecorationLine\tenum('none', 'underline', 'line-through', 'underline line-through')", 
-            "contents": "textDecorationLine: ${1: 'none'}${2: 'underline'}${3: 'line-through'}"
+            "contents": "textDecorationLine: ${1:'none' }${2:'underline' }${3:'line-through' }"
         }, 
         {
             "trigger": "textShadowColor\tcolor", 
@@ -127,36 +127,36 @@
             "contents": "textShadowRadius: ${1:0}"
         }, 
         {
-            "trigger": "androidincludeFontPadding\tandroid", 
-            "contents": "androidincludeFontPadding: None"
+            "trigger": "includeFontPadding\tbool", 
+            "contents": "includeFontPadding: ${1:true}"
         }, 
         {
-            "trigger": "androidtextAlignVertical\tandroid", 
-            "contents": "androidtextAlignVertical: None"
+            "trigger": "textAlignVertical\tenum('auto', 'top', 'bottom', 'center')", 
+            "contents": "textAlignVertical: ${1:'auto' }${2:'top' }${3:'bottom' }${4:'center' }"
         }, 
         {
-            "trigger": "iosfontVariant\tios", 
-            "contents": "iosfontVariant: None"
+            "trigger": "fontVariant\t[enum('small-caps', 'oldstyle-nums', 'lining-nums', 'tabular-nums', 'proportional-nums')]", 
+            "contents": "fontVariant: [\n${2:'small-caps' },\n\t${3:'oldstyle-nums' },\n\t${4:'lining-nums' },\n\t${5:'tabular-nums' },\n\t${6:'proportional-nums' }\n]"
         }, 
         {
-            "trigger": "iosletterSpacing\tios", 
-            "contents": "iosletterSpacing: None"
+            "trigger": "letterSpacing\tnumber", 
+            "contents": "letterSpacing: ${1:0}"
         }, 
         {
-            "trigger": "iostextDecorationColor\tios", 
-            "contents": "iostextDecorationColor: None"
+            "trigger": "textDecorationColor\tcolor", 
+            "contents": "textDecorationColor: '#${1:000000}'"
         }, 
         {
-            "trigger": "iostextDecorationStyle\tios", 
-            "contents": "iostextDecorationStyle: None"
+            "trigger": "textDecorationStyle\tenum('solid', 'double', 'dotted', 'dashed')", 
+            "contents": "textDecorationStyle: ${1:'solid' }${2:'double' }${3:'dotted' }${4:'dashed' }"
         }, 
         {
-            "trigger": "ioswritingDirection\tios", 
-            "contents": "ioswritingDirection: None"
+            "trigger": "writingDirection\tenum('auto', 'ltr', 'rtl')", 
+            "contents": "writingDirection: ${1:'auto' }${2:'ltr' }${3:'rtl' }"
         }, 
         {
             "trigger": "backfaceVisibility\tenum('visible', 'hidden')", 
-            "contents": "backfaceVisibility: ${1: 'visible'}${2: 'hidden'}"
+            "contents": "backfaceVisibility: ${1:'visible' }${2:'hidden' }"
         }, 
         {
             "trigger": "backgroundColor\tcolor", 
@@ -196,7 +196,7 @@
         }, 
         {
             "trigger": "overflow\tenum('visible', 'hidden')", 
-            "contents": "overflow: ${1: 'visible'}${2: 'hidden'}"
+            "contents": "overflow: ${1:'visible' }${2:'hidden' }"
         }, 
         {
             "trigger": "resizeMode\tObject.keys(ImageResizeMode)", 
@@ -207,20 +207,20 @@
             "contents": "tintColor: '#${1:000000}'"
         }, 
         {
-            "trigger": "androidoverlayColor\tandroid", 
-            "contents": "androidoverlayColor: None"
+            "trigger": "overlayColor\tstring", 
+            "contents": "overlayColor: '$1'"
         }, 
         {
             "trigger": "alignContent\tenum('flex-start', 'flex-end', 'center', 'stretch', 'space-between', 'space-around')", 
-            "contents": "alignContent: ${1: 'flex-start'}${2: 'flex-end'}${3: 'center'}${4: 'stretch'}${5: 'space-between'}${6: 'space-around'}"
+            "contents": "alignContent: ${1:'flex-start' }${2:'flex-end' }${3:'center' }${4:'stretch' }${5:'space-between' }${6:'space-around' }"
         }, 
         {
             "trigger": "alignItems\tenum('flex-start', 'flex-end', 'center', 'stretch', 'baseline')", 
-            "contents": "alignItems: ${1: 'flex-start'}${2: 'flex-end'}${3: 'center'}${4: 'stretch'}${5: 'baseline'}"
+            "contents": "alignItems: ${1:'flex-start' }${2:'flex-end' }${3:'center' }${4:'stretch' }${5:'baseline' }"
         }, 
         {
             "trigger": "alignSelf\tenum('auto', 'flex-start', 'flex-end', 'center', 'stretch', 'baseline')", 
-            "contents": "alignSelf: ${1: 'auto'}${2: 'flex-start'}${3: 'flex-end'}${4: 'center'}${5: 'stretch'}${6: 'baseline'}"
+            "contents": "alignSelf: ${1:'auto' }${2:'flex-start' }${3:'flex-end' }${4:'center' }${5:'stretch' }${6:'baseline' }"
         }, 
         {
             "trigger": "aspectRatio\tnumber", 
@@ -264,7 +264,7 @@
         }, 
         {
             "trigger": "flexDirection\tenum('row', 'row-reverse', 'column', 'column-reverse')", 
-            "contents": "flexDirection: ${1: 'row'}${2: 'row-reverse'}${3: 'column'}${4: 'column-reverse'}"
+            "contents": "flexDirection: ${1:'row' }${2:'row-reverse' }${3:'column' }${4:'column-reverse' }"
         }, 
         {
             "trigger": "flexGrow\tnumber", 
@@ -276,7 +276,7 @@
         }, 
         {
             "trigger": "flexWrap\tenum('wrap', 'nowrap')", 
-            "contents": "flexWrap: ${1: 'wrap'}${2: 'nowrap'}"
+            "contents": "flexWrap: ${1:'wrap' }${2:'nowrap' }"
         }, 
         {
             "trigger": "height\tnumber, string", 
@@ -284,7 +284,7 @@
         }, 
         {
             "trigger": "justifyContent\tenum('flex-start', 'flex-end', 'center', 'space-between', 'space-around')", 
-            "contents": "justifyContent: ${1: 'flex-start'}${2: 'flex-end'}${3: 'center'}${4: 'space-between'}${5: 'space-around'}"
+            "contents": "justifyContent: ${1:'flex-start' }${2:'flex-end' }${3:'center' }${4:'space-between' }${5:'space-around' }"
         }, 
         {
             "trigger": "left\tnumber, string", 
@@ -336,7 +336,7 @@
         }, 
         {
             "trigger": "overflow\tenum('visible', 'hidden', 'scroll')", 
-            "contents": "overflow: ${1: 'visible'}${2: 'hidden'}${3: 'scroll'}"
+            "contents": "overflow: ${1:'visible' }${2:'hidden' }${3:'scroll' }"
         }, 
         {
             "trigger": "padding\tnumber, string", 
@@ -368,7 +368,7 @@
         }, 
         {
             "trigger": "position\tenum('absolute', 'relative')", 
-            "contents": "position: ${1: 'absolute'}${2: 'relative'}"
+            "contents": "position: ${1:'absolute' }${2:'relative' }"
         }, 
         {
             "trigger": "right\tnumber, string", 
@@ -387,24 +387,24 @@
             "contents": "zIndex: ${1:0}"
         }, 
         {
-            "trigger": "iosdirection\tios", 
-            "contents": "iosdirection: None"
+            "trigger": "direction\tenum('inherit', 'ltr', 'rtl')", 
+            "contents": "direction: ${1:'inherit' }${2:'ltr' }${3:'rtl' }"
         }, 
         {
-            "trigger": "iosshadowColor\tios", 
-            "contents": "iosshadowColor: None"
+            "trigger": "shadowColor\tcolor", 
+            "contents": "shadowColor: '#${1:000000}'"
         }, 
         {
-            "trigger": "iosshadowOffset\tios", 
-            "contents": "iosshadowOffset: None"
+            "trigger": "shadowOffset\t{width: number, height: number}", 
+            "contents": "shadowOffset: {\n\twidth: ${0:0},\n\theight: ${1:0}\n}"
         }, 
         {
-            "trigger": "iosshadowOpacity\tios", 
-            "contents": "iosshadowOpacity: None"
+            "trigger": "shadowOpacity\tnumber", 
+            "contents": "shadowOpacity: ${1:0}"
         }, 
         {
-            "trigger": "iosshadowRadius\tios", 
-            "contents": "iosshadowRadius: None"
+            "trigger": "shadowRadius\tnumber", 
+            "contents": "shadowRadius: ${1:0}"
         }
     ]
 }

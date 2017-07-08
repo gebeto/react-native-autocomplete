@@ -40,6 +40,10 @@ def get_prop_by_type(proptype, index=1):
 		return make_enum_prop(proptype)
 		# return "'$" + index + "'"
 
+	elif proptype[:4] == "[enu":
+		return make_enum_list_prop(proptype)
+		# return "'$" + index + "'"
+
 def make_dict_prop(dict_prop):
 	res = []
 	items = re.findall(r"\w+: \w+", dict_prop)
@@ -57,7 +61,7 @@ def make_enum_prop(enum_prop, index=1):
 	res = []
 	for prop in re.findall(r"'[\w-]+?'", enum_prop):
 		index_str = str(index)
-		item = "${" + index_str + ": " + prop + "}"
+		item = "${" + index_str + ":" + prop + " }"
 		res.append(item)
 		index += 1
 	# return "'${1:${" + str(index) + ":" + "|".join(res) + "}}'"
@@ -69,7 +73,7 @@ def make_enum_list_prop(enum_prop, index=2):
 	res = []
 	for prop in re.findall(r"'[\w-]+?'", enum_prop):
 		index_str = str(index)
-		item = "${" + index_str + ":" + prop + "}"
+		item = "${" + index_str + ":" + prop + " }"
 		res.append(item)
 		index += 1
 	return "[\n" + ",\n\t".join(res) + "\n]"
@@ -80,6 +84,9 @@ def make_enum_list_prop(enum_prop, index=2):
 # print get_prop_by_type("bool")
 
 def make_complete_dict(prop):
+	platform = prop.find("span", {"class": "platform"})
+	if platform:
+		platform.extract()
 	property_name = re.findall(r"(\w+)\?", prop.text)[0]
 	description = prop.span.text
 	res = {
