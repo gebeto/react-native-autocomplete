@@ -1,0 +1,26 @@
+{
+    "comment": "React Native AccessibilityInfo", 
+    "scope": "source.js, source.jsx", 
+    "completions": [
+        {
+            "trigger": "AccessibilityInfo.fetch()", 
+            "contents": "AccessibilityInfo.fetch()"
+        }, 
+        {
+            "trigger": "AccessibilityInfo.addEventListener", 
+            "contents": "AccessibilityInfo.addEventListener(${1:eventName}, ${2:handler})"
+        }, 
+        {
+            "trigger": "AccessibilityInfo.setAccessibilityFocus", 
+            "contents": "AccessibilityInfo.setAccessibilityFocus(${1:reactTag})"
+        }, 
+        {
+            "trigger": "AccessibilityInfo.announceForAccessibility", 
+            "contents": "AccessibilityInfo.announceForAccessibility(${1:announcement})"
+        }, 
+        {
+            "trigger": "AccessibilityInfo.removeEventListener", 
+            "contents": "AccessibilityInfo.removeEventListener(${1:eventName}, ${2:handler})"
+        }
+    ]
+}

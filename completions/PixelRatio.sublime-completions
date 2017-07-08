@@ -1,0 +1,26 @@
+{
+    "comment": "React Native PixelRatio", 
+    "scope": "source.js, source.jsx", 
+    "completions": [
+        {
+            "trigger": "PixelRatio.get()", 
+            "contents": "PixelRatio.get()"
+        }, 
+        {
+            "trigger": "PixelRatio.getFontScale()", 
+            "contents": "PixelRatio.getFontScale()"
+        }, 
+        {
+            "trigger": "PixelRatio.getPixelSizeForLayoutSize", 
+            "contents": "PixelRatio.getPixelSizeForLayoutSize(${1:layoutSize})"
+        }, 
+        {
+            "trigger": "PixelRatio.roundToNearestPixel", 
+            "contents": "PixelRatio.roundToNearestPixel(${1:layoutSize})"
+        }, 
+        {
+            "trigger": "PixelRatio.startDetecting()", 
+            "contents": "PixelRatio.startDetecting()"
+        }
+    ]
+}

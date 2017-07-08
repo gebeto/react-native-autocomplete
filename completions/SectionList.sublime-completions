@@ -1,0 +1,18 @@
+{
+    "comment": "React Native SectionList", 
+    "scope": "source.js, source.jsx", 
+    "completions": [
+        {
+            "trigger": "SectionList.scrollToLocation", 
+            "contents": "SectionList.scrollToLocation"
+        }, 
+        {
+            "trigger": "SectionList.recordInteraction", 
+            "contents": "SectionList.recordInteraction"
+        }, 
+        {
+            "trigger": "SectionList.flashScrollIndicators", 
+            "contents": "SectionList.flashScrollIndicators"
+        }
+    ]
+}

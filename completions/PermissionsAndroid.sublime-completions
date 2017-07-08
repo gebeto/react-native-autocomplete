@@ -1,0 +1,30 @@
+{
+    "comment": "React Native PermissionsAndroid", 
+    "scope": "source.js, source.jsx", 
+    "completions": [
+        {
+            "trigger": "PermissionsAndroid.constructor", 
+            "contents": "PermissionsAndroid.constructor"
+        }, 
+        {
+            "trigger": "PermissionsAndroid.checkPermission", 
+            "contents": "PermissionsAndroid.checkPermission"
+        }, 
+        {
+            "trigger": "PermissionsAndroid.check", 
+            "contents": "PermissionsAndroid.check"
+        }, 
+        {
+            "trigger": "PermissionsAndroid.requestPermission", 
+            "contents": "PermissionsAndroid.requestPermission"
+        }, 
+        {
+            "trigger": "PermissionsAndroid.request", 
+            "contents": "PermissionsAndroid.request"
+        }, 
+        {
+            "trigger": "PermissionsAndroid.requestMultiple", 
+            "contents": "PermissionsAndroid.requestMultiple"
+        }
+    ]
+}

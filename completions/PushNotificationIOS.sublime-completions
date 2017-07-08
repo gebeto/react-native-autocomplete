@@ -1,0 +1,102 @@
+{
+    "comment": "React Native PushNotificationIOS", 
+    "scope": "source.js, source.jsx", 
+    "completions": [
+        {
+            "trigger": "PushNotificationIOS.=", 
+            "contents": "PushNotificationIOS.="
+        }, 
+        {
+            "trigger": "PushNotificationIOS.scheduleLocalNotification", 
+            "contents": "PushNotificationIOS.scheduleLocalNotification(${1:details})"
+        }, 
+        {
+            "trigger": "PushNotificationIOS.cancelAllLocalNotifications()", 
+            "contents": "PushNotificationIOS.cancelAllLocalNotifications()"
+        }, 
+        {
+            "trigger": "PushNotificationIOS.removeAllDeliveredNotifications()", 
+            "contents": "PushNotificationIOS.removeAllDeliveredNotifications()"
+        }, 
+        {
+            "trigger": "PushNotificationIOS.getDeliveredNotifications", 
+            "contents": "PushNotificationIOS.getDeliveredNotifications(${1:callback})"
+        }, 
+        {
+            "trigger": "PushNotificationIOS.removeDeliveredNotifications", 
+            "contents": "PushNotificationIOS.removeDeliveredNotifications(${1:identifiers})"
+        }, 
+        {
+            "trigger": "PushNotificationIOS.setApplicationIconBadgeNumber", 
+            "contents": "PushNotificationIOS.setApplicationIconBadgeNumber(${1:number})"
+        }, 
+        {
+            "trigger": "PushNotificationIOS.getApplicationIconBadgeNumber", 
+            "contents": "PushNotificationIOS.getApplicationIconBadgeNumber(${1:callback})"
+        }, 
+        {
+            "trigger": "PushNotificationIOS.cancelLocalNotifications", 
+            "contents": "PushNotificationIOS.cancelLocalNotifications(${1:userInfo})"
+        }, 
+        {
+            "trigger": "PushNotificationIOS.getScheduledLocalNotifications", 
+            "contents": "PushNotificationIOS.getScheduledLocalNotifications(${1:callback})"
+        }, 
+        {
+            "trigger": "PushNotificationIOS.addEventListener", 
+            "contents": "PushNotificationIOS.addEventListener(${1:type}, ${2:handler})"
+        }, 
+        {
+            "trigger": "PushNotificationIOS.removeEventListener", 
+            "contents": "PushNotificationIOS.removeEventListener(${1:type}, ${2:handler})"
+        }, 
+        {
+            "trigger": "PushNotificationIOS.requestPermissions", 
+            "contents": "PushNotificationIOS.requestPermissions(${1:permissions?})"
+        }, 
+        {
+            "trigger": "PushNotificationIOS.abandonPermissions()", 
+            "contents": "PushNotificationIOS.abandonPermissions()"
+        }, 
+        {
+            "trigger": "PushNotificationIOS.checkPermissions", 
+            "contents": "PushNotificationIOS.checkPermissions(${1:callback})"
+        }, 
+        {
+            "trigger": "PushNotificationIOS.getInitialNotification()", 
+            "contents": "PushNotificationIOS.getInitialNotification()"
+        }, 
+        {
+            "trigger": "PushNotificationIOS.constructor", 
+            "contents": "PushNotificationIOS.constructor"
+        }, 
+        {
+            "trigger": "PushNotificationIOS.finish", 
+            "contents": "PushNotificationIOS.finish"
+        }, 
+        {
+            "trigger": "PushNotificationIOS.getMessage", 
+            "contents": "PushNotificationIOS.getMessage"
+        }, 
+        {
+            "trigger": "PushNotificationIOS.getSound", 
+            "contents": "PushNotificationIOS.getSound"
+        }, 
+        {
+            "trigger": "PushNotificationIOS.getCategory", 
+            "contents": "PushNotificationIOS.getCategory"
+        }, 
+        {
+            "trigger": "PushNotificationIOS.getAlert", 
+            "contents": "PushNotificationIOS.getAlert"
+        }, 
+        {
+            "trigger": "PushNotificationIOS.getBadgeCount", 
+            "contents": "PushNotificationIOS.getBadgeCount"
+        }, 
+        {
+            "trigger": "PushNotificationIOS.getData", 
+            "contents": "PushNotificationIOS.getData"
+        }
+    ]
+}

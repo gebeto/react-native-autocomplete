@@ -1,0 +1,18 @@
+{
+    "comment": "React Native CameraRoll", 
+    "scope": "source.js, source.jsx", 
+    "completions": [
+        {
+            "trigger": "CameraRoll.=", 
+            "contents": "CameraRoll.="
+        }, 
+        {
+            "trigger": "CameraRoll.saveToCameraRoll", 
+            "contents": "CameraRoll.saveToCameraRoll(${1:tag}, ${2:type?})"
+        }, 
+        {
+            "trigger": "CameraRoll.getPhotos", 
+            "contents": "CameraRoll.getPhotos(${1:params})"
+        }
+    ]
+}

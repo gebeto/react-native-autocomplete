@@ -1,0 +1,10 @@
+{
+    "comment": "React Native PanResponder", 
+    "scope": "source.js, source.jsx", 
+    "completions": [
+        {
+            "trigger": "PanResponder.create", 
+            "contents": "PanResponder.create(${1:config})"
+        }
+    ]
+}

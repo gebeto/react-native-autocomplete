@@ -1,0 +1,22 @@
+{
+    "comment": "React Native TouchableNativeFeedback", 
+    "scope": "source.js, source.jsx", 
+    "completions": [
+        {
+            "trigger": "TouchableNativeFeedback.SelectableBackground()", 
+            "contents": "TouchableNativeFeedback.SelectableBackground()"
+        }, 
+        {
+            "trigger": "TouchableNativeFeedback.SelectableBackgroundBorderless()", 
+            "contents": "TouchableNativeFeedback.SelectableBackgroundBorderless()"
+        }, 
+        {
+            "trigger": "TouchableNativeFeedback.Ripple(color: string, borderless: boolean)", 
+            "contents": "TouchableNativeFeedback.Ripple(color: string, borderless: boolean)"
+        }, 
+        {
+            "trigger": "TouchableNativeFeedback.canUseNativeForeground()", 
+            "contents": "TouchableNativeFeedback.canUseNativeForeground()"
+        }
+    ]
+}

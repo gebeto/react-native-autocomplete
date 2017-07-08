@@ -1,6 +1,6 @@
 {
     "comment": "React Native Imports", 
-    "scope": "source.js - variable.other.js", 
+    "scope": "source.js, source.jsx", 
     "completions": [
         "AccessibilityInfo", 
         "ActionSheetIOS", 
@@ -9,9 +9,6 @@
         "Alert", 
         "AlertIOS", 
         "Animated", 
-        "Animated.Text", 
-        "Animated.View", 
-        "Animated.Image", 
         "AppRegistry", 
         "AppState", 
         "AsyncStorage", 

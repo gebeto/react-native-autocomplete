@@ -1,0 +1,22 @@
+{
+    "comment": "React Native ScrollView", 
+    "scope": "source.js, source.jsx", 
+    "completions": [
+        {
+            "trigger": "ScrollView.scrollTo", 
+            "contents": "ScrollView.scrollTo"
+        }, 
+        {
+            "trigger": "ScrollView.scrollToEnd", 
+            "contents": "ScrollView.scrollToEnd"
+        }, 
+        {
+            "trigger": "ScrollView.scrollWithoutAnimationTo", 
+            "contents": "ScrollView.scrollWithoutAnimationTo"
+        }, 
+        {
+            "trigger": "ScrollView.flashScrollIndicators", 
+            "contents": "ScrollView.flashScrollIndicators"
+        }
+    ]
+}

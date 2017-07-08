@@ -59,7 +59,7 @@ def make_dict_prop(dict_prop):
 
 def make_enum_prop(enum_prop, index=1):
 	res = []
-	for prop in re.findall(r"'[\w-]+?'", enum_prop):
+	for prop in re.findall(r"'[\w -]+?'", enum_prop):
 		index_str = str(index)
 		item = "${" + index_str + ":" + prop + " }"
 		res.append(item)
@@ -71,17 +71,13 @@ def make_enum_prop(enum_prop, index=1):
 
 def make_enum_list_prop(enum_prop, index=2):
 	res = []
-	for prop in re.findall(r"'[\w-]+?'", enum_prop):
+	for prop in re.findall(r"'[\w -]+?'", enum_prop):
 		index_str = str(index)
 		item = "${" + index_str + ":\n\t" + prop + ",}"
 		res.append(item)
 		index += 1
 	return "[" + "".join(res) + "\n]"
 
-# print make_enum_prop("enum('name', 'secondname')")
-# print get_prop_by_type("{width: number, height: number, opacity: string}")
-# print get_prop_by_type("string")
-# print get_prop_by_type("bool")
 
 def make_complete_dict(prop):
 	platform = prop.find("span", {"class": "platform"})
@@ -114,3 +110,5 @@ def main():
 
 
 main()
+
+# print re.findall(r"'[\w -]+?'", "enum('none', 'underline', 'line-through', 'underline line-through')")

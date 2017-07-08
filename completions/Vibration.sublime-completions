@@ -1,0 +1,14 @@
+{
+    "comment": "React Native Vibration", 
+    "scope": "source.js, source.jsx", 
+    "completions": [
+        {
+            "trigger": "Vibration.vibrate", 
+            "contents": "Vibration.vibrate(${1:pattern}, ${2:repeat})"
+        }, 
+        {
+            "trigger": "Vibration.cancel()", 
+            "contents": "Vibration.cancel()"
+        }
+    ]
+}

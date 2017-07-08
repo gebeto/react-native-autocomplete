@@ -1,0 +1,14 @@
+{
+    "comment": "React Native Image", 
+    "scope": "source.js, source.jsx", 
+    "completions": [
+        {
+            "trigger": "Image.getSize(uri: string, success: function, failure?: function):", 
+            "contents": "Image.getSize(uri: string, success: function, failure?: function):"
+        }, 
+        {
+            "trigger": "Image.prefetch(url: string):", 
+            "contents": "Image.prefetch(url: string):"
+        }
+    ]
+}

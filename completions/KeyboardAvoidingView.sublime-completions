@@ -1,0 +1,18 @@
+{
+    "comment": "React Native KeyboardAvoidingView", 
+    "scope": "source.js, source.jsx", 
+    "completions": [
+        {
+            "trigger": "KeyboardAvoidingView.relativeKeyboardHeight", 
+            "contents": "KeyboardAvoidingView.relativeKeyboardHeight"
+        }, 
+        {
+            "trigger": "KeyboardAvoidingView.onKeyboardChange", 
+            "contents": "KeyboardAvoidingView.onKeyboardChange"
+        }, 
+        {
+            "trigger": "KeyboardAvoidingView.onLayout", 
+            "contents": "KeyboardAvoidingView.onLayout"
+        }
+    ]
+}

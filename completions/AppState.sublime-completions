@@ -1,0 +1,18 @@
+{
+    "comment": "React Native AppState", 
+    "scope": "source.js, source.jsx", 
+    "completions": [
+        {
+            "trigger": "AppState.=", 
+            "contents": "AppState.="
+        }, 
+        {
+            "trigger": "AppState.addEventListener", 
+            "contents": "AppState.addEventListener"
+        }, 
+        {
+            "trigger": "AppState.removeEventListener", 
+            "contents": "AppState.removeEventListener"
+        }
+    ]
+}

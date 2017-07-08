@@ -1,0 +1,74 @@
+{
+    "comment": "React Native Easing", 
+    "scope": "source.js, source.jsx", 
+    "completions": [
+        {
+            "trigger": "Easing.step0", 
+            "contents": "Easing.step0(${1:n})"
+        }, 
+        {
+            "trigger": "Easing.step1", 
+            "contents": "Easing.step1(${1:n})"
+        }, 
+        {
+            "trigger": "Easing.linear", 
+            "contents": "Easing.linear(${1:t})"
+        }, 
+        {
+            "trigger": "Easing.ease", 
+            "contents": "Easing.ease(${1:t})"
+        }, 
+        {
+            "trigger": "Easing.quad", 
+            "contents": "Easing.quad(${1:t})"
+        }, 
+        {
+            "trigger": "Easing.cubic", 
+            "contents": "Easing.cubic(${1:t})"
+        }, 
+        {
+            "trigger": "Easing.poly", 
+            "contents": "Easing.poly(${1:n})"
+        }, 
+        {
+            "trigger": "Easing.sin", 
+            "contents": "Easing.sin(${1:t})"
+        }, 
+        {
+            "trigger": "Easing.circle", 
+            "contents": "Easing.circle(${1:t})"
+        }, 
+        {
+            "trigger": "Easing.exp", 
+            "contents": "Easing.exp(${1:t})"
+        }, 
+        {
+            "trigger": "Easing.elastic", 
+            "contents": "Easing.elastic(${1:bounciness})"
+        }, 
+        {
+            "trigger": "Easing.back", 
+            "contents": "Easing.back(${1:s})"
+        }, 
+        {
+            "trigger": "Easing.bounce", 
+            "contents": "Easing.bounce(${1:t})"
+        }, 
+        {
+            "trigger": "Easing.bezier", 
+            "contents": "Easing.bezier(${1:x1}, ${2:y1}, ${3:x2}, ${4:y2})"
+        }, 
+        {
+            "trigger": "Easing.in", 
+            "contents": "Easing.in(${1:easing})"
+        }, 
+        {
+            "trigger": "Easing.out", 
+            "contents": "Easing.out(${1:easing})"
+        }, 
+        {
+            "trigger": "Easing.inOut", 
+            "contents": "Easing.inOut(${1:easing})"
+        }
+    ]
+}

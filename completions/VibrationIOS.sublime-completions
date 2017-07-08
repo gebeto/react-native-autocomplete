@@ -1,0 +1,10 @@
+{
+    "comment": "React Native VibrationIOS", 
+    "scope": "source.js, source.jsx", 
+    "completions": [
+        {
+            "trigger": "VibrationIOS.vibrate()", 
+            "contents": "VibrationIOS.vibrate()"
+        }
+    ]
+}

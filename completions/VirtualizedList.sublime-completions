@@ -1,0 +1,30 @@
+{
+    "comment": "React Native VirtualizedList", 
+    "scope": "source.js, source.jsx", 
+    "completions": [
+        {
+            "trigger": "VirtualizedList.scrollToEnd", 
+            "contents": "VirtualizedList.scrollToEnd"
+        }, 
+        {
+            "trigger": "VirtualizedList.scrollToIndex", 
+            "contents": "VirtualizedList.scrollToIndex"
+        }, 
+        {
+            "trigger": "VirtualizedList.scrollToItem", 
+            "contents": "VirtualizedList.scrollToItem"
+        }, 
+        {
+            "trigger": "VirtualizedList.scrollToOffset", 
+            "contents": "VirtualizedList.scrollToOffset"
+        }, 
+        {
+            "trigger": "VirtualizedList.recordInteraction", 
+            "contents": "VirtualizedList.recordInteraction"
+        }, 
+        {
+            "trigger": "VirtualizedList.flashScrollIndicators", 
+            "contents": "VirtualizedList.flashScrollIndicators"
+        }
+    ]
+}

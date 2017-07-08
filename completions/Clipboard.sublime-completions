@@ -1,0 +1,14 @@
+{
+    "comment": "React Native Clipboard", 
+    "scope": "source.js, source.jsx", 
+    "completions": [
+        {
+            "trigger": "Clipboard.getString()", 
+            "contents": "Clipboard.getString()"
+        }, 
+        {
+            "trigger": "Clipboard.setString", 
+            "contents": "Clipboard.setString(${1:content})"
+        }
+    ]
+}

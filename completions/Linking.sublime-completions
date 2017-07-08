@@ -1,0 +1,30 @@
+{
+    "comment": "React Native Linking", 
+    "scope": "source.js, source.jsx", 
+    "completions": [
+        {
+            "trigger": "Linking.constructor", 
+            "contents": "Linking.constructor"
+        }, 
+        {
+            "trigger": "Linking.addEventListener", 
+            "contents": "Linking.addEventListener"
+        }, 
+        {
+            "trigger": "Linking.removeEventListener", 
+            "contents": "Linking.removeEventListener"
+        }, 
+        {
+            "trigger": "Linking.openURL", 
+            "contents": "Linking.openURL"
+        }, 
+        {
+            "trigger": "Linking.canOpenURL", 
+            "contents": "Linking.canOpenURL"
+        }, 
+        {
+            "trigger": "Linking.getInitialURL", 
+            "contents": "Linking.getInitialURL"
+        }
+    ]
+}

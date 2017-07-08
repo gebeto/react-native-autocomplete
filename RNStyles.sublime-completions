@@ -112,7 +112,7 @@
         }, 
         {
             "trigger": "textDecorationLine\tenum('none', 'underline', 'line-through', 'underline line-through')", 
-            "contents": "textDecorationLine: ${1:'none' }${2:'underline' }${3:'line-through' }"
+            "contents": "textDecorationLine: ${1:'none' }${2:'underline' }${3:'line-through' }${4:'underline line-through' }"
         }, 
         {
             "trigger": "textShadowColor\tcolor", 

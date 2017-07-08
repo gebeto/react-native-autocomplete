@@ -1,0 +1,18 @@
+{
+    "comment": "React Native TimePickerAndroid", 
+    "scope": "source.js, source.jsx", 
+    "completions": [
+        {
+            "trigger": "TimePickerAndroid.open", 
+            "contents": "TimePickerAndroid.open(${1:options})"
+        }, 
+        {
+            "trigger": "TimePickerAndroid.timeSetAction()", 
+            "contents": "TimePickerAndroid.timeSetAction()"
+        }, 
+        {
+            "trigger": "TimePickerAndroid.dismissedAction()", 
+            "contents": "TimePickerAndroid.dismissedAction()"
+        }
+    ]
+}

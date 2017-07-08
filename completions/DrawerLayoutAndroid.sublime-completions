@@ -1,0 +1,14 @@
+{
+    "comment": "React Native DrawerLayoutAndroid", 
+    "scope": "source.js, source.jsx", 
+    "completions": [
+        {
+            "trigger": "DrawerLayoutAndroid.openDrawer", 
+            "contents": "DrawerLayoutAndroid.openDrawer"
+        }, 
+        {
+            "trigger": "DrawerLayoutAndroid.closeDrawer", 
+            "contents": "DrawerLayoutAndroid.closeDrawer"
+        }
+    ]
+}

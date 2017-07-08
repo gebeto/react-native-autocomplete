@@ -1,0 +1,22 @@
+{
+    "comment": "React Native NetInfo", 
+    "scope": "source.js, source.jsx", 
+    "completions": [
+        {
+            "trigger": "NetInfo.addEventListener", 
+            "contents": "NetInfo.addEventListener(${1:eventName}, ${2:handler})"
+        }, 
+        {
+            "trigger": "NetInfo.removeEventListener", 
+            "contents": "NetInfo.removeEventListener(${1:eventName}, ${2:handler})"
+        }, 
+        {
+            "trigger": "NetInfo.fetch()", 
+            "contents": "NetInfo.fetch()"
+        }, 
+        {
+            "trigger": "NetInfo.isConnectionExpensive()", 
+            "contents": "NetInfo.isConnectionExpensive()"
+        }
+    ]
+}

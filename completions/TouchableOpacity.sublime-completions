@@ -1,0 +1,10 @@
+{
+    "comment": "React Native TouchableOpacity", 
+    "scope": "source.js, source.jsx", 
+    "completions": [
+        {
+            "trigger": "TouchableOpacity.setOpacityTo", 
+            "contents": "TouchableOpacity.setOpacityTo"
+        }
+    ]
+}

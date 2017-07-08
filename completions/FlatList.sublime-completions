@@ -1,0 +1,30 @@
+{
+    "comment": "React Native FlatList", 
+    "scope": "source.js, source.jsx", 
+    "completions": [
+        {
+            "trigger": "FlatList.scrollToEnd", 
+            "contents": "FlatList.scrollToEnd"
+        }, 
+        {
+            "trigger": "FlatList.scrollToIndex", 
+            "contents": "FlatList.scrollToIndex"
+        }, 
+        {
+            "trigger": "FlatList.scrollToItem", 
+            "contents": "FlatList.scrollToItem"
+        }, 
+        {
+            "trigger": "FlatList.scrollToOffset", 
+            "contents": "FlatList.scrollToOffset"
+        }, 
+        {
+            "trigger": "FlatList.recordInteraction", 
+            "contents": "FlatList.recordInteraction"
+        }, 
+        {
+            "trigger": "FlatList.flashScrollIndicators", 
+            "contents": "FlatList.flashScrollIndicators"
+        }
+    ]
+}

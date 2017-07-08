@@ -1,0 +1,18 @@
+{
+    "comment": "React Native Share", 
+    "scope": "source.js, source.jsx", 
+    "completions": [
+        {
+            "trigger": "Share.share", 
+            "contents": "Share.share(${1:content}, ${2:options})"
+        }, 
+        {
+            "trigger": "Share.sharedAction()", 
+            "contents": "Share.sharedAction()"
+        }, 
+        {
+            "trigger": "Share.dismissedAction()", 
+            "contents": "Share.dismissedAction()"
+        }
+    ]
+}

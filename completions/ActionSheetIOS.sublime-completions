@@ -1,0 +1,14 @@
+{
+    "comment": "React Native ActionSheetIOS", 
+    "scope": "source.js, source.jsx", 
+    "completions": [
+        {
+            "trigger": "ActionSheetIOS.showActionSheetWithOptions", 
+            "contents": "ActionSheetIOS.showActionSheetWithOptions(${1:options}, ${2:callback})"
+        }, 
+        {
+            "trigger": "ActionSheetIOS.showShareActionSheetWithOptions", 
+            "contents": "ActionSheetIOS.showShareActionSheetWithOptions(${1:options}, ${2:failureCallback}, ${3:successCallback})"
+        }
+    ]
+}

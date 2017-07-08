@@ -1,0 +1,22 @@
+{
+    "comment": "React Native InteractionManager", 
+    "scope": "source.js, source.jsx", 
+    "completions": [
+        {
+            "trigger": "InteractionManager.runAfterInteractions", 
+            "contents": "InteractionManager.runAfterInteractions(${1:task})"
+        }, 
+        {
+            "trigger": "InteractionManager.createInteractionHandle()", 
+            "contents": "InteractionManager.createInteractionHandle()"
+        }, 
+        {
+            "trigger": "InteractionManager.clearInteractionHandle", 
+            "contents": "InteractionManager.clearInteractionHandle(${1:handle})"
+        }, 
+        {
+            "trigger": "InteractionManager.setDeadline", 
+            "contents": "InteractionManager.setDeadline(${1:deadline})"
+        }
+    ]
+}

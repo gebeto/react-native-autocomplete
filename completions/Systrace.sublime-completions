@@ -1,0 +1,50 @@
+{
+    "comment": "React Native Systrace", 
+    "scope": "source.js, source.jsx", 
+    "completions": [
+        {
+            "trigger": "Systrace.setEnabled", 
+            "contents": "Systrace.setEnabled(${1:enabled})"
+        }, 
+        {
+            "trigger": "Systrace.isEnabled()", 
+            "contents": "Systrace.isEnabled()"
+        }, 
+        {
+            "trigger": "Systrace.beginEvent", 
+            "contents": "Systrace.beginEvent(${1:profileName?}, ${2:args?})"
+        }, 
+        {
+            "trigger": "Systrace.endEvent()", 
+            "contents": "Systrace.endEvent()"
+        }, 
+        {
+            "trigger": "Systrace.beginAsyncEvent", 
+            "contents": "Systrace.beginAsyncEvent(${1:profileName?})"
+        }, 
+        {
+            "trigger": "Systrace.endAsyncEvent", 
+            "contents": "Systrace.endAsyncEvent(${1:profileName?}, ${2:cookie?})"
+        }, 
+        {
+            "trigger": "Systrace.counterEvent", 
+            "contents": "Systrace.counterEvent(${1:profileName?}, ${2:value?})"
+        }, 
+        {
+            "trigger": "Systrace.attachToRelayProfiler", 
+            "contents": "Systrace.attachToRelayProfiler(${1:relayProfiler})"
+        }, 
+        {
+            "trigger": "Systrace.swizzleJSON()", 
+            "contents": "Systrace.swizzleJSON()"
+        }, 
+        {
+            "trigger": "Systrace.measureMethods", 
+            "contents": "Systrace.measureMethods(${1:object}, ${2:objectName}, ${3:methodNames})"
+        }, 
+        {
+            "trigger": "Systrace.measure", 
+            "contents": "Systrace.measure(${1:objName}, ${2:fnName}, ${3:func})"
+        }
+    ]
+}

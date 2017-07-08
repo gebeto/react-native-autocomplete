@@ -1,0 +1,22 @@
+{
+    "comment": "React Native Settings", 
+    "scope": "source.js, source.jsx", 
+    "completions": [
+        {
+            "trigger": "Settings.get", 
+            "contents": "Settings.get(${1:key})"
+        }, 
+        {
+            "trigger": "Settings.set", 
+            "contents": "Settings.set(${1:settings})"
+        }, 
+        {
+            "trigger": "Settings.watchKeys", 
+            "contents": "Settings.watchKeys(${1:keys}, ${2:callback})"
+        }, 
+        {
+            "trigger": "Settings.clearWatch", 
+            "contents": "Settings.clearWatch(${1:watchId})"
+        }
+    ]
+}

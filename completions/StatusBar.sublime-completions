@@ -1,0 +1,26 @@
+{
+    "comment": "React Native StatusBar", 
+    "scope": "source.js, source.jsx", 
+    "completions": [
+        {
+            "trigger": "StatusBar.setHidden(hidden: boolean, animation?: StatusBarAnimation)", 
+            "contents": "StatusBar.setHidden(hidden: boolean, animation?: StatusBarAnimation)"
+        }, 
+        {
+            "trigger": "StatusBar.setBarStyle(style: StatusBarStyle, animated?: boolean)", 
+            "contents": "StatusBar.setBarStyle(style: StatusBarStyle, animated?: boolean)"
+        }, 
+        {
+            "trigger": "StatusBar.setNetworkActivityIndicatorVisible(visible: boolean)", 
+            "contents": "StatusBar.setNetworkActivityIndicatorVisible(visible: boolean)"
+        }, 
+        {
+            "trigger": "StatusBar.setBackgroundColor(color: string, animated?: boolean)", 
+            "contents": "StatusBar.setBackgroundColor(color: string, animated?: boolean)"
+        }, 
+        {
+            "trigger": "StatusBar.setTranslucent(translucent: boolean)", 
+            "contents": "StatusBar.setTranslucent(translucent: boolean)"
+        }
+    ]
+}

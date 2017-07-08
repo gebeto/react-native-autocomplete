@@ -1,0 +1,46 @@
+{
+    "comment": "React Native NavigatorIOS", 
+    "scope": "source.js, source.jsx", 
+    "completions": [
+        {
+            "trigger": "NavigatorIOS.push", 
+            "contents": "NavigatorIOS.push"
+        }, 
+        {
+            "trigger": "NavigatorIOS.popN", 
+            "contents": "NavigatorIOS.popN"
+        }, 
+        {
+            "trigger": "NavigatorIOS.pop", 
+            "contents": "NavigatorIOS.pop"
+        }, 
+        {
+            "trigger": "NavigatorIOS.replaceAtIndex", 
+            "contents": "NavigatorIOS.replaceAtIndex"
+        }, 
+        {
+            "trigger": "NavigatorIOS.replace", 
+            "contents": "NavigatorIOS.replace"
+        }, 
+        {
+            "trigger": "NavigatorIOS.replacePrevious", 
+            "contents": "NavigatorIOS.replacePrevious"
+        }, 
+        {
+            "trigger": "NavigatorIOS.popToTop", 
+            "contents": "NavigatorIOS.popToTop"
+        }, 
+        {
+            "trigger": "NavigatorIOS.popToRoute", 
+            "contents": "NavigatorIOS.popToRoute"
+        }, 
+        {
+            "trigger": "NavigatorIOS.replacePreviousAndPop", 
+            "contents": "NavigatorIOS.replacePreviousAndPop"
+        }, 
+        {
+            "trigger": "NavigatorIOS.resetTo", 
+            "contents": "NavigatorIOS.resetTo"
+        }
+    ]
+}

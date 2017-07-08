@@ -1,0 +1,22 @@
+{
+    "comment": "React Native Keyboard", 
+    "scope": "source.js, source.jsx", 
+    "completions": [
+        {
+            "trigger": "Keyboard.addListener", 
+            "contents": "Keyboard.addListener(${1:eventName}, ${2:callback})"
+        }, 
+        {
+            "trigger": "Keyboard.removeListener", 
+            "contents": "Keyboard.removeListener(${1:eventName}, ${2:callback})"
+        }, 
+        {
+            "trigger": "Keyboard.removeAllListeners", 
+            "contents": "Keyboard.removeAllListeners(${1:eventName})"
+        }, 
+        {
+            "trigger": "Keyboard.dismiss()", 
+            "contents": "Keyboard.dismiss()"
+        }
+    ]
+}

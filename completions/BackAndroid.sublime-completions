@@ -1,0 +1,18 @@
+{
+    "comment": "React Native BackAndroid", 
+    "scope": "source.js, source.jsx", 
+    "completions": [
+        {
+            "trigger": "BackAndroid.exitApp()", 
+            "contents": "BackAndroid.exitApp()"
+        }, 
+        {
+            "trigger": "BackAndroid.addEventListener", 
+            "contents": "BackAndroid.addEventListener(${1:eventName}, ${2:handler})"
+        }, 
+        {
+            "trigger": "BackAndroid.removeEventListener", 
+            "contents": "BackAndroid.removeEventListener(${1:eventName}, ${2:handler})"
+        }
+    ]
+}

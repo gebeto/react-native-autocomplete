@@ -1,0 +1,22 @@
+{
+    "comment": "React Native ImagePickerIOS", 
+    "scope": "source.js, source.jsx", 
+    "completions": [
+        {
+            "trigger": "ImagePickerIOS.canRecordVideos", 
+            "contents": "ImagePickerIOS.canRecordVideos(${1:callback})"
+        }, 
+        {
+            "trigger": "ImagePickerIOS.canUseCamera", 
+            "contents": "ImagePickerIOS.canUseCamera(${1:callback})"
+        }, 
+        {
+            "trigger": "ImagePickerIOS.openCameraDialog", 
+            "contents": "ImagePickerIOS.openCameraDialog(${1:config}, ${2:successCallback}, ${3:cancelCallback})"
+        }, 
+        {
+            "trigger": "ImagePickerIOS.openSelectDialog", 
+            "contents": "ImagePickerIOS.openSelectDialog(${1:config}, ${2:successCallback}, ${3:cancelCallback})"
+        }
+    ]
+}

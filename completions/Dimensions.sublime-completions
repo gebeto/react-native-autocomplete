@@ -1,0 +1,22 @@
+{
+    "comment": "React Native Dimensions", 
+    "scope": "source.js, source.jsx", 
+    "completions": [
+        {
+            "trigger": "Dimensions.set", 
+            "contents": "Dimensions.set(${1:dims})"
+        }, 
+        {
+            "trigger": "Dimensions.get", 
+            "contents": "Dimensions.get(${1:dim})"
+        }, 
+        {
+            "trigger": "Dimensions.addEventListener", 
+            "contents": "Dimensions.addEventListener(${1:type}, ${2:handler})"
+        }, 
+        {
+            "trigger": "Dimensions.removeEventListener", 
+            "contents": "Dimensions.removeEventListener(${1:type}, ${2:handler})"
+        }
+    ]
+}

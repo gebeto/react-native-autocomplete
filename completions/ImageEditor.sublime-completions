@@ -1,0 +1,10 @@
+{
+    "comment": "React Native ImageEditor", 
+    "scope": "source.js, source.jsx", 
+    "completions": [
+        {
+            "trigger": "ImageEditor.cropImage", 
+            "contents": "ImageEditor.cropImage(${1:uri}, ${2:cropData}, ${3:success}, ${4:failure})"
+        }
+    ]
+}

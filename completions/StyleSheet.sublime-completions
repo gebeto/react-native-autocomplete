@@ -1,0 +1,14 @@
+{
+    "comment": "React Native StyleSheet", 
+    "scope": "source.js, source.jsx", 
+    "completions": [
+        {
+            "trigger": "StyleSheet.setStyleAttributePreprocessor", 
+            "contents": "StyleSheet.setStyleAttributePreprocessor(${1:property}, ${2:process})"
+        }, 
+        {
+            "trigger": "StyleSheet.create", 
+            "contents": "StyleSheet.create(${1:obj})"
+        }
+    ]
+}

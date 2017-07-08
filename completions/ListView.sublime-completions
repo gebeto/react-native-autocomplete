@@ -1,0 +1,22 @@
+{
+    "comment": "React Native ListView", 
+    "scope": "source.js, source.jsx", 
+    "completions": [
+        {
+            "trigger": "ListView.getMetrics", 
+            "contents": "ListView.getMetrics"
+        }, 
+        {
+            "trigger": "ListView.scrollTo", 
+            "contents": "ListView.scrollTo"
+        }, 
+        {
+            "trigger": "ListView.scrollToEnd", 
+            "contents": "ListView.scrollToEnd"
+        }, 
+        {
+            "trigger": "ListView.flashScrollIndicators", 
+            "contents": "ListView.flashScrollIndicators"
+        }
+    ]
+}

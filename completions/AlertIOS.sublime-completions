@@ -1,0 +1,14 @@
+{
+    "comment": "React Native AlertIOS", 
+    "scope": "source.js, source.jsx", 
+    "completions": [
+        {
+            "trigger": "AlertIOS.alert(title: string, message?: string, callbackOrButtons?: ?(() => void), ButtonsArray, type?: AlertType)", 
+            "contents": "AlertIOS.alert(title: string, message?: string, callbackOrButtons?: ?(() => void), ButtonsArray, type?: AlertType)"
+        }, 
+        {
+            "trigger": "AlertIOS.prompt(title: string, message?: string, callbackOrButtons?: ?((text: string) => void), ButtonsArray, type?: AlertType, defaultValue?: string, keyboardType?: string)", 
+            "contents": "AlertIOS.prompt(title: string, message?: string, callbackOrButtons?: ?((text: string) => void), ButtonsArray, type?: AlertType, defaultValue?: string, keyboardType?: string)"
+        }
+    ]
+}
