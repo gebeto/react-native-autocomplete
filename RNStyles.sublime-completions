@@ -120,7 +120,7 @@
         }, 
         {
             "trigger": "textShadowOffset\t{width: number, height: number}", 
-            "contents": "textShadowOffset: {\nwidth: ${1:0},\nheight: ${2:0}\n}"
+            "contents": "textShadowOffset: {\n\twidth: ${1:0},\n\theight: ${2:0}\n}"
         }, 
         {
             "trigger": "textShadowRadius\tnumber", 

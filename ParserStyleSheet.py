@@ -44,7 +44,7 @@ def make_dict_prop(dict_prop):
 	items = re.findall(r"\w+: \w+", dict_prop)
 	for i, item in enumerate(items):
 		key, val = item.split(': ')
-		itm_string = ""
+		itm_string = "\t"
 		itm_string += key
 		itm_string += ": "
 		itm_string += get_prop_by_type(val, i)
@@ -52,7 +52,10 @@ def make_dict_prop(dict_prop):
 	return "{\n" + ",\n".join(res) + "\n}"
 
 
+def make_enum_prop(enum_prop):
+	return enum_prop
 
+# print make_enum_prop("enum('name', 'secondname')")
 # print get_prop_by_type("{width: number, height: number, opacity: string}")
 # print get_prop_by_type("string")
 # print get_prop_by_type("bool")
