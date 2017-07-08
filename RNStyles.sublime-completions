@@ -4,7 +4,7 @@
     "completions":
     [
       { "trigger": "flex\tDISPLAY FLEX!", "contents": "flex: ${1:1}," },
-      { "trigger": "width", "contents": "width: ${1:100}," },
+      { "trigger": "width", "contents": "width: ${1:100/200/300}," },
       { "trigger": "height", "contents": "height: $1," },
       { "trigger": "top", "contents": "top: $1," },
       { "trigger": "left", "contents": "left: $1," },
