@@ -136,7 +136,7 @@
         }, 
         {
             "trigger": "fontVariant\t[enum('small-caps', 'oldstyle-nums', 'lining-nums', 'tabular-nums', 'proportional-nums')]", 
-            "contents": "fontVariant: [\n\n\t${2:'small-caps' },\n\t${3:'oldstyle-nums' },\n\t${4:'lining-nums' },\n\t${5:'tabular-nums' },\n\t${6:'proportional-nums' },\n]"
+            "contents": "fontVariant: [${2:\n\t'small-caps',}${3:\n\t'oldstyle-nums',}${4:\n\t'lining-nums',}${5:\n\t'tabular-nums',}${6:\n\t'proportional-nums',}\n]"
         }, 
         {
             "trigger": "letterSpacing\tnumber", 

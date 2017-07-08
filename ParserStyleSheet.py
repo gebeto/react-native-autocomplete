@@ -73,10 +73,10 @@ def make_enum_list_prop(enum_prop, index=2):
 	res = []
 	for prop in re.findall(r"'[\w-]+?'", enum_prop):
 		index_str = str(index)
-		item = "\n\t${" + index_str + ":" + prop + " },"
+		item = "${" + index_str + ":\n\t" + prop + ",}"
 		res.append(item)
 		index += 1
-	return "[\n" + "".join(res) + "\n]"
+	return "[" + "".join(res) + "\n]"
 
 # print make_enum_prop("enum('name', 'secondname')")
 # print get_prop_by_type("{width: number, height: number, opacity: string}")
