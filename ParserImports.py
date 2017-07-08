@@ -4,7 +4,7 @@ import json
 
 
 imports_json = {
-	"scope": "source.js - variable.other.js",
+	"scope": "source.js, source.jsx",
 	"comment": "React Native Imports",
 	"completions": []
 }
