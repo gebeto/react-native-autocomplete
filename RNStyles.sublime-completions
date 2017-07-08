@@ -80,7 +80,7 @@
         }, 
         {
             "trigger": "androidelevation\tandroid", 
-            "contents": "androidelevation: '$1'"
+            "contents": "androidelevation: None"
         }, 
         {
             "trigger": "color\tcolor", 
@@ -120,7 +120,7 @@
         }, 
         {
             "trigger": "textShadowOffset\t{width: number, height: number}", 
-            "contents": "textShadowOffset: '$1'"
+            "contents": "textShadowOffset: {\nwidth: ${1:0},\nheight: ${2:0}\n}"
         }, 
         {
             "trigger": "textShadowRadius\tnumber", 
@@ -128,31 +128,31 @@
         }, 
         {
             "trigger": "androidincludeFontPadding\tandroid", 
-            "contents": "androidincludeFontPadding: '$1'"
+            "contents": "androidincludeFontPadding: None"
         }, 
         {
             "trigger": "androidtextAlignVertical\tandroid", 
-            "contents": "androidtextAlignVertical: '$1'"
+            "contents": "androidtextAlignVertical: None"
         }, 
         {
             "trigger": "iosfontVariant\tios", 
-            "contents": "iosfontVariant: '$1'"
+            "contents": "iosfontVariant: None"
         }, 
         {
             "trigger": "iosletterSpacing\tios", 
-            "contents": "iosletterSpacing: '$1'"
+            "contents": "iosletterSpacing: None"
         }, 
         {
             "trigger": "iostextDecorationColor\tios", 
-            "contents": "iostextDecorationColor: '$1'"
+            "contents": "iostextDecorationColor: None"
         }, 
         {
             "trigger": "iostextDecorationStyle\tios", 
-            "contents": "iostextDecorationStyle: '$1'"
+            "contents": "iostextDecorationStyle: None"
         }, 
         {
             "trigger": "ioswritingDirection\tios", 
-            "contents": "ioswritingDirection: '$1'"
+            "contents": "ioswritingDirection: None"
         }, 
         {
             "trigger": "backfaceVisibility\tenum('visible', 'hidden')", 
@@ -200,7 +200,7 @@
         }, 
         {
             "trigger": "resizeMode\tObject.keys(ImageResizeMode)", 
-            "contents": "resizeMode: '$1'"
+            "contents": "resizeMode: None"
         }, 
         {
             "trigger": "tintColor\tcolor", 
@@ -208,7 +208,7 @@
         }, 
         {
             "trigger": "androidoverlayColor\tandroid", 
-            "contents": "androidoverlayColor: '$1'"
+            "contents": "androidoverlayColor: None"
         }, 
         {
             "trigger": "alignContent\tenum('flex-start', 'flex-end', 'center', 'stretch', 'space-between', 'space-around')", 
@@ -248,7 +248,7 @@
         }, 
         {
             "trigger": "bottom\tnumber, string", 
-            "contents": "bottom: '$1'"
+            "contents": "bottom: None"
         }, 
         {
             "trigger": "display\tstring", 
@@ -260,7 +260,7 @@
         }, 
         {
             "trigger": "flexBasis\tnumber, string", 
-            "contents": "flexBasis: '$1'"
+            "contents": "flexBasis: None"
         }, 
         {
             "trigger": "flexDirection\tenum('row', 'row-reverse', 'column', 'column-reverse')", 
@@ -280,7 +280,7 @@
         }, 
         {
             "trigger": "height\tnumber, string", 
-            "contents": "height: '$1'"
+            "contents": "height: None"
         }, 
         {
             "trigger": "justifyContent\tenum('flex-start', 'flex-end', 'center', 'space-between', 'space-around')", 
@@ -288,51 +288,51 @@
         }, 
         {
             "trigger": "left\tnumber, string", 
-            "contents": "left: '$1'"
+            "contents": "left: None"
         }, 
         {
             "trigger": "margin\tnumber, string", 
-            "contents": "margin: '$1'"
+            "contents": "margin: None"
         }, 
         {
             "trigger": "marginBottom\tnumber, string", 
-            "contents": "marginBottom: '$1'"
+            "contents": "marginBottom: None"
         }, 
         {
             "trigger": "marginHorizontal\tnumber, string", 
-            "contents": "marginHorizontal: '$1'"
+            "contents": "marginHorizontal: None"
         }, 
         {
             "trigger": "marginLeft\tnumber, string", 
-            "contents": "marginLeft: '$1'"
+            "contents": "marginLeft: None"
         }, 
         {
             "trigger": "marginRight\tnumber, string", 
-            "contents": "marginRight: '$1'"
+            "contents": "marginRight: None"
         }, 
         {
             "trigger": "marginTop\tnumber, string", 
-            "contents": "marginTop: '$1'"
+            "contents": "marginTop: None"
         }, 
         {
             "trigger": "marginVertical\tnumber, string", 
-            "contents": "marginVertical: '$1'"
+            "contents": "marginVertical: None"
         }, 
         {
             "trigger": "maxHeight\tnumber, string", 
-            "contents": "maxHeight: '$1'"
+            "contents": "maxHeight: None"
         }, 
         {
             "trigger": "maxWidth\tnumber, string", 
-            "contents": "maxWidth: '$1'"
+            "contents": "maxWidth: None"
         }, 
         {
             "trigger": "minHeight\tnumber, string", 
-            "contents": "minHeight: '$1'"
+            "contents": "minHeight: None"
         }, 
         {
             "trigger": "minWidth\tnumber, string", 
-            "contents": "minWidth: '$1'"
+            "contents": "minWidth: None"
         }, 
         {
             "trigger": "overflow\tenum('visible', 'hidden', 'scroll')", 
@@ -340,31 +340,31 @@
         }, 
         {
             "trigger": "padding\tnumber, string", 
-            "contents": "padding: '$1'"
+            "contents": "padding: None"
         }, 
         {
             "trigger": "paddingBottom\tnumber, string", 
-            "contents": "paddingBottom: '$1'"
+            "contents": "paddingBottom: None"
         }, 
         {
             "trigger": "paddingHorizontal\tnumber, string", 
-            "contents": "paddingHorizontal: '$1'"
+            "contents": "paddingHorizontal: None"
         }, 
         {
             "trigger": "paddingLeft\tnumber, string", 
-            "contents": "paddingLeft: '$1'"
+            "contents": "paddingLeft: None"
         }, 
         {
             "trigger": "paddingRight\tnumber, string", 
-            "contents": "paddingRight: '$1'"
+            "contents": "paddingRight: None"
         }, 
         {
             "trigger": "paddingTop\tnumber, string", 
-            "contents": "paddingTop: '$1'"
+            "contents": "paddingTop: None"
         }, 
         {
             "trigger": "paddingVertical\tnumber, string", 
-            "contents": "paddingVertical: '$1'"
+            "contents": "paddingVertical: None"
         }, 
         {
             "trigger": "position\tenum('absolute', 'relative')", 
@@ -372,15 +372,15 @@
         }, 
         {
             "trigger": "right\tnumber, string", 
-            "contents": "right: '$1'"
+            "contents": "right: None"
         }, 
         {
             "trigger": "top\tnumber, string", 
-            "contents": "top: '$1'"
+            "contents": "top: None"
         }, 
         {
             "trigger": "width\tnumber, string", 
-            "contents": "width: '$1'"
+            "contents": "width: None"
         }, 
         {
             "trigger": "zIndex\tnumber", 
@@ -388,23 +388,23 @@
         }, 
         {
             "trigger": "iosdirection\tios", 
-            "contents": "iosdirection: '$1'"
+            "contents": "iosdirection: None"
         }, 
         {
             "trigger": "iosshadowColor\tios", 
-            "contents": "iosshadowColor: '$1'"
+            "contents": "iosshadowColor: None"
         }, 
         {
             "trigger": "iosshadowOffset\tios", 
-            "contents": "iosshadowOffset: '$1'"
+            "contents": "iosshadowOffset: None"
         }, 
         {
             "trigger": "iosshadowOpacity\tios", 
-            "contents": "iosshadowOpacity: '$1'"
+            "contents": "iosshadowOpacity: None"
         }, 
         {
             "trigger": "iosshadowRadius\tios", 
-            "contents": "iosshadowRadius: '$1'"
+            "contents": "iosshadowRadius: None"
         }
     ]
 }

@@ -18,37 +18,70 @@ styles_links = [
 	"http://facebook.github.io/react-native/releases/0.46/docs/shadow-props.html",
 ]
 
+
+def get_prop_by_type(proptype, index=0):
+	index = str(index + 1)
+	if proptype[0] == "{":
+		return make_dict_prop(proptype)
+
+	elif proptype == "bool":
+		return "${" + index + ":true}"
+
+	elif proptype == "color":
+		return "'#${" + index + ":000000}'"
+
+	elif proptype == "number":
+		return "${" + index + ":0}"
+
+	elif proptype == "string":
+		return "'$" + index + "'"
+
+	elif proptype[:4] == "enum":
+		return "'$" + index + "'"
+
+def make_dict_prop(dict_prop):
+	res = []
+	items = re.findall(r"\w+: \w+", dict_prop)
+	for i, item in enumerate(items):
+		key, val = item.split(': ')
+		itm_string = ""
+		itm_string += key
+		itm_string += ": "
+		itm_string += get_prop_by_type(val, i)
+		res.append(itm_string)
+	return "{\n" + ",\n".join(res) + "\n}"
+
+
+
+# print get_prop_by_type("{width: number, height: number, opacity: string}")
+# print get_prop_by_type("string")
+# print get_prop_by_type("bool")
+
 def make_complete_dict(prop):
-	prop_types = {
-		"bool": "${1:true}",
-		"color": "'#${1:000000}'",
-		"number": "${1:0}",
-		"string": "'$1'",
-		"enum": "'$1'",
-	}
 	property_name = re.findall(r"(\w+)\?", prop.text)[0]
 	description = prop.span.text
-	prop_type = prop_types.get(description)
 	res = {
 		"trigger": property_name + "\t" + description,
-		"contents": "%s: %s" % (property_name, prop_types.get(description if prop_type else 'enum'))
+		"contents": "%s: %s" % (property_name, get_prop_by_type(description))
 	}
 	return res
 
 
-res = []
-for url in styles_links:
-	soup = BeautifulSoup(requests.get(url).content, "html.parser")
-	props_block = soup.find("div", {"class": "props"})
-	props = props_block.find_all("h4", {"class": "propTitle"})
-	for prop in props:
-		res.append( make_complete_dict(prop) )
+def main():
+	res = []
+	for url in styles_links:
+		soup = BeautifulSoup(requests.get(url).content, "html.parser")
+		props_block = soup.find("div", {"class": "props"})
+		props = props_block.find_all("h4", {"class": "propTitle"})
+		for prop in props:
+			res.append( make_complete_dict(prop) )
 
 
-styles_json["completions"] = res
+	styles_json["completions"] = res
 
-print styles_json
+	print styles_json
 
-json.dump(styles_json, open("RNStyles.sublime-completions", "w"), indent=4)
+	json.dump(styles_json, open("RNStyles.sublime-completions", "w"), indent=4)
 
 
+main()
