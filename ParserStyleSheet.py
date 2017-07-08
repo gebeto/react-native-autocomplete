@@ -53,9 +53,21 @@ def make_dict_prop(dict_prop):
 	return "{\n" + ",\n".join(res) + "\n}"
 
 
-def make_enum_prop(enum_prop, index=2):
+def make_enum_prop(enum_prop, index=1):
 	res = []
 	for prop in re.findall(r"'[\w-]+?'", enum_prop):
+		index_str = str(index)
+		item = "${" + index_str + ": " + prop + "}"
+		res.append(item)
+		index += 1
+	# return "'${1:${" + str(index) + ":" + "|".join(res) + "}}'"
+	# return "${" + str(index) + ":" + "|".join(res) + "}"
+	return "".join(res)
+
+
+def make_enum_list_prop(enum_prop, index=2):
+	res = []
+	for prop in re.findall(r"'([\w-]+)?'", enum_prop):
 		index_str = str(index)
 		item = "${" + index_str + ":" + prop + "}"
 		res.append(item)

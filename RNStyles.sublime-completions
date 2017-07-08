@@ -4,7 +4,7 @@
     "completions": [
         {
             "trigger": "backfaceVisibility\tenum('visible', 'hidden')", 
-            "contents": "backfaceVisibility: '${1:${4:${2:'visible'}|${3:'hidden'}}}'"
+            "contents": "backfaceVisibility: '${1:${4:${2:visible}|${3:hidden}}}'"
         }, 
         {
             "trigger": "backgroundColor\tcolor", 
@@ -52,7 +52,7 @@
         }, 
         {
             "trigger": "borderStyle\tenum('solid', 'dotted', 'dashed')", 
-            "contents": "borderStyle: '${1:${5:${2:'solid'}|${3:'dotted'}|${4:'dashed'}}}'"
+            "contents": "borderStyle: '${1:${5:${2:solid}|${3:dotted}|${4:dashed}}}'"
         }, 
         {
             "trigger": "borderTopColor\tcolor", 
@@ -96,11 +96,11 @@
         }, 
         {
             "trigger": "fontStyle\tenum('normal', 'italic')", 
-            "contents": "fontStyle: '${1:${4:${2:'normal'}|${3:'italic'}}}'"
+            "contents": "fontStyle: '${1:${4:${2:normal}|${3:italic}}}'"
         }, 
         {
             "trigger": "fontWeight\tenum('normal', 'bold', '100', '200', '300', '400', '500', '600', '700', '800', '900')", 
-            "contents": "fontWeight: '${1:${13:${2:'normal'}|${3:'bold'}|${4:'100'}|${5:'200'}|${6:'300'}|${7:'400'}|${8:'500'}|${9:'600'}|${10:'700'}|${11:'800'}|${12:'900'}}}'"
+            "contents": "fontWeight: '${1:${13:${2:normal}|${3:bold}|${4:100}|${5:200}|${6:300}|${7:400}|${8:500}|${9:600}|${10:700}|${11:800}|${12:900}}}'"
         }, 
         {
             "trigger": "lineHeight\tnumber", 
@@ -108,11 +108,11 @@
         }, 
         {
             "trigger": "textAlign\tenum('auto', 'left', 'right', 'center', 'justify')", 
-            "contents": "textAlign: '${1:${7:${2:'auto'}|${3:'left'}|${4:'right'}|${5:'center'}|${6:'justify'}}}'"
+            "contents": "textAlign: '${1:${7:${2:auto}|${3:left}|${4:right}|${5:center}|${6:justify}}}'"
         }, 
         {
             "trigger": "textDecorationLine\tenum('none', 'underline', 'line-through', 'underline line-through')", 
-            "contents": "textDecorationLine: '${1:${5:${2:'none'}|${3:'underline'}|${4:'line-through'}}}'"
+            "contents": "textDecorationLine: '${1:${5:${2:none}|${3:underline}|${4:line-through}}}'"
         }, 
         {
             "trigger": "textShadowColor\tcolor", 
@@ -156,7 +156,7 @@
         }, 
         {
             "trigger": "backfaceVisibility\tenum('visible', 'hidden')", 
-            "contents": "backfaceVisibility: '${1:${4:${2:'visible'}|${3:'hidden'}}}'"
+            "contents": "backfaceVisibility: '${1:${4:${2:visible}|${3:hidden}}}'"
         }, 
         {
             "trigger": "backgroundColor\tcolor", 
@@ -196,7 +196,7 @@
         }, 
         {
             "trigger": "overflow\tenum('visible', 'hidden')", 
-            "contents": "overflow: '${1:${4:${2:'visible'}|${3:'hidden'}}}'"
+            "contents": "overflow: '${1:${4:${2:visible}|${3:hidden}}}'"
         }, 
         {
             "trigger": "resizeMode\tObject.keys(ImageResizeMode)", 
@@ -212,15 +212,15 @@
         }, 
         {
             "trigger": "alignContent\tenum('flex-start', 'flex-end', 'center', 'stretch', 'space-between', 'space-around')", 
-            "contents": "alignContent: '${1:${8:${2:'flex-start'}|${3:'flex-end'}|${4:'center'}|${5:'stretch'}|${6:'space-between'}|${7:'space-around'}}}'"
+            "contents": "alignContent: '${1:${8:${2:flex-start}|${3:flex-end}|${4:center}|${5:stretch}|${6:space-between}|${7:space-around}}}'"
         }, 
         {
             "trigger": "alignItems\tenum('flex-start', 'flex-end', 'center', 'stretch', 'baseline')", 
-            "contents": "alignItems: '${1:${7:${2:'flex-start'}|${3:'flex-end'}|${4:'center'}|${5:'stretch'}|${6:'baseline'}}}'"
+            "contents": "alignItems: '${1:${7:${2:flex-start}|${3:flex-end}|${4:center}|${5:stretch}|${6:baseline}}}'"
         }, 
         {
             "trigger": "alignSelf\tenum('auto', 'flex-start', 'flex-end', 'center', 'stretch', 'baseline')", 
-            "contents": "alignSelf: '${1:${8:${2:'auto'}|${3:'flex-start'}|${4:'flex-end'}|${5:'center'}|${6:'stretch'}|${7:'baseline'}}}'"
+            "contents": "alignSelf: '${1:${8:${2:auto}|${3:flex-start}|${4:flex-end}|${5:center}|${6:stretch}|${7:baseline}}}'"
         }, 
         {
             "trigger": "aspectRatio\tnumber", 
@@ -264,7 +264,7 @@
         }, 
         {
             "trigger": "flexDirection\tenum('row', 'row-reverse', 'column', 'column-reverse')", 
-            "contents": "flexDirection: '${1:${6:${2:'row'}|${3:'row-reverse'}|${4:'column'}|${5:'column-reverse'}}}'"
+            "contents": "flexDirection: '${1:${6:${2:row}|${3:row-reverse}|${4:column}|${5:column-reverse}}}'"
         }, 
         {
             "trigger": "flexGrow\tnumber", 
@@ -276,7 +276,7 @@
         }, 
         {
             "trigger": "flexWrap\tenum('wrap', 'nowrap')", 
-            "contents": "flexWrap: '${1:${4:${2:'wrap'}|${3:'nowrap'}}}'"
+            "contents": "flexWrap: '${1:${4:${2:wrap}|${3:nowrap}}}'"
         }, 
         {
             "trigger": "height\tnumber, string", 
@@ -284,7 +284,7 @@
         }, 
         {
             "trigger": "justifyContent\tenum('flex-start', 'flex-end', 'center', 'space-between', 'space-around')", 
-            "contents": "justifyContent: '${1:${7:${2:'flex-start'}|${3:'flex-end'}|${4:'center'}|${5:'space-between'}|${6:'space-around'}}}'"
+            "contents": "justifyContent: '${1:${7:${2:flex-start}|${3:flex-end}|${4:center}|${5:space-between}|${6:space-around}}}'"
         }, 
         {
             "trigger": "left\tnumber, string", 
@@ -336,7 +336,7 @@
         }, 
         {
             "trigger": "overflow\tenum('visible', 'hidden', 'scroll')", 
-            "contents": "overflow: '${1:${5:${2:'visible'}|${3:'hidden'}|${4:'scroll'}}}'"
+            "contents": "overflow: '${1:${5:${2:visible}|${3:hidden}|${4:scroll}}}'"
         }, 
         {
             "trigger": "padding\tnumber, string", 
@@ -368,7 +368,7 @@
         }, 
         {
             "trigger": "position\tenum('absolute', 'relative')", 
-            "contents": "position: '${1:${4:${2:'absolute'}|${3:'relative'}}}'"
+            "contents": "position: '${1:${4:${2:absolute}|${3:relative}}}'"
         }, 
         {
             "trigger": "right\tnumber, string", 
