@@ -4,407 +4,407 @@
     "completions": [
         {
             "trigger": "backfaceVisibility", 
-            "contents": "backfaceVisibility/enum('visible', 'hidden'): '$1'"
+            "contents": "backfaceVisibility\tenum('visible', 'hidden'): '$1'"
         }, 
         {
             "trigger": "backgroundColor", 
-            "contents": "backgroundColor/color: '#${1:000000}'"
+            "contents": "backgroundColor\tcolor: '#${1:000000}'"
         }, 
         {
             "trigger": "borderBottomColor", 
-            "contents": "borderBottomColor/color: '#${1:000000}'"
+            "contents": "borderBottomColor\tcolor: '#${1:000000}'"
         }, 
         {
             "trigger": "borderBottomLeftRadius", 
-            "contents": "borderBottomLeftRadius/number: ${1:0}"
+            "contents": "borderBottomLeftRadius\tnumber: ${1:0}"
         }, 
         {
             "trigger": "borderBottomRightRadius", 
-            "contents": "borderBottomRightRadius/number: ${1:0}"
+            "contents": "borderBottomRightRadius\tnumber: ${1:0}"
         }, 
         {
             "trigger": "borderBottomWidth", 
-            "contents": "borderBottomWidth/number: ${1:0}"
+            "contents": "borderBottomWidth\tnumber: ${1:0}"
         }, 
         {
             "trigger": "borderColor", 
-            "contents": "borderColor/color: '#${1:000000}'"
+            "contents": "borderColor\tcolor: '#${1:000000}'"
         }, 
         {
             "trigger": "borderLeftColor", 
-            "contents": "borderLeftColor/color: '#${1:000000}'"
+            "contents": "borderLeftColor\tcolor: '#${1:000000}'"
         }, 
         {
             "trigger": "borderLeftWidth", 
-            "contents": "borderLeftWidth/number: ${1:0}"
+            "contents": "borderLeftWidth\tnumber: ${1:0}"
         }, 
         {
             "trigger": "borderRadius", 
-            "contents": "borderRadius/number: ${1:0}"
+            "contents": "borderRadius\tnumber: ${1:0}"
         }, 
         {
             "trigger": "borderRightColor", 
-            "contents": "borderRightColor/color: '#${1:000000}'"
+            "contents": "borderRightColor\tcolor: '#${1:000000}'"
         }, 
         {
             "trigger": "borderRightWidth", 
-            "contents": "borderRightWidth/number: ${1:0}"
+            "contents": "borderRightWidth\tnumber: ${1:0}"
         }, 
         {
             "trigger": "borderStyle", 
-            "contents": "borderStyle/enum('solid', 'dotted', 'dashed'): '$1'"
+            "contents": "borderStyle\tenum('solid', 'dotted', 'dashed'): '$1'"
         }, 
         {
             "trigger": "borderTopColor", 
-            "contents": "borderTopColor/color: '#${1:000000}'"
+            "contents": "borderTopColor\tcolor: '#${1:000000}'"
         }, 
         {
             "trigger": "borderTopLeftRadius", 
-            "contents": "borderTopLeftRadius/number: ${1:0}"
+            "contents": "borderTopLeftRadius\tnumber: ${1:0}"
         }, 
         {
             "trigger": "borderTopRightRadius", 
-            "contents": "borderTopRightRadius/number: ${1:0}"
+            "contents": "borderTopRightRadius\tnumber: ${1:0}"
         }, 
         {
             "trigger": "borderTopWidth", 
-            "contents": "borderTopWidth/number: ${1:0}"
+            "contents": "borderTopWidth\tnumber: ${1:0}"
         }, 
         {
             "trigger": "borderWidth", 
-            "contents": "borderWidth/number: ${1:0}"
+            "contents": "borderWidth\tnumber: ${1:0}"
         }, 
         {
             "trigger": "opacity", 
-            "contents": "opacity/number: ${1:0}"
+            "contents": "opacity\tnumber: ${1:0}"
         }, 
         {
             "trigger": "androidelevation", 
-            "contents": "androidelevation/android: '$1'"
+            "contents": "androidelevation\tandroid: '$1'"
         }, 
         {
             "trigger": "color", 
-            "contents": "color/color: '#${1:000000}'"
+            "contents": "color\tcolor: '#${1:000000}'"
         }, 
         {
             "trigger": "fontFamily", 
-            "contents": "fontFamily/string: '$1'"
+            "contents": "fontFamily\tstring: '$1'"
         }, 
         {
             "trigger": "fontSize", 
-            "contents": "fontSize/number: ${1:0}"
+            "contents": "fontSize\tnumber: ${1:0}"
         }, 
         {
             "trigger": "fontStyle", 
-            "contents": "fontStyle/enum('normal', 'italic'): '$1'"
+            "contents": "fontStyle\tenum('normal', 'italic'): '$1'"
         }, 
         {
             "trigger": "fontWeight", 
-            "contents": "fontWeight/enum('normal', 'bold', '100', '200', '300', '400', '500', '600', '700', '800', '900'): '$1'"
+            "contents": "fontWeight\tenum('normal', 'bold', '100', '200', '300', '400', '500', '600', '700', '800', '900'): '$1'"
         }, 
         {
             "trigger": "lineHeight", 
-            "contents": "lineHeight/number: ${1:0}"
+            "contents": "lineHeight\tnumber: ${1:0}"
         }, 
         {
             "trigger": "textAlign", 
-            "contents": "textAlign/enum('auto', 'left', 'right', 'center', 'justify'): '$1'"
+            "contents": "textAlign\tenum('auto', 'left', 'right', 'center', 'justify'): '$1'"
         }, 
         {
             "trigger": "textDecorationLine", 
-            "contents": "textDecorationLine/enum('none', 'underline', 'line-through', 'underline line-through'): '$1'"
+            "contents": "textDecorationLine\tenum('none', 'underline', 'line-through', 'underline line-through'): '$1'"
         }, 
         {
             "trigger": "textShadowColor", 
-            "contents": "textShadowColor/color: '#${1:000000}'"
+            "contents": "textShadowColor\tcolor: '#${1:000000}'"
         }, 
         {
             "trigger": "textShadowOffset", 
-            "contents": "textShadowOffset/{width: number, height: number}: '$1'"
+            "contents": "textShadowOffset\t{width: number, height: number}: '$1'"
         }, 
         {
             "trigger": "textShadowRadius", 
-            "contents": "textShadowRadius/number: ${1:0}"
+            "contents": "textShadowRadius\tnumber: ${1:0}"
         }, 
         {
             "trigger": "androidincludeFontPadding", 
-            "contents": "androidincludeFontPadding/android: '$1'"
+            "contents": "androidincludeFontPadding\tandroid: '$1'"
         }, 
         {
             "trigger": "androidtextAlignVertical", 
-            "contents": "androidtextAlignVertical/android: '$1'"
+            "contents": "androidtextAlignVertical\tandroid: '$1'"
         }, 
         {
             "trigger": "iosfontVariant", 
-            "contents": "iosfontVariant/ios: '$1'"
+            "contents": "iosfontVariant\tios: '$1'"
         }, 
         {
             "trigger": "iosletterSpacing", 
-            "contents": "iosletterSpacing/ios: '$1'"
+            "contents": "iosletterSpacing\tios: '$1'"
         }, 
         {
             "trigger": "iostextDecorationColor", 
-            "contents": "iostextDecorationColor/ios: '$1'"
+            "contents": "iostextDecorationColor\tios: '$1'"
         }, 
         {
             "trigger": "iostextDecorationStyle", 
-            "contents": "iostextDecorationStyle/ios: '$1'"
+            "contents": "iostextDecorationStyle\tios: '$1'"
         }, 
         {
             "trigger": "ioswritingDirection", 
-            "contents": "ioswritingDirection/ios: '$1'"
+            "contents": "ioswritingDirection\tios: '$1'"
         }, 
         {
             "trigger": "backfaceVisibility", 
-            "contents": "backfaceVisibility/enum('visible', 'hidden'): '$1'"
+            "contents": "backfaceVisibility\tenum('visible', 'hidden'): '$1'"
         }, 
         {
             "trigger": "backgroundColor", 
-            "contents": "backgroundColor/color: '#${1:000000}'"
+            "contents": "backgroundColor\tcolor: '#${1:000000}'"
         }, 
         {
             "trigger": "borderBottomLeftRadius", 
-            "contents": "borderBottomLeftRadius/number: ${1:0}"
+            "contents": "borderBottomLeftRadius\tnumber: ${1:0}"
         }, 
         {
             "trigger": "borderBottomRightRadius", 
-            "contents": "borderBottomRightRadius/number: ${1:0}"
+            "contents": "borderBottomRightRadius\tnumber: ${1:0}"
         }, 
         {
             "trigger": "borderColor", 
-            "contents": "borderColor/color: '#${1:000000}'"
+            "contents": "borderColor\tcolor: '#${1:000000}'"
         }, 
         {
             "trigger": "borderRadius", 
-            "contents": "borderRadius/number: ${1:0}"
+            "contents": "borderRadius\tnumber: ${1:0}"
         }, 
         {
             "trigger": "borderTopLeftRadius", 
-            "contents": "borderTopLeftRadius/number: ${1:0}"
+            "contents": "borderTopLeftRadius\tnumber: ${1:0}"
         }, 
         {
             "trigger": "borderTopRightRadius", 
-            "contents": "borderTopRightRadius/number: ${1:0}"
+            "contents": "borderTopRightRadius\tnumber: ${1:0}"
         }, 
         {
             "trigger": "borderWidth", 
-            "contents": "borderWidth/number: ${1:0}"
+            "contents": "borderWidth\tnumber: ${1:0}"
         }, 
         {
             "trigger": "opacity", 
-            "contents": "opacity/number: ${1:0}"
+            "contents": "opacity\tnumber: ${1:0}"
         }, 
         {
             "trigger": "overflow", 
-            "contents": "overflow/enum('visible', 'hidden'): '$1'"
+            "contents": "overflow\tenum('visible', 'hidden'): '$1'"
         }, 
         {
             "trigger": "resizeMode", 
-            "contents": "resizeMode/Object.keys(ImageResizeMode): '$1'"
+            "contents": "resizeMode\tObject.keys(ImageResizeMode): '$1'"
         }, 
         {
             "trigger": "tintColor", 
-            "contents": "tintColor/color: '#${1:000000}'"
+            "contents": "tintColor\tcolor: '#${1:000000}'"
         }, 
         {
             "trigger": "androidoverlayColor", 
-            "contents": "androidoverlayColor/android: '$1'"
+            "contents": "androidoverlayColor\tandroid: '$1'"
         }, 
         {
             "trigger": "alignContent", 
-            "contents": "alignContent/enum('flex-start', 'flex-end', 'center', 'stretch', 'space-between', 'space-around'): '$1'"
+            "contents": "alignContent\tenum('flex-start', 'flex-end', 'center', 'stretch', 'space-between', 'space-around'): '$1'"
         }, 
         {
             "trigger": "alignItems", 
-            "contents": "alignItems/enum('flex-start', 'flex-end', 'center', 'stretch', 'baseline'): '$1'"
+            "contents": "alignItems\tenum('flex-start', 'flex-end', 'center', 'stretch', 'baseline'): '$1'"
         }, 
         {
             "trigger": "alignSelf", 
-            "contents": "alignSelf/enum('auto', 'flex-start', 'flex-end', 'center', 'stretch', 'baseline'): '$1'"
+            "contents": "alignSelf\tenum('auto', 'flex-start', 'flex-end', 'center', 'stretch', 'baseline'): '$1'"
         }, 
         {
             "trigger": "aspectRatio", 
-            "contents": "aspectRatio/number: ${1:0}"
+            "contents": "aspectRatio\tnumber: ${1:0}"
         }, 
         {
             "trigger": "borderBottomWidth", 
-            "contents": "borderBottomWidth/number: ${1:0}"
+            "contents": "borderBottomWidth\tnumber: ${1:0}"
         }, 
         {
             "trigger": "borderLeftWidth", 
-            "contents": "borderLeftWidth/number: ${1:0}"
+            "contents": "borderLeftWidth\tnumber: ${1:0}"
         }, 
         {
             "trigger": "borderRightWidth", 
-            "contents": "borderRightWidth/number: ${1:0}"
+            "contents": "borderRightWidth\tnumber: ${1:0}"
         }, 
         {
             "trigger": "borderTopWidth", 
-            "contents": "borderTopWidth/number: ${1:0}"
+            "contents": "borderTopWidth\tnumber: ${1:0}"
         }, 
         {
             "trigger": "borderWidth", 
-            "contents": "borderWidth/number: ${1:0}"
+            "contents": "borderWidth\tnumber: ${1:0}"
         }, 
         {
             "trigger": "bottom", 
-            "contents": "bottom/number, string: '$1'"
+            "contents": "bottom\tnumber, string: '$1'"
         }, 
         {
             "trigger": "display", 
-            "contents": "display/string: '$1'"
+            "contents": "display\tstring: '$1'"
         }, 
         {
             "trigger": "flex", 
-            "contents": "flex/number: ${1:0}"
+            "contents": "flex\tnumber: ${1:0}"
         }, 
         {
             "trigger": "flexBasis", 
-            "contents": "flexBasis/number, string: '$1'"
+            "contents": "flexBasis\tnumber, string: '$1'"
         }, 
         {
             "trigger": "flexDirection", 
-            "contents": "flexDirection/enum('row', 'row-reverse', 'column', 'column-reverse'): '$1'"
+            "contents": "flexDirection\tenum('row', 'row-reverse', 'column', 'column-reverse'): '$1'"
         }, 
         {
             "trigger": "flexGrow", 
-            "contents": "flexGrow/number: ${1:0}"
+            "contents": "flexGrow\tnumber: ${1:0}"
         }, 
         {
             "trigger": "flexShrink", 
-            "contents": "flexShrink/number: ${1:0}"
+            "contents": "flexShrink\tnumber: ${1:0}"
         }, 
         {
             "trigger": "flexWrap", 
-            "contents": "flexWrap/enum('wrap', 'nowrap'): '$1'"
+            "contents": "flexWrap\tenum('wrap', 'nowrap'): '$1'"
         }, 
         {
             "trigger": "height", 
-            "contents": "height/number, string: '$1'"
+            "contents": "height\tnumber, string: '$1'"
         }, 
         {
             "trigger": "justifyContent", 
-            "contents": "justifyContent/enum('flex-start', 'flex-end', 'center', 'space-between', 'space-around'): '$1'"
+            "contents": "justifyContent\tenum('flex-start', 'flex-end', 'center', 'space-between', 'space-around'): '$1'"
         }, 
         {
             "trigger": "left", 
-            "contents": "left/number, string: '$1'"
+            "contents": "left\tnumber, string: '$1'"
         }, 
         {
             "trigger": "margin", 
-            "contents": "margin/number, string: '$1'"
+            "contents": "margin\tnumber, string: '$1'"
         }, 
         {
             "trigger": "marginBottom", 
-            "contents": "marginBottom/number, string: '$1'"
+            "contents": "marginBottom\tnumber, string: '$1'"
         }, 
         {
             "trigger": "marginHorizontal", 
-            "contents": "marginHorizontal/number, string: '$1'"
+            "contents": "marginHorizontal\tnumber, string: '$1'"
         }, 
         {
             "trigger": "marginLeft", 
-            "contents": "marginLeft/number, string: '$1'"
+            "contents": "marginLeft\tnumber, string: '$1'"
         }, 
         {
             "trigger": "marginRight", 
-            "contents": "marginRight/number, string: '$1'"
+            "contents": "marginRight\tnumber, string: '$1'"
         }, 
         {
             "trigger": "marginTop", 
-            "contents": "marginTop/number, string: '$1'"
+            "contents": "marginTop\tnumber, string: '$1'"
         }, 
         {
             "trigger": "marginVertical", 
-            "contents": "marginVertical/number, string: '$1'"
+            "contents": "marginVertical\tnumber, string: '$1'"
         }, 
         {
             "trigger": "maxHeight", 
-            "contents": "maxHeight/number, string: '$1'"
+            "contents": "maxHeight\tnumber, string: '$1'"
         }, 
         {
             "trigger": "maxWidth", 
-            "contents": "maxWidth/number, string: '$1'"
+            "contents": "maxWidth\tnumber, string: '$1'"
         }, 
         {
             "trigger": "minHeight", 
-            "contents": "minHeight/number, string: '$1'"
+            "contents": "minHeight\tnumber, string: '$1'"
         }, 
         {
             "trigger": "minWidth", 
-            "contents": "minWidth/number, string: '$1'"
+            "contents": "minWidth\tnumber, string: '$1'"
         }, 
         {
             "trigger": "overflow", 
-            "contents": "overflow/enum('visible', 'hidden', 'scroll'): '$1'"
+            "contents": "overflow\tenum('visible', 'hidden', 'scroll'): '$1'"
         }, 
         {
             "trigger": "padding", 
-            "contents": "padding/number, string: '$1'"
+            "contents": "padding\tnumber, string: '$1'"
         }, 
         {
             "trigger": "paddingBottom", 
-            "contents": "paddingBottom/number, string: '$1'"
+            "contents": "paddingBottom\tnumber, string: '$1'"
         }, 
         {
             "trigger": "paddingHorizontal", 
-            "contents": "paddingHorizontal/number, string: '$1'"
+            "contents": "paddingHorizontal\tnumber, string: '$1'"
         }, 
         {
             "trigger": "paddingLeft", 
-            "contents": "paddingLeft/number, string: '$1'"
+            "contents": "paddingLeft\tnumber, string: '$1'"
         }, 
         {
             "trigger": "paddingRight", 
-            "contents": "paddingRight/number, string: '$1'"
+            "contents": "paddingRight\tnumber, string: '$1'"
         }, 
         {
             "trigger": "paddingTop", 
-            "contents": "paddingTop/number, string: '$1'"
+            "contents": "paddingTop\tnumber, string: '$1'"
         }, 
         {
             "trigger": "paddingVertical", 
-            "contents": "paddingVertical/number, string: '$1'"
+            "contents": "paddingVertical\tnumber, string: '$1'"
         }, 
         {
             "trigger": "position", 
-            "contents": "position/enum('absolute', 'relative'): '$1'"
+            "contents": "position\tenum('absolute', 'relative'): '$1'"
         }, 
         {
             "trigger": "right", 
-            "contents": "right/number, string: '$1'"
+            "contents": "right\tnumber, string: '$1'"
         }, 
         {
             "trigger": "top", 
-            "contents": "top/number, string: '$1'"
+            "contents": "top\tnumber, string: '$1'"
         }, 
         {
             "trigger": "width", 
-            "contents": "width/number, string: '$1'"
+            "contents": "width\tnumber, string: '$1'"
         }, 
         {
             "trigger": "zIndex", 
-            "contents": "zIndex/number: ${1:0}"
+            "contents": "zIndex\tnumber: ${1:0}"
         }, 
         {
             "trigger": "iosdirection", 
-            "contents": "iosdirection/ios: '$1'"
+            "contents": "iosdirection\tios: '$1'"
         }, 
         {
             "trigger": "iosshadowColor", 
-            "contents": "iosshadowColor/ios: '$1'"
+            "contents": "iosshadowColor\tios: '$1'"
         }, 
         {
             "trigger": "iosshadowOffset", 
-            "contents": "iosshadowOffset/ios: '$1'"
+            "contents": "iosshadowOffset\tios: '$1'"
         }, 
         {
             "trigger": "iosshadowOpacity", 
-            "contents": "iosshadowOpacity/ios: '$1'"
+            "contents": "iosshadowOpacity\tios: '$1'"
         }, 
         {
             "trigger": "iosshadowRadius", 
-            "contents": "iosshadowRadius/ios: '$1'"
+            "contents": "iosshadowRadius\tios: '$1'"
         }
     ]
 }

@@ -31,7 +31,7 @@ def make_complete_dict(prop):
 	prop_type = prop_types.get(description)
 	res = {
 		"trigger": property_name,
-		"contents": "%s/%s: %s" % (property_name, description, prop_types.get(description if prop_type else 'enum'))
+		"contents": "%s\t%s: %s" % (property_name, description, prop_types.get(description if prop_type else 'enum'))
 	}
 	return res
 
