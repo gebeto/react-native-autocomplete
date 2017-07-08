@@ -9,6 +9,12 @@ imports_json = {
 	"completions": []
 }
 
+componenets_json = {
+	"scope": "source.js - variable.other.js",
+	"comment": "React Native Components",
+	"completions": []	
+}
+
 
 url = "https://facebook.github.io/react-native/docs/getting-started.html"
 soup = BeautifulSoup(requests.get(url).content, "html.parser")
@@ -22,4 +28,5 @@ sections = [{
 imports_json["completions"] = sorted([s["title"] for s in sections])
 
 json.dump(imports_json, open("RNImport.sublime-completions", "w"), indent=4)
-# print len(list(set(res)))
+
+
