@@ -30,8 +30,8 @@ def make_complete_dict(prop):
 	description = prop.span.text
 	prop_type = prop_types.get(description)
 	res = {
-		"trigger": property_name,
-		"contents": "%s\t%s: %s" % (property_name, description, prop_types.get(description if prop_type else 'enum'))
+		"trigger": property_name + "\t" + description,
+		"contents": "%s: %s" % (property_name, prop_types.get(description if prop_type else 'enum'))
 	}
 	return res
 
