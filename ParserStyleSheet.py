@@ -13,28 +13,42 @@ styles_json = {
 styles_links = [
 	"http://facebook.github.io/react-native/releases/0.46/docs/viewstyleproptypes.html",
 	"http://facebook.github.io/react-native/releases/0.46/docs/textstyleproptypes.html",
-	"http://facebook.github.io/react-native/releases/0.46/docs/imagestyleproptypes.html"
+	"http://facebook.github.io/react-native/releases/0.46/docs/imagestyleproptypes.html",
+	"http://facebook.github.io/react-native/releases/0.46/docs/layout-props.html",
+	"http://facebook.github.io/react-native/releases/0.46/docs/shadow-props.html",
 ]
 
+def make_complete_dict(prop):
+	prop_types = {
+		"bool": "${1:true}",
+		"color": "'#${1:000000}'",
+		"number": "${1:0}",
+		"string": "'$1'",
+		"enum": "'$1'",
+	}
+	property_name = re.findall(r"(\w+)\?", prop.text)[0]
+	description = prop.span.text
+	prop_type = prop_types.get(description)
+	res = {
+		"trigger": property_name,
+		"contents": "%s/%s: %s" % (property_name, description, prop_types.get(description if prop_type else 'enum'))
+	}
+	return res
 
 
-url = styles_links[0]
-soup = BeautifulSoup(requests.get(url).content, "html.parser")
-props_block = soup.find("div", {"class": "props"})
-props = props_block.find_all("h4", {"class": "propTitle"})
-prop = props[0]
-print prop
-print re.findall(r"(\w+)\?", prop.text)[0]
-print prop.span.text
+res = []
+for url in styles_links:
+	soup = BeautifulSoup(requests.get(url).content, "html.parser")
+	props_block = soup.find("div", {"class": "props"})
+	props = props_block.find_all("h4", {"class": "propTitle"})
+	for prop in props:
+		res.append( make_complete_dict(prop) )
 
-# sections = sections[0].find_all("a") + sections[1].find_all("a")
-# sections = [{
-# 	"title": s.text,
-# 	"url": s["href"]
-# } for s in sections]
 
-# imports_json["completions"] = sorted([s["title"] for s in sections])
+styles_json["completions"] = res
 
-# json.dump(imports_json, open("RNImport.sublime-completions", "w"), indent=4)
+print styles_json
+
+json.dump(styles_json, open("RNStyles.sublime-completions", "w"), indent=4)
 
 
