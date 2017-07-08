@@ -53,14 +53,14 @@ def make_dict_prop(dict_prop):
 	return "{\n" + ",\n".join(res) + "\n}"
 
 
-def make_enum_prop(enum_prop, index=2):
+def make_enum_prop(enum_prop, index=1):
 	res = []
 	for prop in re.findall(r"'\w+?'", enum_prop):
 		index_str = str(index)
 		item = "${" + index_str + ":" + prop + "}"
 		res.append(item)
 		index += 1
-	return "${1:${" + str(index) + ":" + "|".join(res) + "}}"
+	return "${" + str(index) + ":" + "|".join(res) + "}"
 
 # print make_enum_prop("enum('name', 'secondname')")
 # print get_prop_by_type("{width: number, height: number, opacity: string}")
