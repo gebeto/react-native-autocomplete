@@ -3,8 +3,8 @@
     "comment": "React Native Styles", 
     "completions":
     [
-      { "trigger": "flex", "contents": "flex: $1," },
-      { "trigger": "width", "contents": "width: $1," },
+      { "trigger": "flex", "contents": "flex: ${1:1}," },
+      { "trigger": "width", "contents": "width: ${1:100}," },
       { "trigger": "height", "contents": "height: $1," },
       { "trigger": "top", "contents": "top: $1," },
       { "trigger": "left", "contents": "left: $1," },
