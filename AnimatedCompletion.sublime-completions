@@ -1,9 +1,0 @@
-{
-    "comment": "React Native Imports", 
-    "scope": "source.js - Animated", 
-    "completions": [
-        "Animated.Text", 
-        "Animated.View", 
-        "Animated.Image", 
-    ]
-}

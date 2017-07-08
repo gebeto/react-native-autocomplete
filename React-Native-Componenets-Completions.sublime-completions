@@ -3,6 +3,7 @@
 	"comment": "React Native Componenets",
 	"completions":
 	[
-		{"trigger": "Text", "contents": "<Text style={styles.text}>Hello world!</Text>" },
+		{"trigger": "<Text", "contents": "<Text style={styles.text}>Hello world!</Text>" },
+		{"trigger": "<Animated.Text", "contents": "<Animated.Text style={styles.text}>Hello world!</Animated.Text>" },
 	]
 }
