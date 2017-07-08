@@ -19,8 +19,8 @@ styles_links = [
 ]
 
 
-def get_prop_by_type(proptype, index=0):
-	index = str(index + 1)
+def get_prop_by_type(proptype, index=1):
+	index = str(index)
 	if proptype[0] == "{":
 		return make_dict_prop(proptype)
 
@@ -37,7 +37,8 @@ def get_prop_by_type(proptype, index=0):
 		return "'$" + index + "'"
 
 	elif proptype[:4] == "enum":
-		return "'$" + index + "'"
+		return make_enum_prop(proptype)
+		# return "'$" + index + "'"
 
 def make_dict_prop(dict_prop):
 	res = []
@@ -52,8 +53,14 @@ def make_dict_prop(dict_prop):
 	return "{\n" + ",\n".join(res) + "\n}"
 
 
-def make_enum_prop(enum_prop):
-	return enum_prop
+def make_enum_prop(enum_prop, index=2):
+	res = []
+	for prop in re.findall(r"'\w+?'", enum_prop):
+		index_str = str(index)
+		item = "${" + index_str + ":" + prop + "}"
+		res.append(item)
+		index += 1
+	return "${1:${" + str(index) + ":" + "|".join(res) + "}}"
 
 # print make_enum_prop("enum('name', 'secondname')")
 # print get_prop_by_type("{width: number, height: number, opacity: string}")
