@@ -106,7 +106,7 @@ def main():
 
 	print styles_json
 
-	json.dump(styles_json, open("RNStyles.sublime-completions", "w"), indent=4)
+	json.dump(styles_json, open("../RNStyles.sublime-completions", "w"), indent=4)
 
 
 main()

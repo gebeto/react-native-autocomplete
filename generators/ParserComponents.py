@@ -21,7 +21,7 @@ def main():
 		"url": domain + s["href"]
 	} for s in sections]
 	imports_json["completions"] = sorted([s["title"] for s in sections])
-	json.dump(imports_json, open("RNImport.sublime-completions", "w"), indent=4)
+	json.dump(imports_json, open("../RNImport.sublime-completions", "w"), indent=4)
 	return sections
 
 
@@ -69,7 +69,7 @@ def saveSectionMethods(section):
 		"scope": "source.js, source.jsx",
 		"comment": "React Native " + section["title"],
 		"completions": autocomps
-	}, open("completions/" + section["title"] + ".sublime-completions", "w"), indent=4)
+	}, open("../completions/" + section["title"] + ".sublime-completions", "w"), indent=4)
 
 
 for section in main():
