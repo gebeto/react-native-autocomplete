@@ -1,5 +1,0 @@
-'''
-
-React Native Autocomplete
-
-'''
