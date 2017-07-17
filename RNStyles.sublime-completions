@@ -200,7 +200,7 @@
         }, 
         {
             "trigger": "resizeMode\tObject.keys(ImageResizeMode)", 
-            "contents": "resizeMode: None"
+            "contents": "resizeMode: '${1:Object.keys(ImageResizeMode)}'"
         }, 
         {
             "trigger": "tintColor\tcolor", 
@@ -248,7 +248,7 @@
         }, 
         {
             "trigger": "bottom\tnumber, string", 
-            "contents": "bottom: None"
+            "contents": "bottom: '${1:number, string}'"
         }, 
         {
             "trigger": "display\tstring", 
@@ -260,7 +260,7 @@
         }, 
         {
             "trigger": "flexBasis\tnumber, string", 
-            "contents": "flexBasis: None"
+            "contents": "flexBasis: '${1:number, string}'"
         }, 
         {
             "trigger": "flexDirection\tenum('row', 'row-reverse', 'column', 'column-reverse')", 
@@ -280,7 +280,7 @@
         }, 
         {
             "trigger": "height\tnumber, string", 
-            "contents": "height: None"
+            "contents": "height: '${1:number, string}'"
         }, 
         {
             "trigger": "justifyContent\tenum('flex-start', 'flex-end', 'center', 'space-between', 'space-around')", 
@@ -288,51 +288,51 @@
         }, 
         {
             "trigger": "left\tnumber, string", 
-            "contents": "left: None"
+            "contents": "left: '${1:number, string}'"
         }, 
         {
             "trigger": "margin\tnumber, string", 
-            "contents": "margin: None"
+            "contents": "margin: '${1:number, string}'"
         }, 
         {
             "trigger": "marginBottom\tnumber, string", 
-            "contents": "marginBottom: None"
+            "contents": "marginBottom: '${1:number, string}'"
         }, 
         {
             "trigger": "marginHorizontal\tnumber, string", 
-            "contents": "marginHorizontal: None"
+            "contents": "marginHorizontal: '${1:number, string}'"
         }, 
         {
             "trigger": "marginLeft\tnumber, string", 
-            "contents": "marginLeft: None"
+            "contents": "marginLeft: '${1:number, string}'"
         }, 
         {
             "trigger": "marginRight\tnumber, string", 
-            "contents": "marginRight: None"
+            "contents": "marginRight: '${1:number, string}'"
         }, 
         {
             "trigger": "marginTop\tnumber, string", 
-            "contents": "marginTop: None"
+            "contents": "marginTop: '${1:number, string}'"
         }, 
         {
             "trigger": "marginVertical\tnumber, string", 
-            "contents": "marginVertical: None"
+            "contents": "marginVertical: '${1:number, string}'"
         }, 
         {
             "trigger": "maxHeight\tnumber, string", 
-            "contents": "maxHeight: None"
+            "contents": "maxHeight: '${1:number, string}'"
         }, 
         {
             "trigger": "maxWidth\tnumber, string", 
-            "contents": "maxWidth: None"
+            "contents": "maxWidth: '${1:number, string}'"
         }, 
         {
             "trigger": "minHeight\tnumber, string", 
-            "contents": "minHeight: None"
+            "contents": "minHeight: '${1:number, string}'"
         }, 
         {
             "trigger": "minWidth\tnumber, string", 
-            "contents": "minWidth: None"
+            "contents": "minWidth: '${1:number, string}'"
         }, 
         {
             "trigger": "overflow\tenum('visible', 'hidden', 'scroll')", 
@@ -340,31 +340,31 @@
         }, 
         {
             "trigger": "padding\tnumber, string", 
-            "contents": "padding: None"
+            "contents": "padding: '${1:number, string}'"
         }, 
         {
             "trigger": "paddingBottom\tnumber, string", 
-            "contents": "paddingBottom: None"
+            "contents": "paddingBottom: '${1:number, string}'"
         }, 
         {
             "trigger": "paddingHorizontal\tnumber, string", 
-            "contents": "paddingHorizontal: None"
+            "contents": "paddingHorizontal: '${1:number, string}'"
         }, 
         {
             "trigger": "paddingLeft\tnumber, string", 
-            "contents": "paddingLeft: None"
+            "contents": "paddingLeft: '${1:number, string}'"
         }, 
         {
             "trigger": "paddingRight\tnumber, string", 
-            "contents": "paddingRight: None"
+            "contents": "paddingRight: '${1:number, string}'"
         }, 
         {
             "trigger": "paddingTop\tnumber, string", 
-            "contents": "paddingTop: None"
+            "contents": "paddingTop: '${1:number, string}'"
         }, 
         {
             "trigger": "paddingVertical\tnumber, string", 
-            "contents": "paddingVertical: None"
+            "contents": "paddingVertical: '${1:number, string}'"
         }, 
         {
             "trigger": "position\tenum('absolute', 'relative')", 
@@ -372,15 +372,15 @@
         }, 
         {
             "trigger": "right\tnumber, string", 
-            "contents": "right: None"
+            "contents": "right: '${1:number, string}'"
         }, 
         {
             "trigger": "top\tnumber, string", 
-            "contents": "top: None"
+            "contents": "top: '${1:number, string}'"
         }, 
         {
             "trigger": "width\tnumber, string", 
-            "contents": "width: None"
+            "contents": "width: '${1:number, string}'"
         }, 
         {
             "trigger": "zIndex\tnumber", 

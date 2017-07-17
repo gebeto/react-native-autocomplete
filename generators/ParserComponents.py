@@ -44,7 +44,6 @@ def save_section_methods(section):
 	soup = BeautifulSoup(requests.get(section["url"]).content, "html.parser")
 	props = soup.find_all("div", {"class": "props"})
 
-	# print len(props)
 	methods = None
 	for prop in props:
 		h3 = prop.previousSibling
@@ -65,17 +64,6 @@ def save_section_methods(section):
 		short = re.sub(r"\(([\w, ?]+)\)", "", mt)
 		print "SHORT:", short
 		print "MTO:", mt
-		# mt = re.sub(r"\(([\w\W]*?)\)", subParams, mt)
-
-		# a = "(".join(mt.split("(")[1:])
-		# a = ")".join(a.split(")")[:-1])
-		# ar = []
-		# i = 1
-		# for p in a.split(", "):
-		# 	if not p: break
-		# 	ar.append( "${" + str(i) + ":" + p + "}" )
-		# 	i += 1
-		# mt = "(" + ", ".join(ar) + ")"
 
 		a = "(".join(mt.split("(")[1:])
 		a = ")".join(a.split(")")[:-1])
@@ -104,8 +92,10 @@ def save_section_methods(section):
 	}, open("../completions/" + section["title"] + ".sublime-completions", "w"), indent=4)
 
 
-for section in main():
-	try:
-		save_section_methods(section)
-	except:
-		print section
+
+if __name__ == "__main__":
+	for section in main():
+		try:
+			save_section_methods(section)
+		except:
+			print section

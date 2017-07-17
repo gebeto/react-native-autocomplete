@@ -44,6 +44,9 @@ def get_prop_by_type(proptype, index=1):
 		return make_enum_list_prop(proptype)
 		# return "'$" + index + "'"
 
+	else:
+		return "'${" + str(index) + ":" + proptype + "}'"
+
 def make_dict_prop(dict_prop):
 	res = []
 	items = re.findall(r"\w+: \w+", dict_prop)
@@ -64,8 +67,6 @@ def make_enum_prop(enum_prop, index=1):
 		item = "${" + index_str + ":" + prop + " }"
 		res.append(item)
 		index += 1
-	# return "'${1:${" + str(index) + ":" + "|".join(res) + "}}'"
-	# return "${" + str(index) + ":" + "|".join(res) + "}"
 	return "".join(res)
 
 
@@ -109,6 +110,6 @@ def main():
 	json.dump(styles_json, open("../RNStyles.sublime-completions", "w"), indent=4)
 
 
-main()
 
-# print re.findall(r"'[\w -]+?'", "enum('none', 'underline', 'line-through', 'underline line-through')")
+if __name__ == "__main__":
+	main()
