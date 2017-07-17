@@ -4,11 +4,11 @@
     "completions": [
         {
             "trigger": "Clipboard.static getString()", 
-            "contents": "Clipboard.static getString"
+            "contents": "(${1:})"
         }, 
         {
             "trigger": "Clipboard.static setString", 
-            "contents": "Clipboard.static setString(${1:(content)})"
+            "contents": "(${1:content})"
         }
     ]
 }

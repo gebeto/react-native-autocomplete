@@ -4,15 +4,15 @@
     "completions": [
         {
             "trigger": "DatePickerAndroid.static open", 
-            "contents": "DatePickerAndroid.static open(${1:(options)})"
+            "contents": "(${1:options})"
         }, 
         {
             "trigger": "DatePickerAndroid.static dateSetAction()", 
-            "contents": "DatePickerAndroid.static dateSetAction"
+            "contents": "(${1:})"
         }, 
         {
             "trigger": "DatePickerAndroid.static dismissedAction()", 
-            "contents": "DatePickerAndroid.static dismissedAction"
+            "contents": "(${1:})"
         }
     ]
 }

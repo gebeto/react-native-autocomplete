@@ -4,23 +4,23 @@
     "completions": [
         {
             "trigger": "Geolocation.static requestAuthorization()", 
-            "contents": "Geolocation.static requestAuthorization"
+            "contents": "(${1:})"
         }, 
         {
             "trigger": "Geolocation.static getCurrentPosition", 
-            "contents": "Geolocation.static getCurrentPosition(${1:(geo_success}, ${2:geo_error?}, ${3:geo_options?)})"
+            "contents": "(${1:geo_success}, ${2:geo_error?}, ${3:geo_options?})"
         }, 
         {
             "trigger": "Geolocation.static watchPosition", 
-            "contents": "Geolocation.static watchPosition(${1:(success}, ${2:error?}, ${3:options?)})"
+            "contents": "(${1:success}, ${2:error?}, ${3:options?})"
         }, 
         {
             "trigger": "Geolocation.static clearWatch", 
-            "contents": "Geolocation.static clearWatch(${1:(watchID)})"
+            "contents": "(${1:watchID})"
         }, 
         {
             "trigger": "Geolocation.static stopObserving()", 
-            "contents": "Geolocation.static stopObserving"
+            "contents": "(${1:})"
         }
     ]
 }

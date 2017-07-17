@@ -4,11 +4,11 @@
     "completions": [
         {
             "trigger": "AdSupportIOS.static getAdvertisingId", 
-            "contents": "AdSupportIOS.static getAdvertisingId(${1:(onSuccess}, ${2:onFailure)})"
+            "contents": "(${1:onSuccess}, ${2:onFailure})"
         }, 
         {
             "trigger": "AdSupportIOS.static getAdvertisingTrackingEnabled", 
-            "contents": "AdSupportIOS.static getAdvertisingTrackingEnabled(${1:(onSuccess}, ${2:onFailure)})"
+            "contents": "(${1:onSuccess}, ${2:onFailure})"
         }
     ]
 }

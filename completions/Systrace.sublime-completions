@@ -4,47 +4,47 @@
     "completions": [
         {
             "trigger": "Systrace.static setEnabled", 
-            "contents": "Systrace.static setEnabled(${1:(enabled)})"
+            "contents": "(${1:enabled})"
         }, 
         {
             "trigger": "Systrace.static isEnabled()", 
-            "contents": "Systrace.static isEnabled"
+            "contents": "(${1:})"
         }, 
         {
             "trigger": "Systrace.static beginEvent", 
-            "contents": "Systrace.static beginEvent(${1:(profileName?}, ${2:args?)})"
+            "contents": "(${1:profileName?}, ${2:args?})"
         }, 
         {
             "trigger": "Systrace.static endEvent()", 
-            "contents": "Systrace.static endEvent"
+            "contents": "(${1:})"
         }, 
         {
             "trigger": "Systrace.static beginAsyncEvent", 
-            "contents": "Systrace.static beginAsyncEvent(${1:(profileName?)})"
+            "contents": "(${1:profileName?})"
         }, 
         {
             "trigger": "Systrace.static endAsyncEvent", 
-            "contents": "Systrace.static endAsyncEvent(${1:(profileName?}, ${2:cookie?)})"
+            "contents": "(${1:profileName?}, ${2:cookie?})"
         }, 
         {
             "trigger": "Systrace.static counterEvent", 
-            "contents": "Systrace.static counterEvent(${1:(profileName?}, ${2:value?)})"
+            "contents": "(${1:profileName?}, ${2:value?})"
         }, 
         {
             "trigger": "Systrace.static attachToRelayProfiler", 
-            "contents": "Systrace.static attachToRelayProfiler(${1:(relayProfiler)})"
+            "contents": "(${1:relayProfiler})"
         }, 
         {
             "trigger": "Systrace.static swizzleJSON()", 
-            "contents": "Systrace.static swizzleJSON"
+            "contents": "(${1:})"
         }, 
         {
             "trigger": "Systrace.static measureMethods", 
-            "contents": "Systrace.static measureMethods(${1:(object}, ${2:objectName}, ${3:methodNames)})"
+            "contents": "(${1:object}, ${2:objectName}, ${3:methodNames})"
         }, 
         {
             "trigger": "Systrace.static measure", 
-            "contents": "Systrace.static measure(${1:(objName}, ${2:fnName}, ${3:func)})"
+            "contents": "(${1:objName}, ${2:fnName}, ${3:func})"
         }
     ]
 }

@@ -4,15 +4,15 @@
     "completions": [
         {
             "trigger": "SectionList.scrollToLocation(params: object)", 
-            "contents": "SectionList.scrollToLocation(${1:(params: object)})"
+            "contents": "(${1:params: object})"
         }, 
         {
             "trigger": "SectionList.recordInteraction()", 
-            "contents": "SectionList.recordInteraction"
+            "contents": "(${1:})"
         }, 
         {
             "trigger": "SectionList.flashScrollIndicators()", 
-            "contents": "SectionList.flashScrollIndicators"
+            "contents": "(${1:})"
         }
     ]
 }

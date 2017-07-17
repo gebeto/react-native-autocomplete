@@ -4,59 +4,59 @@
     "completions": [
         {
             "trigger": "AppRegistry.static registerConfig", 
-            "contents": "AppRegistry.static registerConfig(${1:(config)})"
+            "contents": "(${1:config})"
         }, 
         {
             "trigger": "AppRegistry.static registerComponent", 
-            "contents": "AppRegistry.static registerComponent(${1:(appKey}, ${2:componentProvider}, ${3:section?)})"
+            "contents": "(${1:appKey}, ${2:componentProvider}, ${3:section?})"
         }, 
         {
             "trigger": "AppRegistry.static registerRunnable", 
-            "contents": "AppRegistry.static registerRunnable(${1:(appKey}, ${2:run)})"
+            "contents": "(${1:appKey}, ${2:run})"
         }, 
         {
             "trigger": "AppRegistry.static registerSection", 
-            "contents": "AppRegistry.static registerSection(${1:(appKey}, ${2:component)})"
+            "contents": "(${1:appKey}, ${2:component})"
         }, 
         {
             "trigger": "AppRegistry.static getAppKeys()", 
-            "contents": "AppRegistry.static getAppKeys"
+            "contents": "(${1:})"
         }, 
         {
             "trigger": "AppRegistry.static getSectionKeys()", 
-            "contents": "AppRegistry.static getSectionKeys"
+            "contents": "(${1:})"
         }, 
         {
             "trigger": "AppRegistry.static getSections()", 
-            "contents": "AppRegistry.static getSections"
+            "contents": "(${1:})"
         }, 
         {
             "trigger": "AppRegistry.static getRunnable", 
-            "contents": "AppRegistry.static getRunnable(${1:(appKey)})"
+            "contents": "(${1:appKey})"
         }, 
         {
             "trigger": "AppRegistry.static getRegistry()", 
-            "contents": "AppRegistry.static getRegistry"
+            "contents": "(${1:})"
         }, 
         {
             "trigger": "AppRegistry.static setComponentProviderInstrumentationHook", 
-            "contents": "AppRegistry.static setComponentProviderInstrumentationHook(${1:(hook)})"
+            "contents": "(${1:hook})"
         }, 
         {
             "trigger": "AppRegistry.static runApplication", 
-            "contents": "AppRegistry.static runApplication(${1:(appKey}, ${2:appParameters)})"
+            "contents": "(${1:appKey}, ${2:appParameters})"
         }, 
         {
             "trigger": "AppRegistry.static unmountApplicationComponentAtRootTag", 
-            "contents": "AppRegistry.static unmountApplicationComponentAtRootTag(${1:(rootTag)})"
+            "contents": "(${1:rootTag})"
         }, 
         {
             "trigger": "AppRegistry.static registerHeadlessTask", 
-            "contents": "AppRegistry.static registerHeadlessTask(${1:(taskKey}, ${2:task)})"
+            "contents": "(${1:taskKey}, ${2:task})"
         }, 
         {
             "trigger": "AppRegistry.static startHeadlessTask", 
-            "contents": "AppRegistry.static startHeadlessTask(${1:(taskId}, ${2:taskKey}, ${3:data)})"
+            "contents": "(${1:taskId}, ${2:taskKey}, ${3:data})"
         }
     ]
 }

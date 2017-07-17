@@ -4,19 +4,19 @@
     "completions": [
         {
             "trigger": "Keyboard.static addListener", 
-            "contents": "Keyboard.static addListener(${1:(eventName}, ${2:callback)})"
+            "contents": "(${1:eventName}, ${2:callback})"
         }, 
         {
             "trigger": "Keyboard.static removeListener", 
-            "contents": "Keyboard.static removeListener(${1:(eventName}, ${2:callback)})"
+            "contents": "(${1:eventName}, ${2:callback})"
         }, 
         {
             "trigger": "Keyboard.static removeAllListeners", 
-            "contents": "Keyboard.static removeAllListeners(${1:(eventName)})"
+            "contents": "(${1:eventName})"
         }, 
         {
             "trigger": "Keyboard.static dismiss()", 
-            "contents": "Keyboard.static dismiss"
+            "contents": "(${1:})"
         }
     ]
 }

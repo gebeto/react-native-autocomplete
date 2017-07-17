@@ -4,15 +4,15 @@
     "completions": [
         {
             "trigger": "BackHandler.static exitApp()", 
-            "contents": "BackHandler.static exitApp"
+            "contents": "(${1:})"
         }, 
         {
             "trigger": "BackHandler.static addEventListener", 
-            "contents": "BackHandler.static addEventListener(${1:(eventName}, ${2:handler)})"
+            "contents": "(${1:eventName}, ${2:handler})"
         }, 
         {
             "trigger": "BackHandler.static removeEventListener", 
-            "contents": "BackHandler.static removeEventListener(${1:(eventName}, ${2:handler)})"
+            "contents": "(${1:eventName}, ${2:handler})"
         }
     ]
 }

@@ -4,7 +4,7 @@
     "completions": [
         {
             "trigger": "Alert.static alert", 
-            "contents": "Alert.static alert(${1:(title}, ${2:message?}, ${3:buttons?}, ${4:options?}, ${5:type?)})"
+            "contents": "(${1:title}, ${2:message?}, ${3:buttons?}, ${4:options?}, ${5:type?})"
         }
     ]
 }

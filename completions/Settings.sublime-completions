@@ -4,19 +4,19 @@
     "completions": [
         {
             "trigger": "Settings.static get", 
-            "contents": "Settings.static get(${1:(key)})"
+            "contents": "(${1:key})"
         }, 
         {
             "trigger": "Settings.static set", 
-            "contents": "Settings.static set(${1:(settings)})"
+            "contents": "(${1:settings})"
         }, 
         {
             "trigger": "Settings.static watchKeys", 
-            "contents": "Settings.static watchKeys(${1:(keys}, ${2:callback)})"
+            "contents": "(${1:keys}, ${2:callback})"
         }, 
         {
             "trigger": "Settings.static clearWatch", 
-            "contents": "Settings.static clearWatch(${1:(watchId)})"
+            "contents": "(${1:watchId})"
         }
     ]
 }

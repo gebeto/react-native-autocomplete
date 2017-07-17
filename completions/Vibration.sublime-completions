@@ -4,11 +4,11 @@
     "completions": [
         {
             "trigger": "Vibration.static vibrate", 
-            "contents": "Vibration.static vibrate(${1:(pattern}, ${2:repeat)})"
+            "contents": "(${1:pattern}, ${2:repeat})"
         }, 
         {
             "trigger": "Vibration.static cancel()", 
-            "contents": "Vibration.static cancel"
+            "contents": "(${1:})"
         }
     ]
 }

@@ -4,11 +4,11 @@
     "completions": [
         {
             "trigger": "AlertIOS.static alert(title: string, message?: string, callbackOrButtons?: ?(() => void), ButtonsArray, type?: AlertType)", 
-            "contents": "AlertIOS.static alert(${1:(title: string}, ${2:message?: string}, ${3:callbackOrButtons?: ?(()}) => void), ButtonsArray, type?: AlertType)"
+            "contents": "(${1:title: string}, ${2:message?: string}, ${3:callbackOrButtons?: ?(() => void)}, ${4:ButtonsArray}, ${5:type?: AlertType})"
         }, 
         {
             "trigger": "AlertIOS.static prompt(title: string, message?: string, callbackOrButtons?: ?((text: string) => void), ButtonsArray, type?: AlertType, defaultValue?: string, keyboardType?: string)", 
-            "contents": "AlertIOS.static prompt(${1:(title: string}, ${2:message?: string}, ${3:callbackOrButtons?: ?((text: string)}) => void), ButtonsArray, type?: AlertType, defaultValue?: string, keyboardType?: string)"
+            "contents": "(${1:title: string}, ${2:message?: string}, ${3:callbackOrButtons?: ?((text: string) => void)}, ${4:ButtonsArray}, ${5:type?: AlertType}, ${6:defaultValue?: string}, ${7:keyboardType?: string})"
         }
     ]
 }

@@ -4,19 +4,19 @@
     "completions": [
         {
             "trigger": "NetInfo.static addEventListener", 
-            "contents": "NetInfo.static addEventListener(${1:(eventName}, ${2:handler)})"
+            "contents": "(${1:eventName}, ${2:handler})"
         }, 
         {
             "trigger": "NetInfo.static removeEventListener", 
-            "contents": "NetInfo.static removeEventListener(${1:(eventName}, ${2:handler)})"
+            "contents": "(${1:eventName}, ${2:handler})"
         }, 
         {
             "trigger": "NetInfo.static fetch()", 
-            "contents": "NetInfo.static fetch"
+            "contents": "(${1:})"
         }, 
         {
             "trigger": "NetInfo.static isConnectionExpensive()", 
-            "contents": "NetInfo.static isConnectionExpensive"
+            "contents": "(${1:})"
         }
     ]
 }

@@ -4,11 +4,11 @@
     "completions": [
         {
             "trigger": "DrawerLayoutAndroid.openDrawer()", 
-            "contents": "DrawerLayoutAndroid.openDrawer"
+            "contents": "(${1:})"
         }, 
         {
             "trigger": "DrawerLayoutAndroid.closeDrawer()", 
-            "contents": "DrawerLayoutAndroid.closeDrawer"
+            "contents": "(${1:})"
         }
     ]
 }

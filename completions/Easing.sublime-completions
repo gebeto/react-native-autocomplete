@@ -4,71 +4,71 @@
     "completions": [
         {
             "trigger": "Easing.static step0", 
-            "contents": "Easing.static step0(${1:(n)})"
+            "contents": "(${1:n})"
         }, 
         {
             "trigger": "Easing.static step1", 
-            "contents": "Easing.static step1(${1:(n)})"
+            "contents": "(${1:n})"
         }, 
         {
             "trigger": "Easing.static linear", 
-            "contents": "Easing.static linear(${1:(t)})"
+            "contents": "(${1:t})"
         }, 
         {
             "trigger": "Easing.static ease", 
-            "contents": "Easing.static ease(${1:(t)})"
+            "contents": "(${1:t})"
         }, 
         {
             "trigger": "Easing.static quad", 
-            "contents": "Easing.static quad(${1:(t)})"
+            "contents": "(${1:t})"
         }, 
         {
             "trigger": "Easing.static cubic", 
-            "contents": "Easing.static cubic(${1:(t)})"
+            "contents": "(${1:t})"
         }, 
         {
             "trigger": "Easing.static poly", 
-            "contents": "Easing.static poly(${1:(n)})"
+            "contents": "(${1:n})"
         }, 
         {
             "trigger": "Easing.static sin", 
-            "contents": "Easing.static sin(${1:(t)})"
+            "contents": "(${1:t})"
         }, 
         {
             "trigger": "Easing.static circle", 
-            "contents": "Easing.static circle(${1:(t)})"
+            "contents": "(${1:t})"
         }, 
         {
             "trigger": "Easing.static exp", 
-            "contents": "Easing.static exp(${1:(t)})"
+            "contents": "(${1:t})"
         }, 
         {
             "trigger": "Easing.static elastic", 
-            "contents": "Easing.static elastic(${1:(bounciness)})"
+            "contents": "(${1:bounciness})"
         }, 
         {
             "trigger": "Easing.static back", 
-            "contents": "Easing.static back(${1:(s)})"
+            "contents": "(${1:s})"
         }, 
         {
             "trigger": "Easing.static bounce", 
-            "contents": "Easing.static bounce(${1:(t)})"
+            "contents": "(${1:t})"
         }, 
         {
             "trigger": "Easing.static bezier", 
-            "contents": "Easing.static bezier(${1:(x1}, ${2:y1}, ${3:x2}, ${4:y2)})"
+            "contents": "(${1:x1}, ${2:y1}, ${3:x2}, ${4:y2})"
         }, 
         {
             "trigger": "Easing.static in", 
-            "contents": "Easing.static in(${1:(easing)})"
+            "contents": "(${1:easing})"
         }, 
         {
             "trigger": "Easing.static out", 
-            "contents": "Easing.static out(${1:(easing)})"
+            "contents": "(${1:easing})"
         }, 
         {
             "trigger": "Easing.static inOut", 
-            "contents": "Easing.static inOut(${1:(easing)})"
+            "contents": "(${1:easing})"
         }
     ]
 }

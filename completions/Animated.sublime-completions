@@ -4,75 +4,75 @@
     "completions": [
         {
             "trigger": "Animated.static decay", 
-            "contents": "Animated.static decay(${1:(value}, ${2:config)})"
+            "contents": "(${1:value}, ${2:config})"
         }, 
         {
             "trigger": "Animated.static timing", 
-            "contents": "Animated.static timing(${1:(value}, ${2:config)})"
+            "contents": "(${1:value}, ${2:config})"
         }, 
         {
             "trigger": "Animated.static spring", 
-            "contents": "Animated.static spring(${1:(value}, ${2:config)})"
+            "contents": "(${1:value}, ${2:config})"
         }, 
         {
             "trigger": "Animated.static add", 
-            "contents": "Animated.static add(${1:(a}, ${2:b)})"
+            "contents": "(${1:a}, ${2:b})"
         }, 
         {
             "trigger": "Animated.static divide", 
-            "contents": "Animated.static divide(${1:(a}, ${2:b)})"
+            "contents": "(${1:a}, ${2:b})"
         }, 
         {
             "trigger": "Animated.static multiply", 
-            "contents": "Animated.static multiply(${1:(a}, ${2:b)})"
+            "contents": "(${1:a}, ${2:b})"
         }, 
         {
             "trigger": "Animated.static modulo", 
-            "contents": "Animated.static modulo(${1:(a}, ${2:modulus)})"
+            "contents": "(${1:a}, ${2:modulus})"
         }, 
         {
             "trigger": "Animated.static diffClamp", 
-            "contents": "Animated.static diffClamp(${1:(a}, ${2:min}, ${3:max)})"
+            "contents": "(${1:a}, ${2:min}, ${3:max})"
         }, 
         {
             "trigger": "Animated.static delay", 
-            "contents": "Animated.static delay(${1:(time)})"
+            "contents": "(${1:time})"
         }, 
         {
             "trigger": "Animated.static sequence", 
-            "contents": "Animated.static sequence(${1:(animations)})"
+            "contents": "(${1:animations})"
         }, 
         {
             "trigger": "Animated.static parallel", 
-            "contents": "Animated.static parallel(${1:(animations}, ${2:config?)})"
+            "contents": "(${1:animations}, ${2:config?})"
         }, 
         {
             "trigger": "Animated.static stagger", 
-            "contents": "Animated.static stagger(${1:(time}, ${2:animations)})"
+            "contents": "(${1:time}, ${2:animations})"
         }, 
         {
             "trigger": "Animated.static loop", 
-            "contents": "Animated.static loop(${1:(animation)})"
+            "contents": "(${1:animation})"
         }, 
         {
             "trigger": "Animated.static event", 
-            "contents": "Animated.static event(${1:(argMapping}, ${2:config?)})"
+            "contents": "(${1:argMapping}, ${2:config?})"
         }, 
         {
             "trigger": "Animated.static createAnimatedComponent", 
-            "contents": "Animated.static createAnimatedComponent(${1:(Component)})"
+            "contents": "(${1:Component})"
         }, 
         {
             "trigger": "Animated.static attachNativeEvent", 
-            "contents": "Animated.static attachNativeEvent(${1:(viewRef}, ${2:eventName}, ${3:argMapping)})"
+            "contents": "(${1:viewRef}, ${2:eventName}, ${3:argMapping})"
         }, 
         {
             "trigger": "Animated.static forkEvent", 
-            "contents": "Animated.static forkEvent(${1:(event}, ${2:listener)})"
+            "contents": "(${1:event}, ${2:listener})"
         }, 
         {
             "trigger": "Animated.static unforkEvent", 
-            "contents": "Animated.static unforkEvent(${1:(event}, ${2:listener)})"
+            "contents": "(${1:event}, ${2:listener})"
         }
     ]
 }

@@ -26,13 +26,14 @@ def main():
 
 
 def subParams(a):
-	g = a.group(0)
+	g = a.group(1)
 	print g
 	if g == "()": return ""
 	ar = []
 	res = ""
 	i = 1
 	for p in g.split(", "):
+		print p
 		ar.append( "${" + str(i) + ":" + p + "}" )
 		i += 1
 
@@ -63,7 +64,18 @@ def save_section_methods(section):
 		short = re.sub(r"\(([\w, ?]+)\)", "", mt)
 		print "SHORT:", short
 		print "MTO:", mt
-		mt = re.sub(r"\(([\w\W]*?)\)", subParams, mt)
+		# mt = re.sub(r"\(([\w\W]*?)\)", subParams, mt)
+
+		a = "(".join(mt.split("(")[1:])
+		a = ")".join(a.split(")")[:-1])
+		ar = []
+		i = 1
+		for p in a.split(", "):
+			# print p
+			ar.append( "${" + str(i) + ":" + p + "}" )
+			i += 1
+		mt = "(" + ", ".join(ar) + ")"
+
 		print "MT:", mt
 		print "\n\n"
 		# print "ST:", short

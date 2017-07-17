@@ -4,7 +4,7 @@
     "completions": [
         {
             "trigger": "PanResponder.static create", 
-            "contents": "PanResponder.static create(${1:(config)})"
+            "contents": "(${1:config})"
         }
     ]
 }

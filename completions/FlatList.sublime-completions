@@ -4,27 +4,27 @@
     "completions": [
         {
             "trigger": "FlatList.scrollToEnd(params?: object)", 
-            "contents": "FlatList.scrollToEnd(${1:(params?: object)})"
+            "contents": "(${1:params?: object})"
         }, 
         {
             "trigger": "FlatList.scrollToIndex(params: object)", 
-            "contents": "FlatList.scrollToIndex(${1:(params: object)})"
+            "contents": "(${1:params: object})"
         }, 
         {
             "trigger": "FlatList.scrollToItem(params: object)", 
-            "contents": "FlatList.scrollToItem(${1:(params: object)})"
+            "contents": "(${1:params: object})"
         }, 
         {
             "trigger": "FlatList.scrollToOffset(params: object)", 
-            "contents": "FlatList.scrollToOffset(${1:(params: object)})"
+            "contents": "(${1:params: object})"
         }, 
         {
             "trigger": "FlatList.recordInteraction()", 
-            "contents": "FlatList.recordInteraction"
+            "contents": "(${1:})"
         }, 
         {
             "trigger": "FlatList.flashScrollIndicators()", 
-            "contents": "FlatList.flashScrollIndicators"
+            "contents": "(${1:})"
         }
     ]
 }

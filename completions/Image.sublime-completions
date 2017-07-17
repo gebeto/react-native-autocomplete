@@ -4,11 +4,11 @@
     "completions": [
         {
             "trigger": "Image.static getSize(uri: string, success: function, failure?: function):", 
-            "contents": "Image.static getSize(${1:(uri: string}, ${2:success: function}, ${3:failure?: function)}):"
+            "contents": "(${1:uri: string}, ${2:success: function}, ${3:failure?: function})"
         }, 
         {
             "trigger": "Image.static prefetch(url: string):", 
-            "contents": "Image.static prefetch(${1:(url: string)}):"
+            "contents": "(${1:url: string})"
         }
     ]
 }

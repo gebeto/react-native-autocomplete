@@ -4,15 +4,15 @@
     "completions": [
         {
             "trigger": "TimePickerAndroid.static open", 
-            "contents": "TimePickerAndroid.static open(${1:(options)})"
+            "contents": "(${1:options})"
         }, 
         {
             "trigger": "TimePickerAndroid.static timeSetAction()", 
-            "contents": "TimePickerAndroid.static timeSetAction"
+            "contents": "(${1:})"
         }, 
         {
             "trigger": "TimePickerAndroid.static dismissedAction()", 
-            "contents": "TimePickerAndroid.static dismissedAction"
+            "contents": "(${1:})"
         }
     ]
 }

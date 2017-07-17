@@ -4,15 +4,15 @@
     "completions": [
         {
             "trigger": "KeyboardAvoidingView.relativeKeyboardHeight(keyboardFrame: object):", 
-            "contents": "KeyboardAvoidingView.relativeKeyboardHeight(${1:(keyboardFrame: object)}):"
+            "contents": "(${1:keyboardFrame: object})"
         }, 
         {
             "trigger": "KeyboardAvoidingView.onKeyboardChange(event: object)", 
-            "contents": "KeyboardAvoidingView.onKeyboardChange(${1:(event: object)})"
+            "contents": "(${1:event: object})"
         }, 
         {
             "trigger": "KeyboardAvoidingView.onLayout(event: object)", 
-            "contents": "KeyboardAvoidingView.onLayout(${1:(event: object)})"
+            "contents": "(${1:event: object})"
         }
     ]
 }

@@ -4,7 +4,7 @@
     "completions": [
         {
             "trigger": "ImageEditor.static cropImage", 
-            "contents": "ImageEditor.static cropImage(${1:(uri}, ${2:cropData}, ${3:success}, ${4:failure)})"
+            "contents": "(${1:uri}, ${2:cropData}, ${3:success}, ${4:failure})"
         }
     ]
 }

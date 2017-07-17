@@ -4,47 +4,47 @@
     "completions": [
         {
             "trigger": "AsyncStorage.static getItem(key: string, callback?: ?(error: ?Error, result: ?string) => void)", 
-            "contents": "AsyncStorage.static getItem(${1:(key: string}, ${2:callback?: ?(error: ?Error}, ${3:result: ?string)}) => void)"
+            "contents": "(${1:key: string}, ${2:callback?: ?(error: ?Error}, ${3:result: ?string) => void})"
         }, 
         {
             "trigger": "AsyncStorage.static setItem(key: string, value: string, callback?: ?(error: ?Error) => void)", 
-            "contents": "AsyncStorage.static setItem(${1:(key: string}, ${2:value: string}, ${3:callback?: ?(error: ?Error)}) => void)"
+            "contents": "(${1:key: string}, ${2:value: string}, ${3:callback?: ?(error: ?Error) => void})"
         }, 
         {
             "trigger": "AsyncStorage.static removeItem(key: string, callback?: ?(error: ?Error) => void)", 
-            "contents": "AsyncStorage.static removeItem(${1:(key: string}, ${2:callback?: ?(error: ?Error)}) => void)"
+            "contents": "(${1:key: string}, ${2:callback?: ?(error: ?Error) => void})"
         }, 
         {
             "trigger": "AsyncStorage.static mergeItem(key: string, value: string, callback?: ?(error: ?Error) => void)", 
-            "contents": "AsyncStorage.static mergeItem(${1:(key: string}, ${2:value: string}, ${3:callback?: ?(error: ?Error)}) => void)"
+            "contents": "(${1:key: string}, ${2:value: string}, ${3:callback?: ?(error: ?Error) => void})"
         }, 
         {
             "trigger": "AsyncStorage.static clear(callback?: ?(error: ?Error) => void)", 
-            "contents": "AsyncStorage.static clear(${1:(callback?: ?(error: ?Error)}) => void)"
+            "contents": "(${1:callback?: ?(error: ?Error) => void})"
         }, 
         {
             "trigger": "AsyncStorage.static getAllKeys(callback?: ?(error: ?Error, keys: ?Array<string>) => void)", 
-            "contents": "AsyncStorage.static getAllKeys(${1:(callback?: ?(error: ?Error}, ${2:keys: ?Array<string>)}) => void)"
+            "contents": "(${1:callback?: ?(error: ?Error}, ${2:keys: ?Array<string>) => void})"
         }, 
         {
             "trigger": "AsyncStorage.static flushGetRequests()", 
-            "contents": "AsyncStorage.static flushGetRequests"
+            "contents": "(${1:})"
         }, 
         {
             "trigger": "AsyncStorage.static multiGet(keys: Array<string>, callback?: ?(errors: ?Array<Error>, result: ?Array<Array<string>>) => void)", 
-            "contents": "AsyncStorage.static multiGet(${1:(keys: Array<string>}, ${2:callback?: ?(errors: ?Array<Error>}, ${3:result: ?Array<Array<string>>)}) => void)"
+            "contents": "(${1:keys: Array<string>}, ${2:callback?: ?(errors: ?Array<Error>}, ${3:result: ?Array<Array<string>>) => void})"
         }, 
         {
             "trigger": "AsyncStorage.static multiSet(keyValuePairs: Array<Array<string>>, callback?: ?(errors: ?Array<Error>) => void)", 
-            "contents": "AsyncStorage.static multiSet(${1:(keyValuePairs: Array<Array<string>>}, ${2:callback?: ?(errors: ?Array<Error>)}) => void)"
+            "contents": "(${1:keyValuePairs: Array<Array<string>>}, ${2:callback?: ?(errors: ?Array<Error>) => void})"
         }, 
         {
             "trigger": "AsyncStorage.static multiRemove(keys: Array<string>, callback?: ?(errors: ?Array<Error>) => void)", 
-            "contents": "AsyncStorage.static multiRemove(${1:(keys: Array<string>}, ${2:callback?: ?(errors: ?Array<Error>)}) => void)"
+            "contents": "(${1:keys: Array<string>}, ${2:callback?: ?(errors: ?Array<Error>) => void})"
         }, 
         {
             "trigger": "AsyncStorage.static multiMerge(keyValuePairs: Array<Array<string>>, callback?: ?(errors: ?Array<Error>) => void)", 
-            "contents": "AsyncStorage.static multiMerge(${1:(keyValuePairs: Array<Array<string>>}, ${2:callback?: ?(errors: ?Array<Error>)}) => void)"
+            "contents": "(${1:keyValuePairs: Array<Array<string>>}, ${2:callback?: ?(errors: ?Array<Error>) => void})"
         }
     ]
 }

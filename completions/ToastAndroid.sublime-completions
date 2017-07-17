@@ -4,11 +4,11 @@
     "completions": [
         {
             "trigger": "ToastAndroid.static show", 
-            "contents": "ToastAndroid.static show(${1:(message}, ${2:duration)})"
+            "contents": "(${1:message}, ${2:duration})"
         }, 
         {
             "trigger": "ToastAndroid.static showWithGravity", 
-            "contents": "ToastAndroid.static showWithGravity(${1:(message}, ${2:duration}, ${3:gravity)})"
+            "contents": "(${1:message}, ${2:duration}, ${3:gravity})"
         }
     ]
 }

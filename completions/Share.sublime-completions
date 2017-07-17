@@ -4,15 +4,15 @@
     "completions": [
         {
             "trigger": "Share.static share", 
-            "contents": "Share.static share(${1:(content}, ${2:options)})"
+            "contents": "(${1:content}, ${2:options})"
         }, 
         {
             "trigger": "Share.static sharedAction()", 
-            "contents": "Share.static sharedAction"
+            "contents": "(${1:})"
         }, 
         {
             "trigger": "Share.static dismissedAction()", 
-            "contents": "Share.static dismissedAction"
+            "contents": "(${1:})"
         }
     ]
 }

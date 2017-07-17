@@ -4,19 +4,19 @@
     "completions": [
         {
             "trigger": "ListView.getMetrics()", 
-            "contents": "ListView.getMetrics"
+            "contents": "(${1:})"
         }, 
         {
             "trigger": "ListView.scrollTo(...args: Array)", 
-            "contents": "ListView.scrollTo(${1:(...args: Array)})"
+            "contents": "(${1:...args: Array})"
         }, 
         {
             "trigger": "ListView.scrollToEnd(options?: object)", 
-            "contents": "ListView.scrollToEnd(${1:(options?: object)})"
+            "contents": "(${1:options?: object})"
         }, 
         {
             "trigger": "ListView.flashScrollIndicators()", 
-            "contents": "ListView.flashScrollIndicators"
+            "contents": "(${1:})"
         }
     ]
 }

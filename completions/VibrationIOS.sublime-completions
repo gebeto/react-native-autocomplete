@@ -4,7 +4,7 @@
     "completions": [
         {
             "trigger": "VibrationIOS.static vibrate()", 
-            "contents": "VibrationIOS.static vibrate"
+            "contents": "(${1:})"
         }
     ]
 }

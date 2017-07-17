@@ -4,19 +4,19 @@
     "completions": [
         {
             "trigger": "Dimensions.static set", 
-            "contents": "Dimensions.static set(${1:(dims)})"
+            "contents": "(${1:dims})"
         }, 
         {
             "trigger": "Dimensions.static get", 
-            "contents": "Dimensions.static get(${1:(dim)})"
+            "contents": "(${1:dim})"
         }, 
         {
             "trigger": "Dimensions.static addEventListener", 
-            "contents": "Dimensions.static addEventListener(${1:(type}, ${2:handler)})"
+            "contents": "(${1:type}, ${2:handler})"
         }, 
         {
             "trigger": "Dimensions.static removeEventListener", 
-            "contents": "Dimensions.static removeEventListener(${1:(type}, ${2:handler)})"
+            "contents": "(${1:type}, ${2:handler})"
         }
     ]
 }

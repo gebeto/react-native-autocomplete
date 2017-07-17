@@ -4,11 +4,11 @@
     "completions": [
         {
             "trigger": "StyleSheet.static setStyleAttributePreprocessor", 
-            "contents": "StyleSheet.static setStyleAttributePreprocessor(${1:(property}, ${2:process)})"
+            "contents": "(${1:property}, ${2:process})"
         }, 
         {
             "trigger": "StyleSheet.static create", 
-            "contents": "StyleSheet.static create(${1:(obj)})"
+            "contents": "(${1:obj})"
         }
     ]
 }

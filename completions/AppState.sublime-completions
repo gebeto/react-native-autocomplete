@@ -4,15 +4,15 @@
     "completions": [
         {
             "trigger": "AppState.=(;, ()", 
-            "contents": "AppState.=(${1:(;}, ${2:()})"
+            "contents": "(${1:;}, ${2:(})"
         }, 
         {
             "trigger": "AppState.addEventListener", 
-            "contents": "AppState.addEventListener(${1:(type}, ${2:handler)})"
+            "contents": "(${1:type}, ${2:handler})"
         }, 
         {
             "trigger": "AppState.removeEventListener", 
-            "contents": "AppState.removeEventListener(${1:(type}, ${2:handler)})"
+            "contents": "(${1:type}, ${2:handler})"
         }
     ]
 }

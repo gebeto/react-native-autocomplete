@@ -4,19 +4,19 @@
     "completions": [
         {
             "trigger": "ImagePickerIOS.static canRecordVideos", 
-            "contents": "ImagePickerIOS.static canRecordVideos(${1:(callback)})"
+            "contents": "(${1:callback})"
         }, 
         {
             "trigger": "ImagePickerIOS.static canUseCamera", 
-            "contents": "ImagePickerIOS.static canUseCamera(${1:(callback)})"
+            "contents": "(${1:callback})"
         }, 
         {
             "trigger": "ImagePickerIOS.static openCameraDialog", 
-            "contents": "ImagePickerIOS.static openCameraDialog(${1:(config}, ${2:successCallback}, ${3:cancelCallback)})"
+            "contents": "(${1:config}, ${2:successCallback}, ${3:cancelCallback})"
         }, 
         {
             "trigger": "ImagePickerIOS.static openSelectDialog", 
-            "contents": "ImagePickerIOS.static openSelectDialog(${1:(config}, ${2:successCallback}, ${3:cancelCallback)})"
+            "contents": "(${1:config}, ${2:successCallback}, ${3:cancelCallback})"
         }
     ]
 }

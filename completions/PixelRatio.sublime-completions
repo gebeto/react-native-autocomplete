@@ -4,23 +4,23 @@
     "completions": [
         {
             "trigger": "PixelRatio.static get()", 
-            "contents": "PixelRatio.static get"
+            "contents": "(${1:})"
         }, 
         {
             "trigger": "PixelRatio.static getFontScale()", 
-            "contents": "PixelRatio.static getFontScale"
+            "contents": "(${1:})"
         }, 
         {
             "trigger": "PixelRatio.static getPixelSizeForLayoutSize", 
-            "contents": "PixelRatio.static getPixelSizeForLayoutSize(${1:(layoutSize)})"
+            "contents": "(${1:layoutSize})"
         }, 
         {
             "trigger": "PixelRatio.static roundToNearestPixel", 
-            "contents": "PixelRatio.static roundToNearestPixel(${1:(layoutSize)})"
+            "contents": "(${1:layoutSize})"
         }, 
         {
             "trigger": "PixelRatio.static startDetecting()", 
-            "contents": "PixelRatio.static startDetecting"
+            "contents": "(${1:})"
         }
     ]
 }

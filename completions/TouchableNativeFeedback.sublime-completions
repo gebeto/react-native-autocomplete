@@ -4,19 +4,19 @@
     "completions": [
         {
             "trigger": "TouchableNativeFeedback.static SelectableBackground()", 
-            "contents": "TouchableNativeFeedback.static SelectableBackground"
+            "contents": "(${1:})"
         }, 
         {
             "trigger": "TouchableNativeFeedback.static SelectableBackgroundBorderless()", 
-            "contents": "TouchableNativeFeedback.static SelectableBackgroundBorderless"
+            "contents": "(${1:})"
         }, 
         {
             "trigger": "TouchableNativeFeedback.static Ripple(color: string, borderless: boolean)", 
-            "contents": "TouchableNativeFeedback.static Ripple(${1:(color: string}, ${2:borderless: boolean)})"
+            "contents": "(${1:color: string}, ${2:borderless: boolean})"
         }, 
         {
             "trigger": "TouchableNativeFeedback.static canUseNativeForeground()", 
-            "contents": "TouchableNativeFeedback.static canUseNativeForeground"
+            "contents": "(${1:})"
         }
     ]
 }

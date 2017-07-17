@@ -4,15 +4,15 @@
     "completions": [
         {
             "trigger": "BackAndroid.static exitApp()", 
-            "contents": "BackAndroid.static exitApp"
+            "contents": "(${1:})"
         }, 
         {
             "trigger": "BackAndroid.static addEventListener", 
-            "contents": "BackAndroid.static addEventListener(${1:(eventName}, ${2:handler)})"
+            "contents": "(${1:eventName}, ${2:handler})"
         }, 
         {
             "trigger": "BackAndroid.static removeEventListener", 
-            "contents": "BackAndroid.static removeEventListener(${1:(eventName}, ${2:handler)})"
+            "contents": "(${1:eventName}, ${2:handler})"
         }
     ]
 }

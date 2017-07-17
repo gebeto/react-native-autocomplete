@@ -4,43 +4,43 @@
     "completions": [
         {
             "trigger": "NavigatorIOS.push(route: object)", 
-            "contents": "NavigatorIOS.push(${1:(route: object)})"
+            "contents": "(${1:route: object})"
         }, 
         {
             "trigger": "NavigatorIOS.popN(n: number)", 
-            "contents": "NavigatorIOS.popN(${1:(n: number)})"
+            "contents": "(${1:n: number})"
         }, 
         {
             "trigger": "NavigatorIOS.pop()", 
-            "contents": "NavigatorIOS.pop"
+            "contents": "(${1:})"
         }, 
         {
             "trigger": "NavigatorIOS.replaceAtIndex(route: object, index: number)", 
-            "contents": "NavigatorIOS.replaceAtIndex(${1:(route: object}, ${2:index: number)})"
+            "contents": "(${1:route: object}, ${2:index: number})"
         }, 
         {
             "trigger": "NavigatorIOS.replace(route: object)", 
-            "contents": "NavigatorIOS.replace(${1:(route: object)})"
+            "contents": "(${1:route: object})"
         }, 
         {
             "trigger": "NavigatorIOS.replacePrevious(route: object)", 
-            "contents": "NavigatorIOS.replacePrevious(${1:(route: object)})"
+            "contents": "(${1:route: object})"
         }, 
         {
             "trigger": "NavigatorIOS.popToTop()", 
-            "contents": "NavigatorIOS.popToTop"
+            "contents": "(${1:})"
         }, 
         {
             "trigger": "NavigatorIOS.popToRoute(route: object)", 
-            "contents": "NavigatorIOS.popToRoute(${1:(route: object)})"
+            "contents": "(${1:route: object})"
         }, 
         {
             "trigger": "NavigatorIOS.replacePreviousAndPop(route: object)", 
-            "contents": "NavigatorIOS.replacePreviousAndPop(${1:(route: object)})"
+            "contents": "(${1:route: object})"
         }, 
         {
             "trigger": "NavigatorIOS.resetTo(route: object)", 
-            "contents": "NavigatorIOS.resetTo(${1:(route: object)})"
+            "contents": "(${1:route: object})"
         }
     ]
 }

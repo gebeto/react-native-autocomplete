@@ -4,15 +4,15 @@
     "completions": [
         {
             "trigger": "LayoutAnimation.static configureNext", 
-            "contents": "LayoutAnimation.static configureNext(${1:(config}, ${2:onAnimationDidEnd?)})"
+            "contents": "(${1:config}, ${2:onAnimationDidEnd?})"
         }, 
         {
             "trigger": "LayoutAnimation.static create", 
-            "contents": "LayoutAnimation.static create(${1:(duration}, ${2:type}, ${3:creationProp)})"
+            "contents": "(${1:duration}, ${2:type}, ${3:creationProp})"
         }, 
         {
             "trigger": "LayoutAnimation.static checkConfig", 
-            "contents": "LayoutAnimation.static checkConfig(${1:(config}, ${2:location}, ${3:name)})"
+            "contents": "(${1:config}, ${2:location}, ${3:name})"
         }
     ]
 }
