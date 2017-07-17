@@ -4,11 +4,11 @@
     "completions": [
         {
             "trigger": "TextInput.isFocused():", 
-            "contents": "(${1:})"
+            "contents": "TextInput.isFocused()"
         }, 
         {
             "trigger": "TextInput.clear()", 
-            "contents": "(${1:})"
+            "contents": "TextInput.clear()"
         }
     ]
 }

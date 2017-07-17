@@ -3,48 +3,48 @@
     "scope": "source.js, source.jsx", 
     "completions": [
         {
-            "trigger": "AsyncStorage.static getItem(key: string, callback?: ?(error: ?Error, result: ?string) => void)", 
-            "contents": "(${1:key: string}, ${2:callback?: ?(error: ?Error}, ${3:result: ?string) => void})"
+            "trigger": "AsyncStorage.getItem(key: string, callback?: ?(error: ?Error, result: ?string) => void)", 
+            "contents": "AsyncStorage.getItem(${1:key: string}, ${2:callback?: ?(error: ?Error}, ${3:result: ?string) => void})"
         }, 
         {
-            "trigger": "AsyncStorage.static setItem(key: string, value: string, callback?: ?(error: ?Error) => void)", 
-            "contents": "(${1:key: string}, ${2:value: string}, ${3:callback?: ?(error: ?Error) => void})"
+            "trigger": "AsyncStorage.setItem(key: string, value: string, callback?: ?(error: ?Error) => void)", 
+            "contents": "AsyncStorage.setItem(${1:key: string}, ${2:value: string}, ${3:callback?: ?(error: ?Error) => void})"
         }, 
         {
-            "trigger": "AsyncStorage.static removeItem(key: string, callback?: ?(error: ?Error) => void)", 
-            "contents": "(${1:key: string}, ${2:callback?: ?(error: ?Error) => void})"
+            "trigger": "AsyncStorage.removeItem(key: string, callback?: ?(error: ?Error) => void)", 
+            "contents": "AsyncStorage.removeItem(${1:key: string}, ${2:callback?: ?(error: ?Error) => void})"
         }, 
         {
-            "trigger": "AsyncStorage.static mergeItem(key: string, value: string, callback?: ?(error: ?Error) => void)", 
-            "contents": "(${1:key: string}, ${2:value: string}, ${3:callback?: ?(error: ?Error) => void})"
+            "trigger": "AsyncStorage.mergeItem(key: string, value: string, callback?: ?(error: ?Error) => void)", 
+            "contents": "AsyncStorage.mergeItem(${1:key: string}, ${2:value: string}, ${3:callback?: ?(error: ?Error) => void})"
         }, 
         {
-            "trigger": "AsyncStorage.static clear(callback?: ?(error: ?Error) => void)", 
-            "contents": "(${1:callback?: ?(error: ?Error) => void})"
+            "trigger": "AsyncStorage.clear(callback?: ?(error: ?Error) => void)", 
+            "contents": "AsyncStorage.clear(${1:callback?: ?(error: ?Error) => void})"
         }, 
         {
-            "trigger": "AsyncStorage.static getAllKeys(callback?: ?(error: ?Error, keys: ?Array<string>) => void)", 
-            "contents": "(${1:callback?: ?(error: ?Error}, ${2:keys: ?Array<string>) => void})"
+            "trigger": "AsyncStorage.getAllKeys(callback?: ?(error: ?Error, keys: ?Array<string>) => void)", 
+            "contents": "AsyncStorage.getAllKeys(${1:callback?: ?(error: ?Error}, ${2:keys: ?Array<string>) => void})"
         }, 
         {
-            "trigger": "AsyncStorage.static flushGetRequests()", 
-            "contents": "(${1:})"
+            "trigger": "AsyncStorage.flushGetRequests()", 
+            "contents": "AsyncStorage.flushGetRequests()"
         }, 
         {
-            "trigger": "AsyncStorage.static multiGet(keys: Array<string>, callback?: ?(errors: ?Array<Error>, result: ?Array<Array<string>>) => void)", 
-            "contents": "(${1:keys: Array<string>}, ${2:callback?: ?(errors: ?Array<Error>}, ${3:result: ?Array<Array<string>>) => void})"
+            "trigger": "AsyncStorage.multiGet(keys: Array<string>, callback?: ?(errors: ?Array<Error>, result: ?Array<Array<string>>) => void)", 
+            "contents": "AsyncStorage.multiGet(${1:keys: Array<string>}, ${2:callback?: ?(errors: ?Array<Error>}, ${3:result: ?Array<Array<string>>) => void})"
         }, 
         {
-            "trigger": "AsyncStorage.static multiSet(keyValuePairs: Array<Array<string>>, callback?: ?(errors: ?Array<Error>) => void)", 
-            "contents": "(${1:keyValuePairs: Array<Array<string>>}, ${2:callback?: ?(errors: ?Array<Error>) => void})"
+            "trigger": "AsyncStorage.multiSet(keyValuePairs: Array<Array<string>>, callback?: ?(errors: ?Array<Error>) => void)", 
+            "contents": "AsyncStorage.multiSet(${1:keyValuePairs: Array<Array<string>>}, ${2:callback?: ?(errors: ?Array<Error>) => void})"
         }, 
         {
-            "trigger": "AsyncStorage.static multiRemove(keys: Array<string>, callback?: ?(errors: ?Array<Error>) => void)", 
-            "contents": "(${1:keys: Array<string>}, ${2:callback?: ?(errors: ?Array<Error>) => void})"
+            "trigger": "AsyncStorage.multiRemove(keys: Array<string>, callback?: ?(errors: ?Array<Error>) => void)", 
+            "contents": "AsyncStorage.multiRemove(${1:keys: Array<string>}, ${2:callback?: ?(errors: ?Array<Error>) => void})"
         }, 
         {
-            "trigger": "AsyncStorage.static multiMerge(keyValuePairs: Array<Array<string>>, callback?: ?(errors: ?Array<Error>) => void)", 
-            "contents": "(${1:keyValuePairs: Array<Array<string>>}, ${2:callback?: ?(errors: ?Array<Error>) => void})"
+            "trigger": "AsyncStorage.multiMerge(keyValuePairs: Array<Array<string>>, callback?: ?(errors: ?Array<Error>) => void)", 
+            "contents": "AsyncStorage.multiMerge(${1:keyValuePairs: Array<Array<string>>}, ${2:callback?: ?(errors: ?Array<Error>) => void})"
         }
     ]
 }

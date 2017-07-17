@@ -3,24 +3,24 @@
     "scope": "source.js, source.jsx", 
     "completions": [
         {
-            "trigger": "AccessibilityInfo.static fetch()", 
-            "contents": "(${1:})"
+            "trigger": "AccessibilityInfo.fetch()", 
+            "contents": "AccessibilityInfo.fetch()"
         }, 
         {
-            "trigger": "AccessibilityInfo.static addEventListener", 
-            "contents": "(${1:eventName}, ${2:handler})"
+            "trigger": "AccessibilityInfo.addEventListener", 
+            "contents": "AccessibilityInfo.addEventListener(${1:eventName}, ${2:handler})"
         }, 
         {
-            "trigger": "AccessibilityInfo.static setAccessibilityFocus", 
-            "contents": "(${1:reactTag})"
+            "trigger": "AccessibilityInfo.setAccessibilityFocus", 
+            "contents": "AccessibilityInfo.setAccessibilityFocus(${1:reactTag})"
         }, 
         {
-            "trigger": "AccessibilityInfo.static announceForAccessibility", 
-            "contents": "(${1:announcement})"
+            "trigger": "AccessibilityInfo.announceForAccessibility", 
+            "contents": "AccessibilityInfo.announceForAccessibility(${1:announcement})"
         }, 
         {
-            "trigger": "AccessibilityInfo.static removeEventListener", 
-            "contents": "(${1:eventName}, ${2:handler})"
+            "trigger": "AccessibilityInfo.removeEventListener", 
+            "contents": "AccessibilityInfo.removeEventListener(${1:eventName}, ${2:handler})"
         }
     ]
 }

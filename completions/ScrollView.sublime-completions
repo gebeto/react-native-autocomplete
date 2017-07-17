@@ -4,19 +4,19 @@
     "completions": [
         {
             "trigger": "ScrollView.scrollTo(y?: number, object, x?: number, animated?: boolean)", 
-            "contents": "(${1:y?: number}, ${2:object}, ${3:x?: number}, ${4:animated?: boolean})"
+            "contents": "ScrollView.scrollTo(${1:y?: number}, ${2:object}, ${3:x?: number}, ${4:animated?: boolean})"
         }, 
         {
             "trigger": "ScrollView.scrollToEnd(options?: object)", 
-            "contents": "(${1:options?: object})"
+            "contents": "ScrollView.scrollToEnd(${1:options?: object})"
         }, 
         {
             "trigger": "ScrollView.scrollWithoutAnimationTo", 
-            "contents": "(${1:y}, ${2:x})"
+            "contents": "ScrollView.scrollWithoutAnimationTo(${1:y}, ${2:x})"
         }, 
         {
             "trigger": "ScrollView.flashScrollIndicators()", 
-            "contents": "(${1:})"
+            "contents": "ScrollView.flashScrollIndicators()"
         }
     ]
 }

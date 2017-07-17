@@ -4,7 +4,7 @@
     "completions": [
         {
             "trigger": "TouchableOpacity.setOpacityTo(value: number, duration: number)", 
-            "contents": "(${1:value: number}, ${2:duration: number})"
+            "contents": "TouchableOpacity.setOpacityTo(${1:value: number}, ${2:duration: number})"
         }
     ]
 }

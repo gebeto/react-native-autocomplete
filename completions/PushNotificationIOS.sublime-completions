@@ -4,99 +4,99 @@
     "completions": [
         {
             "trigger": "PushNotificationIOS.=(NewData, NoData, ResultFailed, }, static, (, :)", 
-            "contents": "(${1:NewData}, ${2:NoData}, ${3:ResultFailed}, ${4:}}, ${5:static}, ${6:(}, ${7::})"
+            "contents": "PushNotificationIOS.=(${1:NewData}, ${2:NoData}, ${3:ResultFailed}, ${4:}}, ${5:static}, ${6:(}, ${7::})"
         }, 
         {
-            "trigger": "PushNotificationIOS.static scheduleLocalNotification", 
-            "contents": "(${1:details})"
+            "trigger": "PushNotificationIOS.scheduleLocalNotification", 
+            "contents": "PushNotificationIOS.scheduleLocalNotification(${1:details})"
         }, 
         {
-            "trigger": "PushNotificationIOS.static cancelAllLocalNotifications()", 
-            "contents": "(${1:})"
+            "trigger": "PushNotificationIOS.cancelAllLocalNotifications()", 
+            "contents": "PushNotificationIOS.cancelAllLocalNotifications()"
         }, 
         {
-            "trigger": "PushNotificationIOS.static removeAllDeliveredNotifications()", 
-            "contents": "(${1:})"
+            "trigger": "PushNotificationIOS.removeAllDeliveredNotifications()", 
+            "contents": "PushNotificationIOS.removeAllDeliveredNotifications()"
         }, 
         {
-            "trigger": "PushNotificationIOS.static getDeliveredNotifications", 
-            "contents": "(${1:callback})"
+            "trigger": "PushNotificationIOS.getDeliveredNotifications", 
+            "contents": "PushNotificationIOS.getDeliveredNotifications(${1:callback})"
         }, 
         {
-            "trigger": "PushNotificationIOS.static removeDeliveredNotifications", 
-            "contents": "(${1:identifiers})"
+            "trigger": "PushNotificationIOS.removeDeliveredNotifications", 
+            "contents": "PushNotificationIOS.removeDeliveredNotifications(${1:identifiers})"
         }, 
         {
-            "trigger": "PushNotificationIOS.static setApplicationIconBadgeNumber", 
-            "contents": "(${1:number})"
+            "trigger": "PushNotificationIOS.setApplicationIconBadgeNumber", 
+            "contents": "PushNotificationIOS.setApplicationIconBadgeNumber(${1:number})"
         }, 
         {
-            "trigger": "PushNotificationIOS.static getApplicationIconBadgeNumber", 
-            "contents": "(${1:callback})"
+            "trigger": "PushNotificationIOS.getApplicationIconBadgeNumber", 
+            "contents": "PushNotificationIOS.getApplicationIconBadgeNumber(${1:callback})"
         }, 
         {
-            "trigger": "PushNotificationIOS.static cancelLocalNotifications", 
-            "contents": "(${1:userInfo})"
+            "trigger": "PushNotificationIOS.cancelLocalNotifications", 
+            "contents": "PushNotificationIOS.cancelLocalNotifications(${1:userInfo})"
         }, 
         {
-            "trigger": "PushNotificationIOS.static getScheduledLocalNotifications", 
-            "contents": "(${1:callback})"
+            "trigger": "PushNotificationIOS.getScheduledLocalNotifications", 
+            "contents": "PushNotificationIOS.getScheduledLocalNotifications(${1:callback})"
         }, 
         {
-            "trigger": "PushNotificationIOS.static addEventListener", 
-            "contents": "(${1:type}, ${2:handler})"
+            "trigger": "PushNotificationIOS.addEventListener", 
+            "contents": "PushNotificationIOS.addEventListener(${1:type}, ${2:handler})"
         }, 
         {
-            "trigger": "PushNotificationIOS.static removeEventListener", 
-            "contents": "(${1:type}, ${2:handler})"
+            "trigger": "PushNotificationIOS.removeEventListener", 
+            "contents": "PushNotificationIOS.removeEventListener(${1:type}, ${2:handler})"
         }, 
         {
-            "trigger": "PushNotificationIOS.static requestPermissions", 
-            "contents": "(${1:permissions?})"
+            "trigger": "PushNotificationIOS.requestPermissions", 
+            "contents": "PushNotificationIOS.requestPermissions(${1:permissions?})"
         }, 
         {
-            "trigger": "PushNotificationIOS.static abandonPermissions()", 
-            "contents": "(${1:})"
+            "trigger": "PushNotificationIOS.abandonPermissions()", 
+            "contents": "PushNotificationIOS.abandonPermissions()"
         }, 
         {
-            "trigger": "PushNotificationIOS.static checkPermissions", 
-            "contents": "(${1:callback})"
+            "trigger": "PushNotificationIOS.checkPermissions", 
+            "contents": "PushNotificationIOS.checkPermissions(${1:callback})"
         }, 
         {
-            "trigger": "PushNotificationIOS.static getInitialNotification()", 
-            "contents": "(${1:})"
+            "trigger": "PushNotificationIOS.getInitialNotification()", 
+            "contents": "PushNotificationIOS.getInitialNotification()"
         }, 
         {
             "trigger": "PushNotificationIOS.constructor", 
-            "contents": "(${1:nativeNotif})"
+            "contents": "PushNotificationIOS.constructor(${1:nativeNotif})"
         }, 
         {
             "trigger": "PushNotificationIOS.finish", 
-            "contents": "(${1:fetchResult})"
+            "contents": "PushNotificationIOS.finish(${1:fetchResult})"
         }, 
         {
             "trigger": "PushNotificationIOS.getMessage()", 
-            "contents": "(${1:})"
+            "contents": "PushNotificationIOS.getMessage()"
         }, 
         {
             "trigger": "PushNotificationIOS.getSound()", 
-            "contents": "(${1:})"
+            "contents": "PushNotificationIOS.getSound()"
         }, 
         {
             "trigger": "PushNotificationIOS.getCategory()", 
-            "contents": "(${1:})"
+            "contents": "PushNotificationIOS.getCategory()"
         }, 
         {
             "trigger": "PushNotificationIOS.getAlert()", 
-            "contents": "(${1:})"
+            "contents": "PushNotificationIOS.getAlert()"
         }, 
         {
             "trigger": "PushNotificationIOS.getBadgeCount()", 
-            "contents": "(${1:})"
+            "contents": "PushNotificationIOS.getBadgeCount()"
         }, 
         {
             "trigger": "PushNotificationIOS.getData()", 
-            "contents": "(${1:})"
+            "contents": "PushNotificationIOS.getData()"
         }
     ]
 }

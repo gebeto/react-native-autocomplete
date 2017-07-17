@@ -59,21 +59,33 @@ def save_section_methods(section):
 	for method in methods:
 		method.a.extract()
 		method.a.extract()
-		# method.span.extract()
+		if method.span and method.span.text.strip() == "static":
+			method.span.extract()
 		mt = section["title"] + "." + method.text.strip()
 		short = re.sub(r"\(([\w, ?]+)\)", "", mt)
 		print "SHORT:", short
 		print "MTO:", mt
 		# mt = re.sub(r"\(([\w\W]*?)\)", subParams, mt)
 
+		# a = "(".join(mt.split("(")[1:])
+		# a = ")".join(a.split(")")[:-1])
+		# ar = []
+		# i = 1
+		# for p in a.split(", "):
+		# 	if not p: break
+		# 	ar.append( "${" + str(i) + ":" + p + "}" )
+		# 	i += 1
+		# mt = "(" + ", ".join(ar) + ")"
+
 		a = "(".join(mt.split("(")[1:])
 		a = ")".join(a.split(")")[:-1])
 		ar = []
 		i = 1
 		for p in a.split(", "):
-			# print p
+			if not p: break
 			ar.append( "${" + str(i) + ":" + p + "}" )
 			i += 1
+
 		mt = "(" + ", ".join(ar) + ")"
 
 		print "MT:", mt
@@ -82,7 +94,7 @@ def save_section_methods(section):
 		# print mt, short, "\n"
 		autocomps.append({
 	        "trigger": short, 
-	        "contents": mt
+	        "contents": short.split("(")[0] + mt
 	    })
 
 	json.dump({

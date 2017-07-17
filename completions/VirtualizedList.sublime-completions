@@ -4,27 +4,27 @@
     "completions": [
         {
             "trigger": "VirtualizedList.scrollToEnd(params?: object)", 
-            "contents": "(${1:params?: object})"
+            "contents": "VirtualizedList.scrollToEnd(${1:params?: object})"
         }, 
         {
             "trigger": "VirtualizedList.scrollToIndex(params: object)", 
-            "contents": "(${1:params: object})"
+            "contents": "VirtualizedList.scrollToIndex(${1:params: object})"
         }, 
         {
             "trigger": "VirtualizedList.scrollToItem(params: object)", 
-            "contents": "(${1:params: object})"
+            "contents": "VirtualizedList.scrollToItem(${1:params: object})"
         }, 
         {
             "trigger": "VirtualizedList.scrollToOffset(params: object)", 
-            "contents": "(${1:params: object})"
+            "contents": "VirtualizedList.scrollToOffset(${1:params: object})"
         }, 
         {
             "trigger": "VirtualizedList.recordInteraction()", 
-            "contents": "(${1:})"
+            "contents": "VirtualizedList.recordInteraction()"
         }, 
         {
             "trigger": "VirtualizedList.flashScrollIndicators()", 
-            "contents": "(${1:})"
+            "contents": "VirtualizedList.flashScrollIndicators()"
         }
     ]
 }

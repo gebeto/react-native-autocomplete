@@ -3,12 +3,12 @@
     "scope": "source.js, source.jsx", 
     "completions": [
         {
-            "trigger": "StyleSheet.static setStyleAttributePreprocessor", 
-            "contents": "(${1:property}, ${2:process})"
+            "trigger": "StyleSheet.setStyleAttributePreprocessor", 
+            "contents": "StyleSheet.setStyleAttributePreprocessor(${1:property}, ${2:process})"
         }, 
         {
-            "trigger": "StyleSheet.static create", 
-            "contents": "(${1:obj})"
+            "trigger": "StyleSheet.create", 
+            "contents": "StyleSheet.create(${1:obj})"
         }
     ]
 }

@@ -3,8 +3,8 @@
     "scope": "source.js, source.jsx", 
     "completions": [
         {
-            "trigger": "VibrationIOS.static vibrate()", 
-            "contents": "(${1:})"
+            "trigger": "VibrationIOS.vibrate()", 
+            "contents": "VibrationIOS.vibrate()"
         }
     ]
 }

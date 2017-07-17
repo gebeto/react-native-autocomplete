@@ -3,20 +3,20 @@
     "scope": "source.js, source.jsx", 
     "completions": [
         {
-            "trigger": "InteractionManager.static runAfterInteractions", 
-            "contents": "(${1:task})"
+            "trigger": "InteractionManager.runAfterInteractions", 
+            "contents": "InteractionManager.runAfterInteractions(${1:task})"
         }, 
         {
-            "trigger": "InteractionManager.static createInteractionHandle()", 
-            "contents": "(${1:})"
+            "trigger": "InteractionManager.createInteractionHandle()", 
+            "contents": "InteractionManager.createInteractionHandle()"
         }, 
         {
-            "trigger": "InteractionManager.static clearInteractionHandle", 
-            "contents": "(${1:handle})"
+            "trigger": "InteractionManager.clearInteractionHandle", 
+            "contents": "InteractionManager.clearInteractionHandle(${1:handle})"
         }, 
         {
-            "trigger": "InteractionManager.static setDeadline", 
-            "contents": "(${1:deadline})"
+            "trigger": "InteractionManager.setDeadline", 
+            "contents": "InteractionManager.setDeadline(${1:deadline})"
         }
     ]
 }

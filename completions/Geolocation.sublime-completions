@@ -3,24 +3,24 @@
     "scope": "source.js, source.jsx", 
     "completions": [
         {
-            "trigger": "Geolocation.static requestAuthorization()", 
-            "contents": "(${1:})"
+            "trigger": "Geolocation.requestAuthorization()", 
+            "contents": "Geolocation.requestAuthorization()"
         }, 
         {
-            "trigger": "Geolocation.static getCurrentPosition", 
-            "contents": "(${1:geo_success}, ${2:geo_error?}, ${3:geo_options?})"
+            "trigger": "Geolocation.getCurrentPosition", 
+            "contents": "Geolocation.getCurrentPosition(${1:geo_success}, ${2:geo_error?}, ${3:geo_options?})"
         }, 
         {
-            "trigger": "Geolocation.static watchPosition", 
-            "contents": "(${1:success}, ${2:error?}, ${3:options?})"
+            "trigger": "Geolocation.watchPosition", 
+            "contents": "Geolocation.watchPosition(${1:success}, ${2:error?}, ${3:options?})"
         }, 
         {
-            "trigger": "Geolocation.static clearWatch", 
-            "contents": "(${1:watchID})"
+            "trigger": "Geolocation.clearWatch", 
+            "contents": "Geolocation.clearWatch(${1:watchID})"
         }, 
         {
-            "trigger": "Geolocation.static stopObserving()", 
-            "contents": "(${1:})"
+            "trigger": "Geolocation.stopObserving()", 
+            "contents": "Geolocation.stopObserving()"
         }
     ]
 }

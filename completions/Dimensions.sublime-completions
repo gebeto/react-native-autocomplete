@@ -3,20 +3,20 @@
     "scope": "source.js, source.jsx", 
     "completions": [
         {
-            "trigger": "Dimensions.static set", 
-            "contents": "(${1:dims})"
+            "trigger": "Dimensions.set", 
+            "contents": "Dimensions.set(${1:dims})"
         }, 
         {
-            "trigger": "Dimensions.static get", 
-            "contents": "(${1:dim})"
+            "trigger": "Dimensions.get", 
+            "contents": "Dimensions.get(${1:dim})"
         }, 
         {
-            "trigger": "Dimensions.static addEventListener", 
-            "contents": "(${1:type}, ${2:handler})"
+            "trigger": "Dimensions.addEventListener", 
+            "contents": "Dimensions.addEventListener(${1:type}, ${2:handler})"
         }, 
         {
-            "trigger": "Dimensions.static removeEventListener", 
-            "contents": "(${1:type}, ${2:handler})"
+            "trigger": "Dimensions.removeEventListener", 
+            "contents": "Dimensions.removeEventListener(${1:type}, ${2:handler})"
         }
     ]
 }

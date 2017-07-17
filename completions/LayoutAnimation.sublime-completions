@@ -3,16 +3,16 @@
     "scope": "source.js, source.jsx", 
     "completions": [
         {
-            "trigger": "LayoutAnimation.static configureNext", 
-            "contents": "(${1:config}, ${2:onAnimationDidEnd?})"
+            "trigger": "LayoutAnimation.configureNext", 
+            "contents": "LayoutAnimation.configureNext(${1:config}, ${2:onAnimationDidEnd?})"
         }, 
         {
-            "trigger": "LayoutAnimation.static create", 
-            "contents": "(${1:duration}, ${2:type}, ${3:creationProp})"
+            "trigger": "LayoutAnimation.create", 
+            "contents": "LayoutAnimation.create(${1:duration}, ${2:type}, ${3:creationProp})"
         }, 
         {
-            "trigger": "LayoutAnimation.static checkConfig", 
-            "contents": "(${1:config}, ${2:location}, ${3:name})"
+            "trigger": "LayoutAnimation.checkConfig", 
+            "contents": "LayoutAnimation.checkConfig(${1:config}, ${2:location}, ${3:name})"
         }
     ]
 }

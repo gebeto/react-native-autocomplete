@@ -3,12 +3,12 @@
     "scope": "source.js, source.jsx", 
     "completions": [
         {
-            "trigger": "Clipboard.static getString()", 
-            "contents": "(${1:})"
+            "trigger": "Clipboard.getString()", 
+            "contents": "Clipboard.getString()"
         }, 
         {
-            "trigger": "Clipboard.static setString", 
-            "contents": "(${1:content})"
+            "trigger": "Clipboard.setString", 
+            "contents": "Clipboard.setString(${1:content})"
         }
     ]
 }

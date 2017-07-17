@@ -3,20 +3,20 @@
     "scope": "source.js, source.jsx", 
     "completions": [
         {
-            "trigger": "NetInfo.static addEventListener", 
-            "contents": "(${1:eventName}, ${2:handler})"
+            "trigger": "NetInfo.addEventListener", 
+            "contents": "NetInfo.addEventListener(${1:eventName}, ${2:handler})"
         }, 
         {
-            "trigger": "NetInfo.static removeEventListener", 
-            "contents": "(${1:eventName}, ${2:handler})"
+            "trigger": "NetInfo.removeEventListener", 
+            "contents": "NetInfo.removeEventListener(${1:eventName}, ${2:handler})"
         }, 
         {
-            "trigger": "NetInfo.static fetch()", 
-            "contents": "(${1:})"
+            "trigger": "NetInfo.fetch()", 
+            "contents": "NetInfo.fetch()"
         }, 
         {
-            "trigger": "NetInfo.static isConnectionExpensive()", 
-            "contents": "(${1:})"
+            "trigger": "NetInfo.isConnectionExpensive()", 
+            "contents": "NetInfo.isConnectionExpensive()"
         }
     ]
 }

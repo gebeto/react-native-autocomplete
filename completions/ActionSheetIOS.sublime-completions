@@ -3,12 +3,12 @@
     "scope": "source.js, source.jsx", 
     "completions": [
         {
-            "trigger": "ActionSheetIOS.static showActionSheetWithOptions", 
-            "contents": "(${1:options}, ${2:callback})"
+            "trigger": "ActionSheetIOS.showActionSheetWithOptions", 
+            "contents": "ActionSheetIOS.showActionSheetWithOptions(${1:options}, ${2:callback})"
         }, 
         {
-            "trigger": "ActionSheetIOS.static showShareActionSheetWithOptions", 
-            "contents": "(${1:options}, ${2:failureCallback}, ${3:successCallback})"
+            "trigger": "ActionSheetIOS.showShareActionSheetWithOptions", 
+            "contents": "ActionSheetIOS.showShareActionSheetWithOptions(${1:options}, ${2:failureCallback}, ${3:successCallback})"
         }
     ]
 }

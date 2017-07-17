@@ -3,12 +3,12 @@
     "scope": "source.js, source.jsx", 
     "completions": [
         {
-            "trigger": "Image.static getSize(uri: string, success: function, failure?: function):", 
-            "contents": "(${1:uri: string}, ${2:success: function}, ${3:failure?: function})"
+            "trigger": "Image.getSize(uri: string, success: function, failure?: function):", 
+            "contents": "Image.getSize(${1:uri: string}, ${2:success: function}, ${3:failure?: function})"
         }, 
         {
-            "trigger": "Image.static prefetch(url: string):", 
-            "contents": "(${1:url: string})"
+            "trigger": "Image.prefetch(url: string):", 
+            "contents": "Image.prefetch(${1:url: string})"
         }
     ]
 }

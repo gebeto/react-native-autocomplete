@@ -3,76 +3,76 @@
     "scope": "source.js, source.jsx", 
     "completions": [
         {
-            "trigger": "Animated.static decay", 
-            "contents": "(${1:value}, ${2:config})"
+            "trigger": "Animated.decay", 
+            "contents": "Animated.decay(${1:value}, ${2:config})"
         }, 
         {
-            "trigger": "Animated.static timing", 
-            "contents": "(${1:value}, ${2:config})"
+            "trigger": "Animated.timing", 
+            "contents": "Animated.timing(${1:value}, ${2:config})"
         }, 
         {
-            "trigger": "Animated.static spring", 
-            "contents": "(${1:value}, ${2:config})"
+            "trigger": "Animated.spring", 
+            "contents": "Animated.spring(${1:value}, ${2:config})"
         }, 
         {
-            "trigger": "Animated.static add", 
-            "contents": "(${1:a}, ${2:b})"
+            "trigger": "Animated.add", 
+            "contents": "Animated.add(${1:a}, ${2:b})"
         }, 
         {
-            "trigger": "Animated.static divide", 
-            "contents": "(${1:a}, ${2:b})"
+            "trigger": "Animated.divide", 
+            "contents": "Animated.divide(${1:a}, ${2:b})"
         }, 
         {
-            "trigger": "Animated.static multiply", 
-            "contents": "(${1:a}, ${2:b})"
+            "trigger": "Animated.multiply", 
+            "contents": "Animated.multiply(${1:a}, ${2:b})"
         }, 
         {
-            "trigger": "Animated.static modulo", 
-            "contents": "(${1:a}, ${2:modulus})"
+            "trigger": "Animated.modulo", 
+            "contents": "Animated.modulo(${1:a}, ${2:modulus})"
         }, 
         {
-            "trigger": "Animated.static diffClamp", 
-            "contents": "(${1:a}, ${2:min}, ${3:max})"
+            "trigger": "Animated.diffClamp", 
+            "contents": "Animated.diffClamp(${1:a}, ${2:min}, ${3:max})"
         }, 
         {
-            "trigger": "Animated.static delay", 
-            "contents": "(${1:time})"
+            "trigger": "Animated.delay", 
+            "contents": "Animated.delay(${1:time})"
         }, 
         {
-            "trigger": "Animated.static sequence", 
-            "contents": "(${1:animations})"
+            "trigger": "Animated.sequence", 
+            "contents": "Animated.sequence(${1:animations})"
         }, 
         {
-            "trigger": "Animated.static parallel", 
-            "contents": "(${1:animations}, ${2:config?})"
+            "trigger": "Animated.parallel", 
+            "contents": "Animated.parallel(${1:animations}, ${2:config?})"
         }, 
         {
-            "trigger": "Animated.static stagger", 
-            "contents": "(${1:time}, ${2:animations})"
+            "trigger": "Animated.stagger", 
+            "contents": "Animated.stagger(${1:time}, ${2:animations})"
         }, 
         {
-            "trigger": "Animated.static loop", 
-            "contents": "(${1:animation})"
+            "trigger": "Animated.loop", 
+            "contents": "Animated.loop(${1:animation})"
         }, 
         {
-            "trigger": "Animated.static event", 
-            "contents": "(${1:argMapping}, ${2:config?})"
+            "trigger": "Animated.event", 
+            "contents": "Animated.event(${1:argMapping}, ${2:config?})"
         }, 
         {
-            "trigger": "Animated.static createAnimatedComponent", 
-            "contents": "(${1:Component})"
+            "trigger": "Animated.createAnimatedComponent", 
+            "contents": "Animated.createAnimatedComponent(${1:Component})"
         }, 
         {
-            "trigger": "Animated.static attachNativeEvent", 
-            "contents": "(${1:viewRef}, ${2:eventName}, ${3:argMapping})"
+            "trigger": "Animated.attachNativeEvent", 
+            "contents": "Animated.attachNativeEvent(${1:viewRef}, ${2:eventName}, ${3:argMapping})"
         }, 
         {
-            "trigger": "Animated.static forkEvent", 
-            "contents": "(${1:event}, ${2:listener})"
+            "trigger": "Animated.forkEvent", 
+            "contents": "Animated.forkEvent(${1:event}, ${2:listener})"
         }, 
         {
-            "trigger": "Animated.static unforkEvent", 
-            "contents": "(${1:event}, ${2:listener})"
+            "trigger": "Animated.unforkEvent", 
+            "contents": "Animated.unforkEvent(${1:event}, ${2:listener})"
         }
     ]
 }

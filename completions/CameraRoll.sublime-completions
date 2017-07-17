@@ -4,15 +4,15 @@
     "completions": [
         {
             "trigger": "CameraRoll.=(;, AssetTypeOptions, static, (, :)", 
-            "contents": "(${1:;}, ${2:AssetTypeOptions}, ${3:static}, ${4:(}, ${5::})"
+            "contents": "CameraRoll.=(${1:;}, ${2:AssetTypeOptions}, ${3:static}, ${4:(}, ${5::})"
         }, 
         {
-            "trigger": "CameraRoll.static saveToCameraRoll", 
-            "contents": "(${1:tag}, ${2:type?})"
+            "trigger": "CameraRoll.saveToCameraRoll", 
+            "contents": "CameraRoll.saveToCameraRoll(${1:tag}, ${2:type?})"
         }, 
         {
-            "trigger": "CameraRoll.static getPhotos", 
-            "contents": "(${1:params})"
+            "trigger": "CameraRoll.getPhotos", 
+            "contents": "CameraRoll.getPhotos(${1:params})"
         }
     ]
 }

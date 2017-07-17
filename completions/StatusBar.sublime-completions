@@ -3,24 +3,24 @@
     "scope": "source.js, source.jsx", 
     "completions": [
         {
-            "trigger": "StatusBar.static setHidden(hidden: boolean, animation?: StatusBarAnimation)", 
-            "contents": "(${1:hidden: boolean}, ${2:animation?: StatusBarAnimation})"
+            "trigger": "StatusBar.setHidden(hidden: boolean, animation?: StatusBarAnimation)", 
+            "contents": "StatusBar.setHidden(${1:hidden: boolean}, ${2:animation?: StatusBarAnimation})"
         }, 
         {
-            "trigger": "StatusBar.static setBarStyle(style: StatusBarStyle, animated?: boolean)", 
-            "contents": "(${1:style: StatusBarStyle}, ${2:animated?: boolean})"
+            "trigger": "StatusBar.setBarStyle(style: StatusBarStyle, animated?: boolean)", 
+            "contents": "StatusBar.setBarStyle(${1:style: StatusBarStyle}, ${2:animated?: boolean})"
         }, 
         {
-            "trigger": "StatusBar.static setNetworkActivityIndicatorVisible(visible: boolean)", 
-            "contents": "(${1:visible: boolean})"
+            "trigger": "StatusBar.setNetworkActivityIndicatorVisible(visible: boolean)", 
+            "contents": "StatusBar.setNetworkActivityIndicatorVisible(${1:visible: boolean})"
         }, 
         {
-            "trigger": "StatusBar.static setBackgroundColor(color: string, animated?: boolean)", 
-            "contents": "(${1:color: string}, ${2:animated?: boolean})"
+            "trigger": "StatusBar.setBackgroundColor(color: string, animated?: boolean)", 
+            "contents": "StatusBar.setBackgroundColor(${1:color: string}, ${2:animated?: boolean})"
         }, 
         {
-            "trigger": "StatusBar.static setTranslucent(translucent: boolean)", 
-            "contents": "(${1:translucent: boolean})"
+            "trigger": "StatusBar.setTranslucent(translucent: boolean)", 
+            "contents": "StatusBar.setTranslucent(${1:translucent: boolean})"
         }
     ]
 }

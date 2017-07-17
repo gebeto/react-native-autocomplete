@@ -4,27 +4,27 @@
     "completions": [
         {
             "trigger": "Linking.constructor()", 
-            "contents": "(${1:})"
+            "contents": "Linking.constructor()"
         }, 
         {
             "trigger": "Linking.addEventListener", 
-            "contents": "(${1:type}, ${2:handler})"
+            "contents": "Linking.addEventListener(${1:type}, ${2:handler})"
         }, 
         {
             "trigger": "Linking.removeEventListener", 
-            "contents": "(${1:type}, ${2:handler})"
+            "contents": "Linking.removeEventListener(${1:type}, ${2:handler})"
         }, 
         {
             "trigger": "Linking.openURL", 
-            "contents": "(${1:url})"
+            "contents": "Linking.openURL(${1:url})"
         }, 
         {
             "trigger": "Linking.canOpenURL", 
-            "contents": "(${1:url})"
+            "contents": "Linking.canOpenURL(${1:url})"
         }, 
         {
             "trigger": "Linking.getInitialURL()", 
-            "contents": "(${1:})"
+            "contents": "Linking.getInitialURL()"
         }
     ]
 }

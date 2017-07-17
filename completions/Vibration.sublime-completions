@@ -3,12 +3,12 @@
     "scope": "source.js, source.jsx", 
     "completions": [
         {
-            "trigger": "Vibration.static vibrate", 
-            "contents": "(${1:pattern}, ${2:repeat})"
+            "trigger": "Vibration.vibrate", 
+            "contents": "Vibration.vibrate(${1:pattern}, ${2:repeat})"
         }, 
         {
-            "trigger": "Vibration.static cancel()", 
-            "contents": "(${1:})"
+            "trigger": "Vibration.cancel()", 
+            "contents": "Vibration.cancel()"
         }
     ]
 }

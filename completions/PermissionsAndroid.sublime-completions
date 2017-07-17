@@ -4,27 +4,27 @@
     "completions": [
         {
             "trigger": "PermissionsAndroid.constructor()", 
-            "contents": "(${1:})"
+            "contents": "PermissionsAndroid.constructor()"
         }, 
         {
             "trigger": "PermissionsAndroid.checkPermission", 
-            "contents": "(${1:permission})"
+            "contents": "PermissionsAndroid.checkPermission(${1:permission})"
         }, 
         {
             "trigger": "PermissionsAndroid.check", 
-            "contents": "(${1:permission})"
+            "contents": "PermissionsAndroid.check(${1:permission})"
         }, 
         {
             "trigger": "PermissionsAndroid.requestPermission", 
-            "contents": "(${1:permission}, ${2:rationale?})"
+            "contents": "PermissionsAndroid.requestPermission(${1:permission}, ${2:rationale?})"
         }, 
         {
             "trigger": "PermissionsAndroid.request", 
-            "contents": "(${1:permission}, ${2:rationale?})"
+            "contents": "PermissionsAndroid.request(${1:permission}, ${2:rationale?})"
         }, 
         {
             "trigger": "PermissionsAndroid.requestMultiple", 
-            "contents": "(${1:permissions})"
+            "contents": "PermissionsAndroid.requestMultiple(${1:permissions})"
         }
     ]
 }
