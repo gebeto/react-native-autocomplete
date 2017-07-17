@@ -3,8 +3,8 @@
     "scope": "source.js, source.jsx", 
     "completions": [
         {
-            "trigger": "TouchableOpacity.setOpacityTo", 
-            "contents": "TouchableOpacity.setOpacityTo"
+            "trigger": "TouchableOpacity.setOpacityTo(value: number, duration: number)", 
+            "contents": "TouchableOpacity.setOpacityTo(${1:(value: number}, ${2:duration: number)})"
         }
     ]
 }

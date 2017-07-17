@@ -3,24 +3,24 @@
     "scope": "source.js, source.jsx", 
     "completions": [
         {
-            "trigger": "PixelRatio.get()", 
-            "contents": "PixelRatio.get()"
+            "trigger": "PixelRatio.static get()", 
+            "contents": "PixelRatio.static get"
         }, 
         {
-            "trigger": "PixelRatio.getFontScale()", 
-            "contents": "PixelRatio.getFontScale()"
+            "trigger": "PixelRatio.static getFontScale()", 
+            "contents": "PixelRatio.static getFontScale"
         }, 
         {
-            "trigger": "PixelRatio.getPixelSizeForLayoutSize", 
-            "contents": "PixelRatio.getPixelSizeForLayoutSize(${1:layoutSize})"
+            "trigger": "PixelRatio.static getPixelSizeForLayoutSize", 
+            "contents": "PixelRatio.static getPixelSizeForLayoutSize(${1:(layoutSize)})"
         }, 
         {
-            "trigger": "PixelRatio.roundToNearestPixel", 
-            "contents": "PixelRatio.roundToNearestPixel(${1:layoutSize})"
+            "trigger": "PixelRatio.static roundToNearestPixel", 
+            "contents": "PixelRatio.static roundToNearestPixel(${1:(layoutSize)})"
         }, 
         {
-            "trigger": "PixelRatio.startDetecting()", 
-            "contents": "PixelRatio.startDetecting()"
+            "trigger": "PixelRatio.static startDetecting()", 
+            "contents": "PixelRatio.static startDetecting"
         }
     ]
 }

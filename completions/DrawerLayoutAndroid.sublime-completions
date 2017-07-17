@@ -3,11 +3,11 @@
     "scope": "source.js, source.jsx", 
     "completions": [
         {
-            "trigger": "DrawerLayoutAndroid.openDrawer", 
+            "trigger": "DrawerLayoutAndroid.openDrawer()", 
             "contents": "DrawerLayoutAndroid.openDrawer"
         }, 
         {
-            "trigger": "DrawerLayoutAndroid.closeDrawer", 
+            "trigger": "DrawerLayoutAndroid.closeDrawer()", 
             "contents": "DrawerLayoutAndroid.closeDrawer"
         }
     ]

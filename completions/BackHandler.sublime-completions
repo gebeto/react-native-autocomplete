@@ -3,16 +3,16 @@
     "scope": "source.js, source.jsx", 
     "completions": [
         {
-            "trigger": "BackHandler.exitApp()", 
-            "contents": "BackHandler.exitApp()"
+            "trigger": "BackHandler.static exitApp()", 
+            "contents": "BackHandler.static exitApp"
         }, 
         {
-            "trigger": "BackHandler.addEventListener", 
-            "contents": "BackHandler.addEventListener(${1:eventName}, ${2:handler})"
+            "trigger": "BackHandler.static addEventListener", 
+            "contents": "BackHandler.static addEventListener(${1:(eventName}, ${2:handler)})"
         }, 
         {
-            "trigger": "BackHandler.removeEventListener", 
-            "contents": "BackHandler.removeEventListener(${1:eventName}, ${2:handler})"
+            "trigger": "BackHandler.static removeEventListener", 
+            "contents": "BackHandler.static removeEventListener(${1:(eventName}, ${2:handler)})"
         }
     ]
 }

@@ -3,44 +3,44 @@
     "scope": "source.js, source.jsx", 
     "completions": [
         {
-            "trigger": "NavigatorIOS.push", 
-            "contents": "NavigatorIOS.push"
+            "trigger": "NavigatorIOS.push(route: object)", 
+            "contents": "NavigatorIOS.push(${1:(route: object)})"
         }, 
         {
-            "trigger": "NavigatorIOS.popN", 
-            "contents": "NavigatorIOS.popN"
+            "trigger": "NavigatorIOS.popN(n: number)", 
+            "contents": "NavigatorIOS.popN(${1:(n: number)})"
         }, 
         {
-            "trigger": "NavigatorIOS.pop", 
+            "trigger": "NavigatorIOS.pop()", 
             "contents": "NavigatorIOS.pop"
         }, 
         {
-            "trigger": "NavigatorIOS.replaceAtIndex", 
-            "contents": "NavigatorIOS.replaceAtIndex"
+            "trigger": "NavigatorIOS.replaceAtIndex(route: object, index: number)", 
+            "contents": "NavigatorIOS.replaceAtIndex(${1:(route: object}, ${2:index: number)})"
         }, 
         {
-            "trigger": "NavigatorIOS.replace", 
-            "contents": "NavigatorIOS.replace"
+            "trigger": "NavigatorIOS.replace(route: object)", 
+            "contents": "NavigatorIOS.replace(${1:(route: object)})"
         }, 
         {
-            "trigger": "NavigatorIOS.replacePrevious", 
-            "contents": "NavigatorIOS.replacePrevious"
+            "trigger": "NavigatorIOS.replacePrevious(route: object)", 
+            "contents": "NavigatorIOS.replacePrevious(${1:(route: object)})"
         }, 
         {
-            "trigger": "NavigatorIOS.popToTop", 
+            "trigger": "NavigatorIOS.popToTop()", 
             "contents": "NavigatorIOS.popToTop"
         }, 
         {
-            "trigger": "NavigatorIOS.popToRoute", 
-            "contents": "NavigatorIOS.popToRoute"
+            "trigger": "NavigatorIOS.popToRoute(route: object)", 
+            "contents": "NavigatorIOS.popToRoute(${1:(route: object)})"
         }, 
         {
-            "trigger": "NavigatorIOS.replacePreviousAndPop", 
-            "contents": "NavigatorIOS.replacePreviousAndPop"
+            "trigger": "NavigatorIOS.replacePreviousAndPop(route: object)", 
+            "contents": "NavigatorIOS.replacePreviousAndPop(${1:(route: object)})"
         }, 
         {
-            "trigger": "NavigatorIOS.resetTo", 
-            "contents": "NavigatorIOS.resetTo"
+            "trigger": "NavigatorIOS.resetTo(route: object)", 
+            "contents": "NavigatorIOS.resetTo(${1:(route: object)})"
         }
     ]
 }

@@ -3,27 +3,27 @@
     "scope": "source.js, source.jsx", 
     "completions": [
         {
-            "trigger": "VirtualizedList.scrollToEnd", 
-            "contents": "VirtualizedList.scrollToEnd"
+            "trigger": "VirtualizedList.scrollToEnd(params?: object)", 
+            "contents": "VirtualizedList.scrollToEnd(${1:(params?: object)})"
         }, 
         {
-            "trigger": "VirtualizedList.scrollToIndex", 
-            "contents": "VirtualizedList.scrollToIndex"
+            "trigger": "VirtualizedList.scrollToIndex(params: object)", 
+            "contents": "VirtualizedList.scrollToIndex(${1:(params: object)})"
         }, 
         {
-            "trigger": "VirtualizedList.scrollToItem", 
-            "contents": "VirtualizedList.scrollToItem"
+            "trigger": "VirtualizedList.scrollToItem(params: object)", 
+            "contents": "VirtualizedList.scrollToItem(${1:(params: object)})"
         }, 
         {
-            "trigger": "VirtualizedList.scrollToOffset", 
-            "contents": "VirtualizedList.scrollToOffset"
+            "trigger": "VirtualizedList.scrollToOffset(params: object)", 
+            "contents": "VirtualizedList.scrollToOffset(${1:(params: object)})"
         }, 
         {
-            "trigger": "VirtualizedList.recordInteraction", 
+            "trigger": "VirtualizedList.recordInteraction()", 
             "contents": "VirtualizedList.recordInteraction"
         }, 
         {
-            "trigger": "VirtualizedList.flashScrollIndicators", 
+            "trigger": "VirtualizedList.flashScrollIndicators()", 
             "contents": "VirtualizedList.flashScrollIndicators"
         }
     ]

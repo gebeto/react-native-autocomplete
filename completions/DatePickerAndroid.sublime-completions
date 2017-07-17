@@ -3,16 +3,16 @@
     "scope": "source.js, source.jsx", 
     "completions": [
         {
-            "trigger": "DatePickerAndroid.open", 
-            "contents": "DatePickerAndroid.open(${1:options})"
+            "trigger": "DatePickerAndroid.static open", 
+            "contents": "DatePickerAndroid.static open(${1:(options)})"
         }, 
         {
-            "trigger": "DatePickerAndroid.dateSetAction()", 
-            "contents": "DatePickerAndroid.dateSetAction()"
+            "trigger": "DatePickerAndroid.static dateSetAction()", 
+            "contents": "DatePickerAndroid.static dateSetAction"
         }, 
         {
-            "trigger": "DatePickerAndroid.dismissedAction()", 
-            "contents": "DatePickerAndroid.dismissedAction()"
+            "trigger": "DatePickerAndroid.static dismissedAction()", 
+            "contents": "DatePickerAndroid.static dismissedAction"
         }
     ]
 }

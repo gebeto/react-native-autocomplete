@@ -3,27 +3,27 @@
     "scope": "source.js, source.jsx", 
     "completions": [
         {
-            "trigger": "Linking.constructor", 
+            "trigger": "Linking.constructor()", 
             "contents": "Linking.constructor"
         }, 
         {
             "trigger": "Linking.addEventListener", 
-            "contents": "Linking.addEventListener"
+            "contents": "Linking.addEventListener(${1:(type}, ${2:handler)})"
         }, 
         {
             "trigger": "Linking.removeEventListener", 
-            "contents": "Linking.removeEventListener"
+            "contents": "Linking.removeEventListener(${1:(type}, ${2:handler)})"
         }, 
         {
             "trigger": "Linking.openURL", 
-            "contents": "Linking.openURL"
+            "contents": "Linking.openURL(${1:(url)})"
         }, 
         {
             "trigger": "Linking.canOpenURL", 
-            "contents": "Linking.canOpenURL"
+            "contents": "Linking.canOpenURL(${1:(url)})"
         }, 
         {
-            "trigger": "Linking.getInitialURL", 
+            "trigger": "Linking.getInitialURL()", 
             "contents": "Linking.getInitialURL"
         }
     ]

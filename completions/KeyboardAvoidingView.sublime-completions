@@ -3,16 +3,16 @@
     "scope": "source.js, source.jsx", 
     "completions": [
         {
-            "trigger": "KeyboardAvoidingView.relativeKeyboardHeight", 
-            "contents": "KeyboardAvoidingView.relativeKeyboardHeight"
+            "trigger": "KeyboardAvoidingView.relativeKeyboardHeight(keyboardFrame: object):", 
+            "contents": "KeyboardAvoidingView.relativeKeyboardHeight(${1:(keyboardFrame: object)}):"
         }, 
         {
-            "trigger": "KeyboardAvoidingView.onKeyboardChange", 
-            "contents": "KeyboardAvoidingView.onKeyboardChange"
+            "trigger": "KeyboardAvoidingView.onKeyboardChange(event: object)", 
+            "contents": "KeyboardAvoidingView.onKeyboardChange(${1:(event: object)})"
         }, 
         {
-            "trigger": "KeyboardAvoidingView.onLayout", 
-            "contents": "KeyboardAvoidingView.onLayout"
+            "trigger": "KeyboardAvoidingView.onLayout(event: object)", 
+            "contents": "KeyboardAvoidingView.onLayout(${1:(event: object)})"
         }
     ]
 }

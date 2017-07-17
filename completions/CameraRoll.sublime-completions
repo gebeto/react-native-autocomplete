@@ -3,16 +3,16 @@
     "scope": "source.js, source.jsx", 
     "completions": [
         {
-            "trigger": "CameraRoll.=", 
-            "contents": "CameraRoll.="
+            "trigger": "CameraRoll.=(;, AssetTypeOptions, static, (, :)", 
+            "contents": "CameraRoll.=(${1:(;}, ${2:AssetTypeOptions}, ${3:static}, ${4:(}, ${5::)})"
         }, 
         {
-            "trigger": "CameraRoll.saveToCameraRoll", 
-            "contents": "CameraRoll.saveToCameraRoll(${1:tag}, ${2:type?})"
+            "trigger": "CameraRoll.static saveToCameraRoll", 
+            "contents": "CameraRoll.static saveToCameraRoll(${1:(tag}, ${2:type?)})"
         }, 
         {
-            "trigger": "CameraRoll.getPhotos", 
-            "contents": "CameraRoll.getPhotos(${1:params})"
+            "trigger": "CameraRoll.static getPhotos", 
+            "contents": "CameraRoll.static getPhotos(${1:(params)})"
         }
     ]
 }

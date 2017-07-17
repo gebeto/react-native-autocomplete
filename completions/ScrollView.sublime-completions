@@ -3,19 +3,19 @@
     "scope": "source.js, source.jsx", 
     "completions": [
         {
-            "trigger": "ScrollView.scrollTo", 
-            "contents": "ScrollView.scrollTo"
+            "trigger": "ScrollView.scrollTo(y?: number, object, x?: number, animated?: boolean)", 
+            "contents": "ScrollView.scrollTo(${1:(y?: number}, ${2:object}, ${3:x?: number}, ${4:animated?: boolean)})"
         }, 
         {
-            "trigger": "ScrollView.scrollToEnd", 
-            "contents": "ScrollView.scrollToEnd"
+            "trigger": "ScrollView.scrollToEnd(options?: object)", 
+            "contents": "ScrollView.scrollToEnd(${1:(options?: object)})"
         }, 
         {
             "trigger": "ScrollView.scrollWithoutAnimationTo", 
-            "contents": "ScrollView.scrollWithoutAnimationTo"
+            "contents": "ScrollView.scrollWithoutAnimationTo(${1:(y}, ${2:x)})"
         }, 
         {
-            "trigger": "ScrollView.flashScrollIndicators", 
+            "trigger": "ScrollView.flashScrollIndicators()", 
             "contents": "ScrollView.flashScrollIndicators"
         }
     ]

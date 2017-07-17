@@ -3,12 +3,12 @@
     "scope": "source.js, source.jsx", 
     "completions": [
         {
-            "trigger": "AdSupportIOS.getAdvertisingId", 
-            "contents": "AdSupportIOS.getAdvertisingId(${1:onSuccess}, ${2:onFailure})"
+            "trigger": "AdSupportIOS.static getAdvertisingId", 
+            "contents": "AdSupportIOS.static getAdvertisingId(${1:(onSuccess}, ${2:onFailure)})"
         }, 
         {
-            "trigger": "AdSupportIOS.getAdvertisingTrackingEnabled", 
-            "contents": "AdSupportIOS.getAdvertisingTrackingEnabled(${1:onSuccess}, ${2:onFailure})"
+            "trigger": "AdSupportIOS.static getAdvertisingTrackingEnabled", 
+            "contents": "AdSupportIOS.static getAdvertisingTrackingEnabled(${1:(onSuccess}, ${2:onFailure)})"
         }
     ]
 }

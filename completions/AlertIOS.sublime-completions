@@ -3,12 +3,12 @@
     "scope": "source.js, source.jsx", 
     "completions": [
         {
-            "trigger": "AlertIOS.alert(title: string, message?: string, callbackOrButtons?: ?(() => void), ButtonsArray, type?: AlertType)", 
-            "contents": "AlertIOS.alert(title: string, message?: string, callbackOrButtons?: ?(() => void), ButtonsArray, type?: AlertType)"
+            "trigger": "AlertIOS.static alert(title: string, message?: string, callbackOrButtons?: ?(() => void), ButtonsArray, type?: AlertType)", 
+            "contents": "AlertIOS.static alert(${1:(title: string}, ${2:message?: string}, ${3:callbackOrButtons?: ?(()}) => void), ButtonsArray, type?: AlertType)"
         }, 
         {
-            "trigger": "AlertIOS.prompt(title: string, message?: string, callbackOrButtons?: ?((text: string) => void), ButtonsArray, type?: AlertType, defaultValue?: string, keyboardType?: string)", 
-            "contents": "AlertIOS.prompt(title: string, message?: string, callbackOrButtons?: ?((text: string) => void), ButtonsArray, type?: AlertType, defaultValue?: string, keyboardType?: string)"
+            "trigger": "AlertIOS.static prompt(title: string, message?: string, callbackOrButtons?: ?((text: string) => void), ButtonsArray, type?: AlertType, defaultValue?: string, keyboardType?: string)", 
+            "contents": "AlertIOS.static prompt(${1:(title: string}, ${2:message?: string}, ${3:callbackOrButtons?: ?((text: string)}) => void), ButtonsArray, type?: AlertType, defaultValue?: string, keyboardType?: string)"
         }
     ]
 }

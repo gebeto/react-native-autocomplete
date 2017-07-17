@@ -3,19 +3,19 @@
     "scope": "source.js, source.jsx", 
     "completions": [
         {
-            "trigger": "ListView.getMetrics", 
+            "trigger": "ListView.getMetrics()", 
             "contents": "ListView.getMetrics"
         }, 
         {
-            "trigger": "ListView.scrollTo", 
-            "contents": "ListView.scrollTo"
+            "trigger": "ListView.scrollTo(...args: Array)", 
+            "contents": "ListView.scrollTo(${1:(...args: Array)})"
         }, 
         {
-            "trigger": "ListView.scrollToEnd", 
-            "contents": "ListView.scrollToEnd"
+            "trigger": "ListView.scrollToEnd(options?: object)", 
+            "contents": "ListView.scrollToEnd(${1:(options?: object)})"
         }, 
         {
-            "trigger": "ListView.flashScrollIndicators", 
+            "trigger": "ListView.flashScrollIndicators()", 
             "contents": "ListView.flashScrollIndicators"
         }
     ]

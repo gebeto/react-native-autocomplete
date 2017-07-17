@@ -3,60 +3,60 @@
     "scope": "source.js, source.jsx", 
     "completions": [
         {
-            "trigger": "AppRegistry.registerConfig", 
-            "contents": "AppRegistry.registerConfig(${1:config})"
+            "trigger": "AppRegistry.static registerConfig", 
+            "contents": "AppRegistry.static registerConfig(${1:(config)})"
         }, 
         {
-            "trigger": "AppRegistry.registerComponent", 
-            "contents": "AppRegistry.registerComponent(${1:appKey}, ${2:componentProvider}, ${3:section?})"
+            "trigger": "AppRegistry.static registerComponent", 
+            "contents": "AppRegistry.static registerComponent(${1:(appKey}, ${2:componentProvider}, ${3:section?)})"
         }, 
         {
-            "trigger": "AppRegistry.registerRunnable", 
-            "contents": "AppRegistry.registerRunnable(${1:appKey}, ${2:run})"
+            "trigger": "AppRegistry.static registerRunnable", 
+            "contents": "AppRegistry.static registerRunnable(${1:(appKey}, ${2:run)})"
         }, 
         {
-            "trigger": "AppRegistry.registerSection", 
-            "contents": "AppRegistry.registerSection(${1:appKey}, ${2:component})"
+            "trigger": "AppRegistry.static registerSection", 
+            "contents": "AppRegistry.static registerSection(${1:(appKey}, ${2:component)})"
         }, 
         {
-            "trigger": "AppRegistry.getAppKeys()", 
-            "contents": "AppRegistry.getAppKeys()"
+            "trigger": "AppRegistry.static getAppKeys()", 
+            "contents": "AppRegistry.static getAppKeys"
         }, 
         {
-            "trigger": "AppRegistry.getSectionKeys()", 
-            "contents": "AppRegistry.getSectionKeys()"
+            "trigger": "AppRegistry.static getSectionKeys()", 
+            "contents": "AppRegistry.static getSectionKeys"
         }, 
         {
-            "trigger": "AppRegistry.getSections()", 
-            "contents": "AppRegistry.getSections()"
+            "trigger": "AppRegistry.static getSections()", 
+            "contents": "AppRegistry.static getSections"
         }, 
         {
-            "trigger": "AppRegistry.getRunnable", 
-            "contents": "AppRegistry.getRunnable(${1:appKey})"
+            "trigger": "AppRegistry.static getRunnable", 
+            "contents": "AppRegistry.static getRunnable(${1:(appKey)})"
         }, 
         {
-            "trigger": "AppRegistry.getRegistry()", 
-            "contents": "AppRegistry.getRegistry()"
+            "trigger": "AppRegistry.static getRegistry()", 
+            "contents": "AppRegistry.static getRegistry"
         }, 
         {
-            "trigger": "AppRegistry.setComponentProviderInstrumentationHook", 
-            "contents": "AppRegistry.setComponentProviderInstrumentationHook(${1:hook})"
+            "trigger": "AppRegistry.static setComponentProviderInstrumentationHook", 
+            "contents": "AppRegistry.static setComponentProviderInstrumentationHook(${1:(hook)})"
         }, 
         {
-            "trigger": "AppRegistry.runApplication", 
-            "contents": "AppRegistry.runApplication(${1:appKey}, ${2:appParameters})"
+            "trigger": "AppRegistry.static runApplication", 
+            "contents": "AppRegistry.static runApplication(${1:(appKey}, ${2:appParameters)})"
         }, 
         {
-            "trigger": "AppRegistry.unmountApplicationComponentAtRootTag", 
-            "contents": "AppRegistry.unmountApplicationComponentAtRootTag(${1:rootTag})"
+            "trigger": "AppRegistry.static unmountApplicationComponentAtRootTag", 
+            "contents": "AppRegistry.static unmountApplicationComponentAtRootTag(${1:(rootTag)})"
         }, 
         {
-            "trigger": "AppRegistry.registerHeadlessTask", 
-            "contents": "AppRegistry.registerHeadlessTask(${1:taskKey}, ${2:task})"
+            "trigger": "AppRegistry.static registerHeadlessTask", 
+            "contents": "AppRegistry.static registerHeadlessTask(${1:(taskKey}, ${2:task)})"
         }, 
         {
-            "trigger": "AppRegistry.startHeadlessTask", 
-            "contents": "AppRegistry.startHeadlessTask(${1:taskId}, ${2:taskKey}, ${3:data})"
+            "trigger": "AppRegistry.static startHeadlessTask", 
+            "contents": "AppRegistry.static startHeadlessTask(${1:(taskId}, ${2:taskKey}, ${3:data)})"
         }
     ]
 }

@@ -3,16 +3,16 @@
     "scope": "source.js, source.jsx", 
     "completions": [
         {
-            "trigger": "TimePickerAndroid.open", 
-            "contents": "TimePickerAndroid.open(${1:options})"
+            "trigger": "TimePickerAndroid.static open", 
+            "contents": "TimePickerAndroid.static open(${1:(options)})"
         }, 
         {
-            "trigger": "TimePickerAndroid.timeSetAction()", 
-            "contents": "TimePickerAndroid.timeSetAction()"
+            "trigger": "TimePickerAndroid.static timeSetAction()", 
+            "contents": "TimePickerAndroid.static timeSetAction"
         }, 
         {
-            "trigger": "TimePickerAndroid.dismissedAction()", 
-            "contents": "TimePickerAndroid.dismissedAction()"
+            "trigger": "TimePickerAndroid.static dismissedAction()", 
+            "contents": "TimePickerAndroid.static dismissedAction"
         }
     ]
 }

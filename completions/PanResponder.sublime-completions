@@ -3,8 +3,8 @@
     "scope": "source.js, source.jsx", 
     "completions": [
         {
-            "trigger": "PanResponder.create", 
-            "contents": "PanResponder.create(${1:config})"
+            "trigger": "PanResponder.static create", 
+            "contents": "PanResponder.static create(${1:(config)})"
         }
     ]
 }

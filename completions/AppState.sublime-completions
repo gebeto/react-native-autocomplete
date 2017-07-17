@@ -3,16 +3,16 @@
     "scope": "source.js, source.jsx", 
     "completions": [
         {
-            "trigger": "AppState.=", 
-            "contents": "AppState.="
+            "trigger": "AppState.=(;, ()", 
+            "contents": "AppState.=(${1:(;}, ${2:()})"
         }, 
         {
             "trigger": "AppState.addEventListener", 
-            "contents": "AppState.addEventListener"
+            "contents": "AppState.addEventListener(${1:(type}, ${2:handler)})"
         }, 
         {
             "trigger": "AppState.removeEventListener", 
-            "contents": "AppState.removeEventListener"
+            "contents": "AppState.removeEventListener(${1:(type}, ${2:handler)})"
         }
     ]
 }

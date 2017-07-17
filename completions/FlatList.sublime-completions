@@ -3,27 +3,27 @@
     "scope": "source.js, source.jsx", 
     "completions": [
         {
-            "trigger": "FlatList.scrollToEnd", 
-            "contents": "FlatList.scrollToEnd"
+            "trigger": "FlatList.scrollToEnd(params?: object)", 
+            "contents": "FlatList.scrollToEnd(${1:(params?: object)})"
         }, 
         {
-            "trigger": "FlatList.scrollToIndex", 
-            "contents": "FlatList.scrollToIndex"
+            "trigger": "FlatList.scrollToIndex(params: object)", 
+            "contents": "FlatList.scrollToIndex(${1:(params: object)})"
         }, 
         {
-            "trigger": "FlatList.scrollToItem", 
-            "contents": "FlatList.scrollToItem"
+            "trigger": "FlatList.scrollToItem(params: object)", 
+            "contents": "FlatList.scrollToItem(${1:(params: object)})"
         }, 
         {
-            "trigger": "FlatList.scrollToOffset", 
-            "contents": "FlatList.scrollToOffset"
+            "trigger": "FlatList.scrollToOffset(params: object)", 
+            "contents": "FlatList.scrollToOffset(${1:(params: object)})"
         }, 
         {
-            "trigger": "FlatList.recordInteraction", 
+            "trigger": "FlatList.recordInteraction()", 
             "contents": "FlatList.recordInteraction"
         }, 
         {
-            "trigger": "FlatList.flashScrollIndicators", 
+            "trigger": "FlatList.flashScrollIndicators()", 
             "contents": "FlatList.flashScrollIndicators"
         }
     ]

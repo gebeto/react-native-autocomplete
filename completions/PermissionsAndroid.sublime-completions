@@ -3,28 +3,28 @@
     "scope": "source.js, source.jsx", 
     "completions": [
         {
-            "trigger": "PermissionsAndroid.constructor", 
+            "trigger": "PermissionsAndroid.constructor()", 
             "contents": "PermissionsAndroid.constructor"
         }, 
         {
             "trigger": "PermissionsAndroid.checkPermission", 
-            "contents": "PermissionsAndroid.checkPermission"
+            "contents": "PermissionsAndroid.checkPermission(${1:(permission)})"
         }, 
         {
             "trigger": "PermissionsAndroid.check", 
-            "contents": "PermissionsAndroid.check"
+            "contents": "PermissionsAndroid.check(${1:(permission)})"
         }, 
         {
             "trigger": "PermissionsAndroid.requestPermission", 
-            "contents": "PermissionsAndroid.requestPermission"
+            "contents": "PermissionsAndroid.requestPermission(${1:(permission}, ${2:rationale?)})"
         }, 
         {
             "trigger": "PermissionsAndroid.request", 
-            "contents": "PermissionsAndroid.request"
+            "contents": "PermissionsAndroid.request(${1:(permission}, ${2:rationale?)})"
         }, 
         {
             "trigger": "PermissionsAndroid.requestMultiple", 
-            "contents": "PermissionsAndroid.requestMultiple"
+            "contents": "PermissionsAndroid.requestMultiple(${1:(permissions)})"
         }
     ]
 }

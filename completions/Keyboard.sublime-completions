@@ -3,20 +3,20 @@
     "scope": "source.js, source.jsx", 
     "completions": [
         {
-            "trigger": "Keyboard.addListener", 
-            "contents": "Keyboard.addListener(${1:eventName}, ${2:callback})"
+            "trigger": "Keyboard.static addListener", 
+            "contents": "Keyboard.static addListener(${1:(eventName}, ${2:callback)})"
         }, 
         {
-            "trigger": "Keyboard.removeListener", 
-            "contents": "Keyboard.removeListener(${1:eventName}, ${2:callback})"
+            "trigger": "Keyboard.static removeListener", 
+            "contents": "Keyboard.static removeListener(${1:(eventName}, ${2:callback)})"
         }, 
         {
-            "trigger": "Keyboard.removeAllListeners", 
-            "contents": "Keyboard.removeAllListeners(${1:eventName})"
+            "trigger": "Keyboard.static removeAllListeners", 
+            "contents": "Keyboard.static removeAllListeners(${1:(eventName)})"
         }, 
         {
-            "trigger": "Keyboard.dismiss()", 
-            "contents": "Keyboard.dismiss()"
+            "trigger": "Keyboard.static dismiss()", 
+            "contents": "Keyboard.static dismiss"
         }
     ]
 }

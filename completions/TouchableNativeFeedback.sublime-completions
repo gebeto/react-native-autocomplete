@@ -3,20 +3,20 @@
     "scope": "source.js, source.jsx", 
     "completions": [
         {
-            "trigger": "TouchableNativeFeedback.SelectableBackground()", 
-            "contents": "TouchableNativeFeedback.SelectableBackground()"
+            "trigger": "TouchableNativeFeedback.static SelectableBackground()", 
+            "contents": "TouchableNativeFeedback.static SelectableBackground"
         }, 
         {
-            "trigger": "TouchableNativeFeedback.SelectableBackgroundBorderless()", 
-            "contents": "TouchableNativeFeedback.SelectableBackgroundBorderless()"
+            "trigger": "TouchableNativeFeedback.static SelectableBackgroundBorderless()", 
+            "contents": "TouchableNativeFeedback.static SelectableBackgroundBorderless"
         }, 
         {
-            "trigger": "TouchableNativeFeedback.Ripple(color: string, borderless: boolean)", 
-            "contents": "TouchableNativeFeedback.Ripple(color: string, borderless: boolean)"
+            "trigger": "TouchableNativeFeedback.static Ripple(color: string, borderless: boolean)", 
+            "contents": "TouchableNativeFeedback.static Ripple(${1:(color: string}, ${2:borderless: boolean)})"
         }, 
         {
-            "trigger": "TouchableNativeFeedback.canUseNativeForeground()", 
-            "contents": "TouchableNativeFeedback.canUseNativeForeground()"
+            "trigger": "TouchableNativeFeedback.static canUseNativeForeground()", 
+            "contents": "TouchableNativeFeedback.static canUseNativeForeground"
         }
     ]
 }

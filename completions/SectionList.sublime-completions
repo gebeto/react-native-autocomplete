@@ -3,15 +3,15 @@
     "scope": "source.js, source.jsx", 
     "completions": [
         {
-            "trigger": "SectionList.scrollToLocation", 
-            "contents": "SectionList.scrollToLocation"
+            "trigger": "SectionList.scrollToLocation(params: object)", 
+            "contents": "SectionList.scrollToLocation(${1:(params: object)})"
         }, 
         {
-            "trigger": "SectionList.recordInteraction", 
+            "trigger": "SectionList.recordInteraction()", 
             "contents": "SectionList.recordInteraction"
         }, 
         {
-            "trigger": "SectionList.flashScrollIndicators", 
+            "trigger": "SectionList.flashScrollIndicators()", 
             "contents": "SectionList.flashScrollIndicators"
         }
     ]

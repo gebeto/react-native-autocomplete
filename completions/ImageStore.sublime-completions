@@ -3,20 +3,20 @@
     "scope": "source.js, source.jsx", 
     "completions": [
         {
-            "trigger": "ImageStore.hasImageForTag", 
-            "contents": "ImageStore.hasImageForTag(${1:uri}, ${2:callback})"
+            "trigger": "ImageStore.static hasImageForTag", 
+            "contents": "ImageStore.static hasImageForTag(${1:(uri}, ${2:callback)})"
         }, 
         {
-            "trigger": "ImageStore.removeImageForTag", 
-            "contents": "ImageStore.removeImageForTag(${1:uri})"
+            "trigger": "ImageStore.static removeImageForTag", 
+            "contents": "ImageStore.static removeImageForTag(${1:(uri)})"
         }, 
         {
-            "trigger": "ImageStore.addImageFromBase64", 
-            "contents": "ImageStore.addImageFromBase64(${1:base64ImageData}, ${2:success}, ${3:failure})"
+            "trigger": "ImageStore.static addImageFromBase64", 
+            "contents": "ImageStore.static addImageFromBase64(${1:(base64ImageData}, ${2:success}, ${3:failure)})"
         }, 
         {
-            "trigger": "ImageStore.getBase64ForTag", 
-            "contents": "ImageStore.getBase64ForTag(${1:uri}, ${2:success}, ${3:failure})"
+            "trigger": "ImageStore.static getBase64ForTag", 
+            "contents": "ImageStore.static getBase64ForTag(${1:(uri}, ${2:success}, ${3:failure)})"
         }
     ]
 }

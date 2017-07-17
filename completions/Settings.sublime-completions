@@ -3,20 +3,20 @@
     "scope": "source.js, source.jsx", 
     "completions": [
         {
-            "trigger": "Settings.get", 
-            "contents": "Settings.get(${1:key})"
+            "trigger": "Settings.static get", 
+            "contents": "Settings.static get(${1:(key)})"
         }, 
         {
-            "trigger": "Settings.set", 
-            "contents": "Settings.set(${1:settings})"
+            "trigger": "Settings.static set", 
+            "contents": "Settings.static set(${1:(settings)})"
         }, 
         {
-            "trigger": "Settings.watchKeys", 
-            "contents": "Settings.watchKeys(${1:keys}, ${2:callback})"
+            "trigger": "Settings.static watchKeys", 
+            "contents": "Settings.static watchKeys(${1:(keys}, ${2:callback)})"
         }, 
         {
-            "trigger": "Settings.clearWatch", 
-            "contents": "Settings.clearWatch(${1:watchId})"
+            "trigger": "Settings.static clearWatch", 
+            "contents": "Settings.static clearWatch(${1:(watchId)})"
         }
     ]
 }

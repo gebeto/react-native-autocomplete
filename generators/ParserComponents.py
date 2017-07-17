@@ -26,21 +26,24 @@ def main():
 
 
 def subParams(a):
-	g = a.group(1)
+	g = a.group(0)
+	print g
+	if g == "()": return ""
 	ar = []
 	res = ""
 	i = 1
 	for p in g.split(", "):
 		ar.append( "${" + str(i) + ":" + p + "}" )
 		i += 1
+
+	# print ar
 	return "(" + ", ".join(ar) + ")"
 
-
-def saveSectionMethods(section):
+def save_section_methods(section):
 	soup = BeautifulSoup(requests.get(section["url"]).content, "html.parser")
 	props = soup.find_all("div", {"class": "props"})
 
-	print len(props)
+	# print len(props)
 	methods = None
 	for prop in props:
 		h3 = prop.previousSibling
@@ -55,11 +58,16 @@ def saveSectionMethods(section):
 	for method in methods:
 		method.a.extract()
 		method.a.extract()
-		method.span.extract()
+		# method.span.extract()
 		mt = section["title"] + "." + method.text.strip()
 		short = re.sub(r"\(([\w, ?]+)\)", "", mt)
-		mt = re.sub(r"\(([\w, ?]+)\)", subParams, mt)
-		print mt, short, "\n"
+		print "SHORT:", short
+		print "MTO:", mt
+		mt = re.sub(r"\(([\w\W]*?)\)", subParams, mt)
+		print "MT:", mt
+		print "\n\n"
+		# print "ST:", short
+		# print mt, short, "\n"
 		autocomps.append({
 	        "trigger": short, 
 	        "contents": mt
@@ -74,6 +82,6 @@ def saveSectionMethods(section):
 
 for section in main():
 	try:
-		saveSectionMethods(section)
+		save_section_methods(section)
 	except:
 		print section

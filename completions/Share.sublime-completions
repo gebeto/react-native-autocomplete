@@ -3,16 +3,16 @@
     "scope": "source.js, source.jsx", 
     "completions": [
         {
-            "trigger": "Share.share", 
-            "contents": "Share.share(${1:content}, ${2:options})"
+            "trigger": "Share.static share", 
+            "contents": "Share.static share(${1:(content}, ${2:options)})"
         }, 
         {
-            "trigger": "Share.sharedAction()", 
-            "contents": "Share.sharedAction()"
+            "trigger": "Share.static sharedAction()", 
+            "contents": "Share.static sharedAction"
         }, 
         {
-            "trigger": "Share.dismissedAction()", 
-            "contents": "Share.dismissedAction()"
+            "trigger": "Share.static dismissedAction()", 
+            "contents": "Share.static dismissedAction"
         }
     ]
 }

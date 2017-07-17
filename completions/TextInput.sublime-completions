@@ -3,11 +3,11 @@
     "scope": "source.js, source.jsx", 
     "completions": [
         {
-            "trigger": "TextInput.isFocused", 
-            "contents": "TextInput.isFocused"
+            "trigger": "TextInput.isFocused():", 
+            "contents": "TextInput.isFocused:"
         }, 
         {
-            "trigger": "TextInput.clear", 
+            "trigger": "TextInput.clear()", 
             "contents": "TextInput.clear"
         }
     ]

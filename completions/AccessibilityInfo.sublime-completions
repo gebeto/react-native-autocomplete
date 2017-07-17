@@ -3,24 +3,24 @@
     "scope": "source.js, source.jsx", 
     "completions": [
         {
-            "trigger": "AccessibilityInfo.fetch()", 
-            "contents": "AccessibilityInfo.fetch()"
+            "trigger": "AccessibilityInfo.static fetch()", 
+            "contents": "AccessibilityInfo.static fetch"
         }, 
         {
-            "trigger": "AccessibilityInfo.addEventListener", 
-            "contents": "AccessibilityInfo.addEventListener(${1:eventName}, ${2:handler})"
+            "trigger": "AccessibilityInfo.static addEventListener", 
+            "contents": "AccessibilityInfo.static addEventListener(${1:(eventName}, ${2:handler)})"
         }, 
         {
-            "trigger": "AccessibilityInfo.setAccessibilityFocus", 
-            "contents": "AccessibilityInfo.setAccessibilityFocus(${1:reactTag})"
+            "trigger": "AccessibilityInfo.static setAccessibilityFocus", 
+            "contents": "AccessibilityInfo.static setAccessibilityFocus(${1:(reactTag)})"
         }, 
         {
-            "trigger": "AccessibilityInfo.announceForAccessibility", 
-            "contents": "AccessibilityInfo.announceForAccessibility(${1:announcement})"
+            "trigger": "AccessibilityInfo.static announceForAccessibility", 
+            "contents": "AccessibilityInfo.static announceForAccessibility(${1:(announcement)})"
         }, 
         {
-            "trigger": "AccessibilityInfo.removeEventListener", 
-            "contents": "AccessibilityInfo.removeEventListener(${1:eventName}, ${2:handler})"
+            "trigger": "AccessibilityInfo.static removeEventListener", 
+            "contents": "AccessibilityInfo.static removeEventListener(${1:(eventName}, ${2:handler)})"
         }
     ]
 }

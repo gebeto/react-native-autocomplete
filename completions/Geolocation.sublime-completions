@@ -3,24 +3,24 @@
     "scope": "source.js, source.jsx", 
     "completions": [
         {
-            "trigger": "Geolocation.requestAuthorization()", 
-            "contents": "Geolocation.requestAuthorization()"
+            "trigger": "Geolocation.static requestAuthorization()", 
+            "contents": "Geolocation.static requestAuthorization"
         }, 
         {
-            "trigger": "Geolocation.getCurrentPosition", 
-            "contents": "Geolocation.getCurrentPosition(${1:geo_success}, ${2:geo_error?}, ${3:geo_options?})"
+            "trigger": "Geolocation.static getCurrentPosition", 
+            "contents": "Geolocation.static getCurrentPosition(${1:(geo_success}, ${2:geo_error?}, ${3:geo_options?)})"
         }, 
         {
-            "trigger": "Geolocation.watchPosition", 
-            "contents": "Geolocation.watchPosition(${1:success}, ${2:error?}, ${3:options?})"
+            "trigger": "Geolocation.static watchPosition", 
+            "contents": "Geolocation.static watchPosition(${1:(success}, ${2:error?}, ${3:options?)})"
         }, 
         {
-            "trigger": "Geolocation.clearWatch", 
-            "contents": "Geolocation.clearWatch(${1:watchID})"
+            "trigger": "Geolocation.static clearWatch", 
+            "contents": "Geolocation.static clearWatch(${1:(watchID)})"
         }, 
         {
-            "trigger": "Geolocation.stopObserving()", 
-            "contents": "Geolocation.stopObserving()"
+            "trigger": "Geolocation.static stopObserving()", 
+            "contents": "Geolocation.static stopObserving"
         }
     ]
 }
