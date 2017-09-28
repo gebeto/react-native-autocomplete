@@ -1,5 +1,7 @@
 # React Native Autocomplete
 
+It is not a best autocomplete plugin EVER, but it's at least something additional for React Native:)
+
 ## Imports
 
 ```
